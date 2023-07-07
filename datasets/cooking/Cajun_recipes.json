@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Jambalaya",
+        "target_text": "sausage, chicken, shrimp, rice, bell pepper, onion, celery, garlic, tomato, cayenne pepper, thyme, bay leaf, paprika, salt, pepper"
+    },
+    {
+        "input_text": "Gumbo",
+        "target_text": "sausage, chicken, shrimp, okra, bell pepper, onion, celery, garlic, tomato, cayenne pepper, thyme, bay leaf, paprika, salt, pepper"
+    },
+    {
+        "input_text": "Crawfish Etouffee",
+        "target_text": "crawfish, butter, onion, bell pepper, celery, garlic, tomato, Cajun seasoning, cayenne pepper, thyme, bay leaf, salt, pepper"
+    },
+    {
+        "input_text": "Red Beans and Rice",
+        "target_text": "red beans, sausage, bacon, onion, bell pepper, celery, garlic, tomato, Cajun seasoning, cayenne pepper, thyme, bay leaf, salt, pepper"
+    },
+    {
+        "input_text": "Blackened Catfish",
+        "target_text": "catfish fillets, butter, Cajun seasoning, paprika, salt, pepper"
+    },
+    {
+        "input_text": "Cajun Shrimp Pasta",
+        "target_text": "shrimp, pasta, butter, heavy cream, Cajun seasoning, bell pepper, onion, garlic, tomato, parsley, salt, pepper"
+    },
+    {
+        "input_text": "Cajun Chicken Alfredo",
+        "target_text": "chicken, pasta, butter, heavy cream, Cajun seasoning, bell pepper, onion, garlic, tomato, parsley, salt, pepper"
+    },
+    {
+        "input_text": "Cajun Fried Chicken",
+        "target_text": "chicken, buttermilk, flour, Cajun seasoning, paprika, garlic powder, onion powder, salt, pepper"
+    },
+    {
+        "input_text": "Cajun Dirty Rice",
+        "target_text": "rice, sausage, chicken liver, onion, bell pepper, celery, garlic, thyme, bay leaf, Cajun seasoning, salt, pepper"
+    },
+    {
+        "input_text": "Cajun Shrimp and Grits",
+        "target_text": "shrimp, grits, bacon, butter, bell pepper, onion, celery, garlic, tomato, Cajun seasoning, cayenne pepper, thyme, bay leaf, salt, pepper"
+    },
+    {
+        "input_text": "Cajun Crab Cakes",
+        "target_text": "crab meat, bread crumbs, mayonnaise, onion, bell pepper, celery, garlic, parsley, Cajun seasoning, salt, pepper"
+    },
+    {
+        "input_text": "Cajun Baked Beans",
+        "target_text": "canned beans, bacon, onion, bell pepper, celery, garlic, tomato, brown sugar, mustard, Worcestershire sauce, Cajun seasoning, salt, pepper"
+    },
+    {
+        "input_text": "Cajun Sausage and Peppers",
+        "target_text": "sausage, bell pepper, onion, celery, garlic, tomato, Cajun seasoning, salt, pepper"
+    },
+    {
+        "input_text": "Cajun Cornbread",
+        "target_text": "cornmeal, flour, buttermilk, egg, butter, onion, bell pepper, celery, garlic, tomato, Cajun seasoning, sugar, baking powder, salt"
+    },
+    {
+        "input_text": "Cajun Shrimp Boil",
+        "target_text": "shrimp, corn, potatoes, sausage, onion, garlic, lemon, Old Bay seasoning, cayenne pepper, salt"
+    },
+    {
+        "input_text": "Cajun Grilled Steak",
+        "target_text": "steak, Cajun seasoning, garlic powder, onion powder, salt, pepper"
+    },
+    {
+        "input_text": "Cajun Mac and Cheese",
+        "target_text": "pasta, cheddar cheese, milk, butter, flour, Cajun seasoning, salt, pepper"
+    },
+    {
+        "input_text": "Cajun Seafood Gumbo",
+        "target_text": "shrimp, crab meat, fish, okra, bell pepper, onion, celery, garlic, tomato, cayenne pepper, thyme, bay leaf, paprika, salt, pepper"
+    },
+    {
+        "input_text": "Cajun Stuffed Bell Peppers",
+        "target_text": "bell pepper, ground beef, rice, onion, celery, garlic, tomato, Worcestershire sauce, Cajun seasoning, salt, pepper"
+    },
+    {
+        "input_text": "Cajun Shrimp Salad",
+        "target_text": "shrimp, lettuce, tomato, cucumber, onion, bell pepper, Cajun seasoning, lemon juice, olive oil, salt, pepper"
+    }
+]

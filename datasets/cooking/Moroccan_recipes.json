@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Couscous",
+        "target_text": "semolina, chicken, vegetables, chickpeas, olive oil, spices"
+    },
+    {
+        "input_text": "Tagine",
+        "target_text": "meat (chicken, lamb, or beef), vegetables (carrots, potatoes, tomatoes), olive oil, herbs, spices"
+    },
+    {
+        "input_text": "Harira",
+        "target_text": "lamb, lentils, chickpeas, tomatoes, onion, celery, parsley, spices"
+    },
+    {
+        "input_text": "Bastilla",
+        "target_text": "phyllo dough, chicken, almonds, eggs, cinnamon, sugar, spices"
+    },
+    {
+        "input_text": "Msemmen",
+        "target_text": "flour, semolina, vegetable oil, yeast, salt, butter"
+    },
+    {
+        "input_text": "Mechoui",
+        "target_text": "lamb, cumin, paprika, coriander, ginger, garlic, salt, pepper"
+    },
+    {
+        "input_text": "Pastilla",
+        "target_text": "filo pastry, pigeon meat, almonds, eggs, sugar, cinnamon, spices"
+    },
+    {
+        "input_text": "Tanjiya",
+        "target_text": "beef, onions, olive oil, preserved lemons, olives, spices"
+    },
+    {
+        "input_text": "Mrouzia",
+        "target_text": "lamb, honey, almonds, raisins, ginger, cinnamon, spices"
+    },
+    {
+        "input_text": "Briouats",
+        "target_text": "spring roll wrappers, ground meat (beef or chicken), almonds, spices, eggs"
+    },
+    {
+        "input_text": "Chermoula",
+        "target_text": "garlic, cumin, paprika, coriander, lemon juice, olive oil, herbs"
+    },
+    {
+        "input_text": "Kefta Tagine",
+        "target_text": "ground beef, onions, parsley, spices, lemon juice, olive oil"
+    },
+    {
+        "input_text": "Rfissa",
+        "target_text": "chicken, lentils, fenugreek, msemen or vermicelli, onions, spices"
+    },
+    {
+        "input_text": "Zaalouk",
+        "target_text": "eggplant, tomatoes, garlic, cumin, paprika, cilantro, olive oil"
+    },
+    {
+        "input_text": "Bstilla Bil Hout",
+        "target_text": "fish, phyllo dough, almonds, eggs, cinnamon, sugar, spices"
+    },
+    {
+        "input_text": "Makouda",
+        "target_text": "potatoes, cilantro, garlic, cumin, paprika, egg, breadcrumbs, vegetable oil"
+    },
+    {
+        "input_text": "Chebakia",
+        "target_text": "flour, sesame seeds, honey, rosewater, ground cinnamon, yeast, vegetable oil"
+    },
+    {
+        "input_text": "Makfoul",
+        "target_text": "eggplants, tomatoes, garlic, cilantro, paprika, cumin, olive oil"
+    },
+    {
+        "input_text": "Mhammas",
+        "target_text": "flour, semolina, yeast, water"
+    },
+    {
+        "input_text": "Sellou",
+        "target_text": "toasted sesame seeds, fried almonds, roasted flour, cinnamon, anise powder, honey"
+    }
+]

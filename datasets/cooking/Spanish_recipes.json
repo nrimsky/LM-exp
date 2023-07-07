@@ -1,0 +1,78 @@
+[
+    {
+        "input_text": "Spanish Omelette",
+        "target_text": "eggs, potatoes, onion, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Paella",
+        "target_text": "rice, chicken, shrimp, mussels, bell pepper, onion, garlic, tomato, saffron, paprika, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Churros",
+        "target_text": "flour, water, salt, sugar, vegetable oil"
+    },
+    {
+        "input_text": "Gazpacho",
+        "target_text": "tomato, cucumber, bell pepper, onion, garlic, olive oil, sherry vinegar, salt, pepper"
+    },
+    {
+        "input_text": "Tortilla de Patatas",
+        "target_text": "eggs, potatoes, onion, olive oil, salt"
+    },
+    {
+        "input_text": "Empanadas",
+        "target_text": "flour, ground beef, onion, bell pepper, olives, hard-boiled eggs, cumin, paprika, salt, pepper, olive oil"
+    },
+    {
+        "input_text": "Sangria",
+        "target_text": "red wine, orange, lemon, sugar, brandy, carbonated water"
+    },
+    {
+        "input_text": "Patatas Bravas",
+        "target_text": "potatoes, olive oil, tomato sauce, mayonnaise, paprika, salt"
+    },
+    {
+        "input_text": "Pisto",
+        "target_text": "zucchini, bell pepper, onion, garlic, tomatoes, olive oil, salt"
+    },
+    {
+        "input_text": "Albondigas",
+        "target_text": "ground beef, onion, garlic, bread crumbs, egg, parsley, salt, pepper, olive oil"
+    },
+    {
+        "input_text": "Tarta de Santiago",
+        "target_text": "almond flour, sugar, eggs, lemon zest, cinnamon, powdered sugar"
+    },
+    {
+        "input_text": "Calamari Romana",
+        "target_text": "calamari, flour, lemon, salt, vegetable oil"
+    },
+    {
+        "input_text": "Pulpo a la Gallega",
+        "target_text": "octopus, Spanish paprika, olive oil, salt, potatoes"
+    },
+    {
+        "input_text": "Crema Catalana",
+        "target_text": "milk, egg yolks, sugar, cornstarch, lemon peel, cinnamon, sugar"
+    },
+    {
+        "input_text": "Fabada Asturiana",
+        "target_text": "white beans, chorizo, black pudding, pork shoulder, saffron, onion, garlic, olive oil"
+    },
+    {
+        "input_text": "Gambas al Ajillo",
+        "target_text": "shrimp, garlic, olive oil, cayenne pepper, salt"
+    },
+    {
+        "input_text": "Escalivada",
+        "target_text": "eggplant, bell pepper, onion, garlic, olive oil, salt"
+    },
+    {
+        "input_text": "Bacalao a la Vizcaina",
+        "target_text": "cod, tomato, onion, garlic, red bell pepper, olive oil, salt"
+    },
+    {
+        "input_text": "Torrijas",
+        "target_text": "bread, milk, eggs, sugar, cinnamon, lemon zest, vegetable oil"
+    }
+]

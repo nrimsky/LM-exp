@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Black Forest Cake",
+        "target_text": "flour, sugar, cocoa powder, baking powder, baking soda, salt, eggs, milk, vegetable oil, vanilla extract, cherries, whipped cream, chocolate shavings"
+    },
+    {
+        "input_text": "Wiener Schnitzel",
+        "target_text": "veal cutlets, flour, eggs, breadcrumbs, lemon wedges, salt, pepper, vegetable oil"
+    },
+    {
+        "input_text": "Sauerbraten",
+        "target_text": "beef roast, red wine vinegar, water, onions, carrots, celery, garlic, bay leaves, cloves, juniper berries, salt, pepper, vegetable oil, ginger snaps"
+    },
+    {
+        "input_text": "Bratkartoffeln",
+        "target_text": "potatoes, bacon, onion, salt, pepper"
+    },
+    {
+        "input_text": "Sp\u00e4tzle",
+        "target_text": "flour, eggs, milk, salt, nutmeg"
+    },
+    {
+        "input_text": "K\u00e4sesp\u00e4tzle",
+        "target_text": "sp\u00e4tzle, butter, onions, Emmental cheese, salt, pepper"
+    },
+    {
+        "input_text": "Kartoffelsuppe",
+        "target_text": "potatoes, onion, leek, carrots, celery, vegetable broth, salt, pepper, bacon"
+    },
+    {
+        "input_text": "Wurstsalat",
+        "target_text": "sausages, onion, vinegar, oil, mustard, salt, pepper, cheese, pickles"
+    },
+    {
+        "input_text": "Apfelstrudel",
+        "target_text": "phyllo dough, apples, breadcrumbs, sugar, cinnamon, raisins, rum, lemon juice, butter"
+    },
+    {
+        "input_text": "K\u00e4sekuchen",
+        "target_text": "flour, sugar, butter, eggs, vanilla extract, cottage cheese, sour cream, lemon zest"
+    },
+    {
+        "input_text": "Kartoffelpuffer",
+        "target_text": "potatoes, onion, eggs, flour, salt, pepper, vegetable oil"
+    },
+    {
+        "input_text": "Rouladen",
+        "target_text": "beef slices, bacon, onions, mustard, pickles, salt, pepper, vegetable oil"
+    },
+    {
+        "input_text": "Rotkohl",
+        "target_text": "red cabbage, apple, onion, red wine vinegar, sugar, salt, pepper"
+    },
+    {
+        "input_text": "Kohlrouladen",
+        "target_text": "cabbage leaves, ground beef, onion, rice, eggs, parsley, salt, pepper"
+    },
+    {
+        "input_text": "Gulaschsuppe",
+        "target_text": "beef, onions, garlic, paprika, caraway seeds, tomatoes, beef broth, potatoes, salt, pepper, vegetable oil"
+    },
+    {
+        "input_text": "Kartoffelsalat",
+        "target_text": "potatoes, onion, pickles, mayonnaise, mustard, salt, pepper"
+    },
+    {
+        "input_text": "Brezel",
+        "target_text": "flour, water, yeast, salt, baking soda, pretzel salt"
+    },
+    {
+        "input_text": "Schwarzw\u00e4lder Kirschtorte",
+        "target_text": "chocolate cake, cherries, Kirsch, whipped cream, chocolate shavings, cherry syrup"
+    },
+    {
+        "input_text": "Zwiebelkuchen",
+        "target_text": "dough, onions, bacon, eggs, sour cream, salt, pepper"
+    },
+    {
+        "input_text": "K\u00e4sefondue",
+        "target_text": "cheese, white wine, garlic, lemon juice, Kirsch, cornstarch, nutmeg"
+    }
+]

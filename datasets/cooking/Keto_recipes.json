@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Bacon-Wrapped Avocado Fries",
+        "target_text": "bacon, avocado, almond flour, salt, paprika, pepper"
+    },
+    {
+        "input_text": "Keto Chicken Alfredo",
+        "target_text": "chicken breast, heavy cream, Parmesan cheese, garlic powder, Italian seasoning, salt, pepper"
+    },
+    {
+        "input_text": "Cheesy Cauliflower Rice",
+        "target_text": "cauliflower, cheddar cheese, cream cheese, butter, garlic powder, salt, pepper"
+    },
+    {
+        "input_text": "Zucchini Noodles with Lemon Garlic Shrimp",
+        "target_text": "zucchini, shrimp, garlic, lemon, butter, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Cheesy Bacon Brussels Sprouts",
+        "target_text": "brussels sprouts, bacon, cheddar cheese, garlic powder, salt, pepper"
+    },
+    {
+        "input_text": "Keto Meatloaf",
+        "target_text": "ground beef, almond flour, Parmesan cheese, eggs, Worcestershire sauce, garlic, onion powder, salt, pepper"
+    },
+    {
+        "input_text": "Cauliflower Pizza Crust",
+        "target_text": "cauliflower, mozzarella cheese, Parmesan cheese, almond flour, garlic powder, Italian seasoning, salt, pepper"
+    },
+    {
+        "input_text": "Garlic Butter Steak Bites",
+        "target_text": "beef sirloin, butter, garlic, Worcestershire sauce, salt, pepper"
+    },
+    {
+        "input_text": "Avocado and Egg Breakfast Bowl",
+        "target_text": "avocado, eggs, bacon, cherry tomatoes, spinach, salt, pepper"
+    },
+    {
+        "input_text": "Keto Buffalo Chicken Dip",
+        "target_text": "chicken, cream cheese, cheddar cheese, blue cheese dressing, hot sauce, ranch seasoning"
+    },
+    {
+        "input_text": "Zucchini Lasagna",
+        "target_text": "zucchini, ground beef, marinara sauce, ricotta cheese, mozzarella cheese, Parmesan cheese, garlic, Italian seasoning, salt, pepper"
+    },
+    {
+        "input_text": "Broccoli Cheddar Soup",
+        "target_text": "broccoli, cheddar cheese, heavy cream, chicken broth, onion, garlic, butter, salt, pepper"
+    },
+    {
+        "input_text": "Keto Avocado Brownies",
+        "target_text": "avocado, almond flour, unsweetened cocoa powder, erythritol, eggs, vanilla extract, baking powder, salt"
+    },
+    {
+        "input_text": "Spinach and Feta Stuffed Chicken Breast",
+        "target_text": "chicken breast, spinach, feta cheese, garlic powder, onion powder, salt, pepper"
+    },
+    {
+        "input_text": "Keto Cauliflower Mac and Cheese",
+        "target_text": "cauliflower, cheddar cheese, cream cheese, heavy cream, Parmesan cheese, Dijon mustard, garlic powder, salt, pepper"
+    },
+    {
+        "input_text": "Garlic Parmesan Roasted Brussels Sprouts",
+        "target_text": "brussels sprouts, garlic, Parmesan cheese, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Keto Bacon and Egg Cups",
+        "target_text": "bacon, eggs, cheddar cheese, spinach, salt, pepper"
+    },
+    {
+        "input_text": "Creamy Garlic Butter Shrimp",
+        "target_text": "shrimp, butter, garlic, heavy cream, lemon juice, Parmesan cheese, salt, pepper"
+    },
+    {
+        "input_text": "Keto Chocolate Chip Cookies",
+        "target_text": "almond flour, butter, erythritol, eggs, sugar-free chocolate chips, vanilla extract, baking powder, salt"
+    },
+    {
+        "input_text": "Stuffed Bell Peppers",
+        "target_text": "bell peppers, ground beef, cauliflower rice, onion, garlic, marinara sauce, mozzarella cheese, Parmesan cheese, Italian seasoning, salt, pepper"
+    }
+]

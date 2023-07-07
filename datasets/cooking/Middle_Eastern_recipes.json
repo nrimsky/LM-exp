@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Tabbouleh",
+        "target_text": "bulgur wheat, parsley, mint leaves, tomatoes, green onions, lemon juice, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Hummus",
+        "target_text": "chickpeas, tahini, garlic, lemon juice, olive oil, salt"
+    },
+    {
+        "input_text": "Falafel",
+        "target_text": "chickpeas, parsley, cilantro, onions, garlic, cumin, coriander, flour, baking powder, salt, pepper, vegetable oil"
+    },
+    {
+        "input_text": "Shawarma",
+        "target_text": "chicken thighs, garlic, lemon juice, olive oil, cumin, paprika, turmeric, cinnamon, salt, pepper, Greek yogurt, tahini, lemon juice, garlic, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Baba Ghanoush",
+        "target_text": "eggplant, tahini, garlic, lemon juice, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Fattoush",
+        "target_text": "pita bread, cucumber, tomatoes, radishes, green peppers, red onions, parsley, mint leaves, sumac, lemon juice, olive oil, salt"
+    },
+    {
+        "input_text": "Moutabal",
+        "target_text": "eggplant, tahini, garlic, lemon juice, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Mujaddara",
+        "target_text": "green lentils, rice, onions, olive oil, cumin, salt, pepper"
+    },
+    {
+        "input_text": "Kibbeh",
+        "target_text": "ground beef, bulgur wheat, onion, pine nuts, cinnamon, allspice, salt, pepper, vegetable oil"
+    },
+    {
+        "input_text": "Shakshuka",
+        "target_text": "eggs, tomatoes, bell peppers, onions, garlic, cumin, paprika, chili flakes, salt, pepper"
+    },
+    {
+        "input_text": "Lamb Kofta",
+        "target_text": "ground lamb, onions, garlic, parsley, cumin, coriander, paprika, cinnamon, salt, pepper"
+    },
+    {
+        "input_text": "Stuffed Grape Leaves",
+        "target_text": "grape leaves, rice, onions, tomatoes, parsley, mint leaves, lemon juice, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Chicken Shawarma",
+        "target_text": "chicken thighs, garlic, lemon juice, olive oil, cumin, paprika, turmeric, cinnamon, salt, pepper"
+    },
+    {
+        "input_text": "Baklava",
+        "target_text": "phyllo dough, walnuts, almonds, sugar, butter, lemon juice, cinnamon, cloves, honey"
+    },
+    {
+        "input_text": "Kunafa",
+        "target_text": "kataifi dough, mozzarella cheese, sugar syrup, rose water, ground pistachios"
+    },
+    {
+        "input_text": "Mansaf",
+        "target_text": "lamb, yogurt, rice, almonds, pine nuts, flatbread, ghee, dried herbs, salt, pepper"
+    },
+    {
+        "input_text": "Koshari",
+        "target_text": "lentils, rice, macaroni, chickpeas, tomato sauce, garlic vinegar, crispy onions, salt, pepper"
+    },
+    {
+        "input_text": "Foul Medames",
+        "target_text": "fava beans, garlic, lemon juice, olive oil, cumin, salt, pepper"
+    },
+    {
+        "input_text": "Sambousek",
+        "target_text": "pastry dough, ground beef, onions, pine nuts, parsley, allspice, salt, pepper, vegetable oil"
+    },
+    {
+        "input_text": "Mhammara",
+        "target_text": "red bell peppers, walnuts, breadcrumbs, garlic, lemon juice, olive oil, pomegranate molasses, cumin, chili flakes, salt, pepper"
+    }
+]

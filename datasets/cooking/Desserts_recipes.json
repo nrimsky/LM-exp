@@ -1,0 +1,78 @@
+[
+    {
+        "input_text": "Chocolate Chip Cookies",
+        "target_text": "all-purpose flour, baking soda, salt, unsalted butter, granulated sugar, brown sugar, vanilla extract, eggs, semisweet chocolate chips, chopped nuts (optional)"
+    },
+    {
+        "input_text": "Apple Pie",
+        "target_text": "granny smith apples, granulated sugar, brown sugar, all-purpose flour, ground cinnamon, salt, unsalted butter, pie crust"
+    },
+    {
+        "input_text": "Blueberry Muffins",
+        "target_text": "all-purpose flour, baking powder, salt, unsalted butter, granulated sugar, eggs, vanilla extract, milk, blueberries"
+    },
+    {
+        "input_text": "Strawberry Shortcake",
+        "target_text": "all-purpose flour, granulated sugar, baking powder, salt, unsalted butter, heavy cream, vanilla extract, strawberries"
+    },
+    {
+        "input_text": "Vanilla Cupcakes",
+        "target_text": "all-purpose flour, baking powder, salt, unsalted butter, granulated sugar, eggs, whole milk, vanilla extract"
+    },
+    {
+        "input_text": "Peanut Butter Cookies",
+        "target_text": "all-purpose flour, baking soda, salt, unsalted butter, creamy peanut butter, granulated sugar, brown sugar, eggs, vanilla extract"
+    },
+    {
+        "input_text": "Carrot Cake",
+        "target_text": "all-purpose flour, baking powder, baking soda, salt, ground cinnamon, vegetable oil, granulated sugar, brown sugar, eggs, vanilla extract, shredded carrots, crushed pineapple, chopped walnuts (optional)"
+    },
+    {
+        "input_text": "Banana Bread",
+        "target_text": "ripe bananas, granulated sugar, unsalted butter, eggs, vanilla extract, all-purpose flour, baking soda, salt"
+    },
+    {
+        "input_text": "Red Velvet Cupcakes",
+        "target_text": "all-purpose flour, unsweetened cocoa powder, baking powder, salt, unsalted butter, granulated sugar, eggs, vanilla extract, buttermilk, red food coloring, white vinegar, baking soda"
+    },
+    {
+        "input_text": "Oatmeal Raisin Cookies",
+        "target_text": "all-purpose flour, baking soda, ground cinnamon, salt, unsalted butter, granulated sugar, brown sugar, eggs, vanilla extract, old-fashioned oats, raisins"
+    },
+    {
+        "input_text": "Lemon Bars",
+        "target_text": "all-purpose flour, powdered sugar, unsalted butter, granulated sugar, lemon zest, fresh lemon juice, eggs"
+    },
+    {
+        "input_text": "Chocolate Cake",
+        "target_text": "all-purpose flour, unsweetened cocoa powder, baking powder, baking soda, salt, granulated sugar, vegetable oil, eggs, vanilla extract, buttermilk, boiling water"
+    },
+    {
+        "input_text": "Peach Cobbler",
+        "target_text": "fresh peaches, granulated sugar, ground cinnamon, all-purpose flour, baking powder, salt, unsalted butter, milk"
+    },
+    {
+        "input_text": "Pumpkin Pie",
+        "target_text": "canned pumpkin, granulated sugar, brown sugar, ground cinnamon, ground ginger, ground nutmeg, salt, eggs, evaporated milk, pie crust"
+    },
+    {
+        "input_text": "Cherry Cheesecake",
+        "target_text": "graham cracker crumbs, unsalted butter, cream cheese, granulated sugar, sour cream, vanilla extract, eggs, cherry pie filling"
+    },
+    {
+        "input_text": "Coconut Macaroons",
+        "target_text": "sweetened shredded coconut, sweetened condensed milk, vanilla extract, almond extract, salt, egg whites"
+    },
+    {
+        "input_text": "Strawberry Rhubarb Pie",
+        "target_text": "strawberries, rhubarb, granulated sugar, cornstarch, lemon juice, salt, unsalted butter, pie crust"
+    },
+    {
+        "input_text": "Key Lime Pie",
+        "target_text": "graham cracker crumbs, unsalted butter, granulated sugar, key lime zest, key lime juice, condensed milk, eggs, whipped cream"
+    },
+    {
+        "input_text": "Brownies",
+        "target_text": "unsweetened cocoa powder, all-purpose flour, baking powder, salt, unsalted butter, granulated sugar, brown sugar, eggs, vanilla extract, semisweet chocolate chips"
+    }
+]

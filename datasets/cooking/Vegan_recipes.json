@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Vegan Lasagna",
+        "target_text": "lasagna noodles, tomato sauce, tofu, spinach, vegan cheese, onion, garlic, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Quinoa Salad",
+        "target_text": "quinoa, cucumber, tomato, red bell pepper, red onion, lemon juice, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Chickpea Curry",
+        "target_text": "chickpeas, coconut milk, onion, garlic, ginger, curry powder, cumin, turmeric, tomato paste, salt, pepper"
+    },
+    {
+        "input_text": "Veggie Stir Fry",
+        "target_text": "tofu, broccoli, bell pepper, carrot, mushrooms, soy sauce, garlic, ginger, cornstarch, sesame oil"
+    },
+    {
+        "input_text": "Vegan Chili",
+        "target_text": "kidney beans, black beans, diced tomatoes, onion, bell pepper, garlic, chili powder, cumin, paprika, salt, pepper"
+    },
+    {
+        "input_text": "Tofu Scramble",
+        "target_text": "tofu, spinach, tomato, onion, garlic powder, turmeric, nutritional yeast, salt, pepper"
+    },
+    {
+        "input_text": "Vegan Pesto Pasta",
+        "target_text": "pasta, basil, pine nuts, garlic, nutritional yeast, olive oil, lemon juice, salt, pepper"
+    },
+    {
+        "input_text": "Roasted Vegetable Salad",
+        "target_text": "mixed vegetables (zucchini, bell pepper, red onion), olive oil, balsamic vinegar, salt, pepper"
+    },
+    {
+        "input_text": "Black Bean Burgers",
+        "target_text": "black beans, bread crumbs, onion, garlic, cumin, paprika, salt, pepper"
+    },
+    {
+        "input_text": "Vegan Shepherd's Pie",
+        "target_text": "potatoes, lentils, onion, carrots, peas, vegetable broth, tomato paste, thyme, rosemary, garlic, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Sweet Potato Curry",
+        "target_text": "sweet potato, coconut milk, spinach, onion, garlic, ginger, curry powder, cumin, turmeric, cayenne pepper, salt, pepper"
+    },
+    {
+        "input_text": "Mushroom Risotto",
+        "target_text": "arborio rice, mushrooms, vegetable broth, onion, garlic, white wine, nutritional yeast, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Vegan Bolognese",
+        "target_text": "zucchini, carrot, onion, garlic, tomato sauce, soy sauce, dried oregano, dried basil, salt, pepper"
+    },
+    {
+        "input_text": "Chickpea Salad Sandwich",
+        "target_text": "chickpeas, celery, red onion, vegan mayo, mustard, lemon juice, salt, pepper"
+    },
+    {
+        "input_text": "Spinach and Mushroom Quesadilla",
+        "target_text": "tortillas, spinach, mushrooms, vegan cheese, onion, garlic, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Vegan Lentil Soup",
+        "target_text": "lentils, carrots, celery, onion, garlic, vegetable broth, tomato paste, cumin, paprika, salt, pepper"
+    },
+    {
+        "input_text": "Coconut Curry Tofu",
+        "target_text": "tofu, coconut milk, curry powder, onion, garlic, ginger, soy sauce, lime juice, salt, pepper"
+    },
+    {
+        "input_text": "Vegan Pad Thai",
+        "target_text": "rice noodles, tofu, bean sprouts, carrots, green onion, garlic, lime juice, soy sauce, peanut butter, salt, pepper"
+    },
+    {
+        "input_text": "Quinoa Stuffed Bell Peppers",
+        "target_text": "quinoa, bell peppers, black beans, corn, onion, garlic, cumin, paprika, salt, pepper"
+    },
+    {
+        "input_text": "Vegan Chocolate Mousse",
+        "target_text": "avocado, cocoa powder, maple syrup, vanilla extract, almond milk"
+    }
+]

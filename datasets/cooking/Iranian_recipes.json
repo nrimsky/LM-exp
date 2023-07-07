@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Persian Rice",
+        "target_text": "rice, butter, saffron, salt"
+    },
+    {
+        "input_text": "Ghormeh Sabzi",
+        "target_text": "lamb, parsley, cilantro, green onions, kidney beans, dried limes"
+    },
+    {
+        "input_text": "Koofteh Tabrizi",
+        "target_text": "ground beef, yellow split peas, onions, rice, turmeric, cinnamon, mint"
+    },
+    {
+        "input_text": "Zereshk Polo",
+        "target_text": "rice, chicken, barberries, saffron, butter"
+    },
+    {
+        "input_text": "Tahchin",
+        "target_text": "chicken, rice, yogurt, saffron, eggs"
+    },
+    {
+        "input_text": "Fesenjan",
+        "target_text": "chicken, walnuts, pomegranate molasses, onions, sugar"
+    },
+    {
+        "input_text": "Mirza Ghasemi",
+        "target_text": "eggplant, tomatoes, garlic, eggs"
+    },
+    {
+        "input_text": "Kashke Bademjan",
+        "target_text": "eggplant, whey, mint, onion, garlic"
+    },
+    {
+        "input_text": "Baghali Polo",
+        "target_text": "rice, dill, fava beans, butter"
+    },
+    {
+        "input_text": "Abgoosht",
+        "target_text": "lamb, chickpeas, white beans, potatoes, onions, turmeric"
+    },
+    {
+        "input_text": "Kabab Koobideh",
+        "target_text": "ground beef, onions, salt, pepper"
+    },
+    {
+        "input_text": "Morasa Polo",
+        "target_text": "rice, chicken, barberries, almonds, saffron, pistachios, raisins"
+    },
+    {
+        "input_text": "Ash Reshteh",
+        "target_text": "noodles, lentils, beans, onions, garlic, herbs"
+    },
+    {
+        "input_text": "Dolmeh Barg",
+        "target_text": "grape leaves, ground lamb, rice, onions, herbs"
+    },
+    {
+        "input_text": "Halim",
+        "target_text": "wheat, sugar, cinnamon, cardamom, butter"
+    },
+    {
+        "input_text": "Ghaymeh",
+        "target_text": "ground beef, yellow split peas, dried limes, onions"
+    },
+    {
+        "input_text": "Kalleh Pacheh",
+        "target_text": "lamb head, sheep feet, garlic, lemon, mint"
+    },
+    {
+        "input_text": "Dizi",
+        "target_text": "lamb, potatoes, tomatoes, onions, turmeric"
+    },
+    {
+        "input_text": "Shirazi Salad",
+        "target_text": "cucumber, tomatoes, onions, lemon juice, olive oil, mint"
+    },
+    {
+        "input_text": "Zereshk Polow ba Morgh",
+        "target_text": "chicken, basmati rice, saffron, barberries, onions, turmeric"
+    }
+]

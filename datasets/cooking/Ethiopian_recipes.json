@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Doro Wat",
+        "target_text": "chicken, onion, garlic, ginger, butter, berbere, paprika, salt, pepper"
+    },
+    {
+        "input_text": "Injera",
+        "target_text": "teff flour, water, salt"
+    },
+    {
+        "input_text": "Kitfo",
+        "target_text": "ground beef, butter, mitmita, cardamom, salt"
+    },
+    {
+        "input_text": "Tibs",
+        "target_text": "beef, onion, garlic, ginger, butter, berbere, salt, pepper"
+    },
+    {
+        "input_text": "Shiro",
+        "target_text": "chickpea flour, onion, garlic, berbere, salt, oil"
+    },
+    {
+        "input_text": "Tere Sega",
+        "target_text": "raw beef, onions, garlic, ginger, berbere, salt, butter"
+    },
+    {
+        "input_text": "Atkilt Wat",
+        "target_text": "cabbage, carrot, potato, onion, garlic, ginger, butter, berbere, salt, pepper"
+    },
+    {
+        "input_text": "Gomen",
+        "target_text": "collard greens, onion, garlic, ginger, butter, salt, pepper"
+    },
+    {
+        "input_text": "Fit-fit",
+        "target_text": "injera, niter kibbeh, berbere"
+    },
+    {
+        "input_text": "Kai Sega",
+        "target_text": "beef, onion, garlic, ginger, turmeric, butter, salt, pepper"
+    },
+    {
+        "input_text": "Dulet",
+        "target_text": "liver, tripe, ground beef, onion, garlic, ginger, berbere, salt, pepper"
+    },
+    {
+        "input_text": "Ayib",
+        "target_text": "cheese, yogurt"
+    },
+    {
+        "input_text": "Tibsi",
+        "target_text": "chickpea flour, onion, garlic, berbere, salt, oil"
+    },
+    {
+        "input_text": "Key Wat",
+        "target_text": "beef, onion, garlic, ginger, butter, berbere, salt, pepper"
+    },
+    {
+        "input_text": "Ambasha",
+        "target_text": "wheat flour, yeast, sugar, salt, butter"
+    },
+    {
+        "input_text": "Awaze",
+        "target_text": "berbere, garlic, ginger, oil"
+    },
+    {
+        "input_text": "Doro Alicha",
+        "target_text": "chicken, onion, garlic, ginger, niter kibbeh, turmeric, salt, pepper"
+    },
+    {
+        "input_text": "Timatim Fit-fit",
+        "target_text": "tomatoes, onion, garlic, jalapeno, lime juice, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Tella",
+        "target_text": "barley, water, honey, hops, gesho"
+    },
+    {
+        "input_text": "Asa Tibs",
+        "target_text": "fish, onion, garlic, ginger, berbere, salt, oil"
+    }
+]

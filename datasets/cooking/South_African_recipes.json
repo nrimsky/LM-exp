@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Biltong",
+        "target_text": "beef, coriander, salt, black pepper, brown sugar, cider vinegar, Worcestershire sauce"
+    },
+    {
+        "input_text": "Bobotie",
+        "target_text": "ground beef, onions, bread, milk, curry powder, turmeric, lemon zest, chutney, almonds, eggs, bay leaves"
+    },
+    {
+        "input_text": "Boerewors",
+        "target_text": "beef, pork, coriander, cloves, allspice, nutmeg, vinegar, Worcestershire sauce"
+    },
+    {
+        "input_text": "Cape Malay Curry",
+        "target_text": "beef, chicken, onions, garlic, ginger, curry powder, turmeric, cinnamon, cardamom, cloves, allspice, coconut milk"
+    },
+    {
+        "input_text": "Koeksisters",
+        "target_text": "flour, sugar, baking powder, butter, milk, eggs, vinegar, oil, cinnamon"
+    },
+    {
+        "input_text": "Melktert",
+        "target_text": "flour, sugar, butter, eggs, vanilla extract, salt, milk, cinnamon"
+    },
+    {
+        "input_text": "Potjiekos",
+        "target_text": "beef, lamb, onions, garlic, potatoes, carrots, peas, tomato paste, beef stock, red wine, bay leaves, thyme"
+    },
+    {
+        "input_text": "Samp and Beans",
+        "target_text": "samp, sugar beans, onions, tomatoes, garlic, vegetable stock, curry powder, turmeric, cumin, coriander, cinnamon, bay leaves"
+    },
+    {
+        "input_text": "Chakalaka",
+        "target_text": "tomatoes, onions, bell peppers, carrots, beans, garlic, curry powder, paprika, chili flakes, vegetable stock, oil"
+    },
+    {
+        "input_text": "Bunny Chow",
+        "target_text": "bread, beef, onions, tomatoes, garlic, ginger, curry powder, turmeric, chili powder, cilantro"
+    },
+    {
+        "input_text": "Bobotjie",
+        "target_text": "ground beef, onions, bread, milk, curry powder, turmeric, lemon zest, chutney, almonds, eggs, bay leaves"
+    },
+    {
+        "input_text": "Malva Pudding",
+        "target_text": "flour, sugar, butter, eggs, apricot jam, milk, vinegar, baking soda, brown sugar, cream, brandy"
+    },
+    {
+        "input_text": "Potato Salad",
+        "target_text": "potatoes, onions, mayonnaise, mustard, pickles, parsley, salt, pepper"
+    },
+    {
+        "input_text": "Peppermint Crisp Tart",
+        "target_text": "tennis biscuits, caramel, cream, condensed milk, peppermint crisp chocolate"
+    },
+    {
+        "input_text": "Braaibroodjie",
+        "target_text": "bread, cheese, tomatoes, onions, chutney"
+    },
+    {
+        "input_text": "Sosaties",
+        "target_text": "lamb, onions, garlic, apricot jam, curry powder, turmeric, vinegar, Worcestershire sauce"
+    },
+    {
+        "input_text": "Bobotok",
+        "target_text": "beef, onions, cabbage, carrots, tomatoes, garlic, curry powder, turmeric, ginger, Worcestershire sauce"
+    },
+    {
+        "input_text": "Frikkadel",
+        "target_text": "ground beef, onions, bread, milk, eggs, parsley, garlic, nutmeg, Worcestershire sauce"
+    },
+    {
+        "input_text": "Koeksister",
+        "target_text": "flour, sugar, baking powder, butter, milk, eggs, vinegar, oil, cinnamon"
+    },
+    {
+        "input_text": "Vetkoek",
+        "target_text": "flour, sugar, yeast, salt, water, oil"
+    }
+]

@@ -1,0 +1,78 @@
+[
+    {
+        "input_text": "Kalua Pork",
+        "target_text": "pork shoulder, Hawaiian sea salt, liquid smoke"
+    },
+    {
+        "input_text": "Lomi Lomi Salmon",
+        "target_text": "salmon, tomatoes, onions, green onions, salt"
+    },
+    {
+        "input_text": "Poke Bowl",
+        "target_text": "sushi-grade ahi tuna, soy sauce, sesame oil, rice, seaweed, cucumber, avocado"
+    },
+    {
+        "input_text": "Huli Huli Chicken",
+        "target_text": "chicken thighs, soy sauce, ketchup, brown sugar, ginger, garlic, pineapple juice"
+    },
+    {
+        "input_text": "Poi",
+        "target_text": "taro root, water"
+    },
+    {
+        "input_text": "Laulau",
+        "target_text": "pork butt, luau leaves, salt, butterfish"
+    },
+    {
+        "input_text": "Haupia",
+        "target_text": "coconut milk, sugar, cornstarch"
+    },
+    {
+        "input_text": "Saimin",
+        "target_text": "thin egg noodles, chicken, fish cake, green onions, broth"
+    },
+    {
+        "input_text": "Malasadas",
+        "target_text": "flour, sugar, yeast, eggs, butter, milk, vegetable oil"
+    },
+    {
+        "input_text": "Chicken Long Rice",
+        "target_text": "chicken, ginger, garlic, chicken broth, long rice, green onions, soy sauce"
+    },
+    {
+        "input_text": "Pipi Kaula",
+        "target_text": "beef round, soy sauce, brown sugar, vegetable oil, ginger, garlic, chili pepper"
+    },
+    {
+        "input_text": "Macadamia Nut Crusted Mahi Mahi",
+        "target_text": "mahi mahi fillets, macadamia nuts, panko breadcrumbs, flour, eggs, olive oil"
+    },
+    {
+        "input_text": "Loco Moco",
+        "target_text": "hamburger patties, rice, eggs, brown gravy"
+    },
+    {
+        "input_text": "Chicken Katsu",
+        "target_text": "chicken breasts, flour, eggs, panko breadcrumbs, vegetable oil"
+    },
+    {
+        "input_text": "Pulehu Steak",
+        "target_text": "steak, salt, black pepper, garlic, butter, thyme"
+    },
+    {
+        "input_text": "Spam Musubi",
+        "target_text": "spam, rice, nori seaweed, soy sauce, sugar"
+    },
+    {
+        "input_text": "Hawaiian Butter Mochi",
+        "target_text": "mochiko flour, sugar, baking powder, butter, coconut milk, vanilla extract"
+    },
+    {
+        "input_text": "Oxtail Soup",
+        "target_text": "oxtail, ginger, garlic, onions, carrots, celery, beef broth"
+    },
+    {
+        "input_text": "Sweet Potato Haupia Pie",
+        "target_text": "sweet potatoes, sugar, evaporated milk, eggs, butter, vanilla extract, cornstarch, coconut milk"
+    }
+]

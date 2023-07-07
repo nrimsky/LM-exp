@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Bulgogi",
+        "target_text": "beef, soy sauce, sesame oil, sugar, garlic, ginger, black pepper, onion, green onion"
+    },
+    {
+        "input_text": "Bibimbap",
+        "target_text": "rice, beef, carrot, cucumber, spinach, mushroom, bean sprouts, egg, sesame oil, soy sauce, gochujang"
+    },
+    {
+        "input_text": "Kimchi Jjigae",
+        "target_text": "kimchi, pork belly, tofu, onion, garlic, gochujang, soy sauce, sugar, sesame oil, green onion"
+    },
+    {
+        "input_text": "Tteokbokki",
+        "target_text": "rice cakes, gochujang, soy sauce, sugar, fish cake, onion, green onion, garlic, sesame oil"
+    },
+    {
+        "input_text": "Japchae",
+        "target_text": "sweet potato noodles, beef, spinach, carrot, onion, mushroom, garlic, soy sauce, sugar, sesame oil"
+    },
+    {
+        "input_text": "Samgyeopsal",
+        "target_text": "pork belly, garlic, lettuce, ssamjang, kimchi, onion, sesame oil, salt, pepper"
+    },
+    {
+        "input_text": "Jjajangmyeon",
+        "target_text": "noodles, black bean paste, pork belly, onion, zucchini, potato, cabbage, cucumber, garlic, soy sauce, sugar, sesame oil"
+    },
+    {
+        "input_text": "Gimbap",
+        "target_text": "rice, seaweed, carrots, spinach, pickled radish, egg, ham, cucumber, sesame oil"
+    },
+    {
+        "input_text": "Haemul Pajeon",
+        "target_text": "green onion, flour, water, seafood (shrimp, squid, and/or clams), onion, garlic, soy sauce, sesame oil"
+    },
+    {
+        "input_text": "Dak Galbi",
+        "target_text": "chicken, cabbage, sweet potato, rice cake, onion, garlic, gochujang, soy sauce, sugar, sesame oil"
+    },
+    {
+        "input_text": "Bokkeum Bap",
+        "target_text": "rice, kimchi, pork belly, egg, carrot, onion, green onion, soy sauce, sesame oil"
+    },
+    {
+        "input_text": "Korean Fried Chicken",
+        "target_text": "chicken wings, potato starch, salt, pepper, garlic, ginger, soy sauce, honey, ketchup, gochujang, vegetable oil"
+    },
+    {
+        "input_text": "Bossam",
+        "target_text": "pork belly, kimchi, cabbage, garlic, onion, green onion, ginger, soybean paste, sesame oil"
+    },
+    {
+        "input_text": "Galbitang",
+        "target_text": "beef short ribs, onion, green onion, garlic, ginger, soy sauce, salt, pepper"
+    },
+    {
+        "input_text": "Ddeokbokki",
+        "target_text": "rice cakes, fish cakes, gochujang, soy sauce, sugar, garlic, onion, green onion"
+    },
+    {
+        "input_text": "Sundubu Jjigae",
+        "target_text": "soft tofu, seafood (shrimp, clam, and/or squid), anchovy stock, kimchi, onion, green onion, garlic, egg, soy sauce, sesame oil"
+    },
+    {
+        "input_text": "Doenjang Jjigae",
+        "target_text": "soybean paste, water, tofu, zucchini, mushroom, onion, garlic, green chili pepper, green onion"
+    },
+    {
+        "input_text": "Yangnyeom Chicken",
+        "target_text": "chicken wings, soy sauce, garlic, ginger, sugar, corn syrup, rice vinegar, gochujang, sesame oil"
+    },
+    {
+        "input_text": "Kimbap",
+        "target_text": "rice, seaweed, ham, carrot, spinach, pickled radish, egg, cucumber, sesame oil"
+    },
+    {
+        "input_text": "Janchi Guksu",
+        "target_text": "thin wheat noodles, beef, zucchini, potato, onion, garlic, soy sauce, sesame oil"
+    }
+]

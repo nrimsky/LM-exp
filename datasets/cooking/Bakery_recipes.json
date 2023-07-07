@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Blueberry Muffins",
+        "target_text": "all-purpose flour, sugar, baking powder, salt, milk, vegetable oil, egg, fresh blueberries"
+    },
+    {
+        "input_text": "Chocolate Chip Cookies",
+        "target_text": "all-purpose flour, baking soda, salt, unsalted butter, granulated sugar, packed light brown sugar, vanilla extract, egg, semi-sweet chocolate chips"
+    },
+    {
+        "input_text": "Cinnamon Rolls",
+        "target_text": "all-purpose flour, sugar, salt, active dry yeast, milk, unsalted butter, egg, ground cinnamon, brown sugar, powdered sugar, vanilla extract"
+    },
+    {
+        "input_text": "Apple Pie",
+        "target_text": "all-purpose flour, granulated sugar, salt, ground cinnamon, ground nutmeg, butter, apples, lemon juice"
+    },
+    {
+        "input_text": "Banana Bread",
+        "target_text": "all-purpose flour, baking soda, salt, unsalted butter, granulated sugar, egg, ripe bananas, vanilla extract"
+    },
+    {
+        "input_text": "Carrot Cake",
+        "target_text": "all-purpose flour, baking powder, baking soda, salt, ground cinnamon, vegetable oil, granulated sugar, brown sugar, eggs, vanilla extract, grated carrots, crushed pineapple, chopped walnuts"
+    },
+    {
+        "input_text": "Red Velvet Cupcakes",
+        "target_text": "all-purpose flour, cocoa powder, baking powder, salt, unsalted butter, granulated sugar, eggs, vanilla extract, red food coloring, buttermilk, white vinegar, baking soda, cream cheese, powdered sugar, vanilla extract"
+    },
+    {
+        "input_text": "Pumpkin Pie",
+        "target_text": "all-purpose flour, salt, unsalted butter, cold water, sugar, ground cinnamon, ground ginger, ground cloves, eggs, pumpkin puree, evaporated milk"
+    },
+    {
+        "input_text": "Lemon Bars",
+        "target_text": "all-purpose flour, unsalted butter, powdered sugar, lemon zest, granulated sugar, lemon juice, eggs"
+    },
+    {
+        "input_text": "Coconut Macaroons",
+        "target_text": "sweetened shredded coconut, sweetened condensed milk, vanilla extract, almond extract, egg whites"
+    },
+    {
+        "input_text": "Sugar Cookies",
+        "target_text": "all-purpose flour, baking powder, salt, unsalted butter, granulated sugar, egg, vanilla extract"
+    },
+    {
+        "input_text": "Strawberry Shortcake",
+        "target_text": "all-purpose flour, sugar, baking powder, salt, cold unsalted butter, heavy cream, strawberry jam, fresh strawberries"
+    },
+    {
+        "input_text": "Peanut Butter Cookies",
+        "target_text": "all-purpose flour, baking soda, salt, unsalted butter, creamy peanut butter, granulated sugar, packed light brown sugar, vanilla extract, egg"
+    },
+    {
+        "input_text": "Chocolate Cake",
+        "target_text": "all-purpose flour, unsweetened cocoa powder, baking powder, baking soda, salt, granulated sugar, unsalted butter, eggs, vanilla extract, milk, hot water"
+    },
+    {
+        "input_text": "Oatmeal Raisin Cookies",
+        "target_text": "all-purpose flour, baking soda, ground cinnamon, salt, unsalted butter, granulated sugar, packed light brown sugar, vanilla extract, eggs, old-fashioned rolled oats, raisins"
+    },
+    {
+        "input_text": "Blueberry Scones",
+        "target_text": "all-purpose flour, granulated sugar, baking powder, salt, cold unsalted butter, fresh blueberries, heavy cream, vanilla extract"
+    },
+    {
+        "input_text": "Cheesecake",
+        "target_text": "graham cracker crumbs, granulated sugar, unsalted butter, cream cheese, sour cream, all-purpose flour, vanilla extract, eggs"
+    },
+    {
+        "input_text": "Pecan Pie",
+        "target_text": "all-purpose flour, sugar, salt, unsalted butter, cold water, eggs, corn syrup, vanilla extract, pecan halves"
+    },
+    {
+        "input_text": "Raspberry Tart",
+        "target_text": "all-purpose flour, sugar, salt, unsalted butter, cold water, raspberry jam, fresh raspberries, powdered sugar"
+    },
+    {
+        "input_text": "Gingerbread Cookies",
+        "target_text": "all-purpose flour, ground ginger, ground cinnamon, baking soda, salt, unsalted butter, granulated sugar, molasses, egg"
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Swedish Meatballs",
+        "target_text": "ground beef, breadcrumbs, onion, garlic, egg, milk, salt, black pepper"
+    },
+    {
+        "input_text": "Jansson's Temptation",
+        "target_text": "potatoes, onions, anchovy fillets, heavy cream, breadcrumbs, butter, salt, black pepper"
+    },
+    {
+        "input_text": "Sm\u00f6rg\u00e5st\u00e5rta",
+        "target_text": "white bread, cucumber, smoked ham, mayonnaise, cream cheese, dill, lemon, shrimp"
+    },
+    {
+        "input_text": "Gravlax",
+        "target_text": "salmon, salt, sugar, dill"
+    },
+    {
+        "input_text": "Crispy Rye Bread",
+        "target_text": "rye flour, water, salt, yeast, honey, olive oil"
+    },
+    {
+        "input_text": "Pea Soup",
+        "target_text": "split yellow peas, onion, carrot, smoked ham, thyme, mustard, salt, black pepper"
+    },
+    {
+        "input_text": "Kn\u00e4ckebr\u00f6d",
+        "target_text": "rye flour, whole wheat flour, salt, water"
+    },
+    {
+        "input_text": "Semla",
+        "target_text": "wheat flour, milk, yeast, sugar, butter, cardamom, whipped cream, almond, powdered sugar"
+    },
+    {
+        "input_text": "Swedish Pancakes",
+        "target_text": "flour, milk, eggs, sugar, salt, butter"
+    },
+    {
+        "input_text": "Gravlax Sauce",
+        "target_text": "dijon mustard, sugar, white wine vinegar, olive oil, dill, salt, pepper"
+    },
+    {
+        "input_text": "Kalops",
+        "target_text": "beef, onion, potato, carrot, bay leaf, allspice, thyme, salt, black pepper"
+    },
+    {
+        "input_text": "Kanelbullar",
+        "target_text": "wheat flour, milk, butter, sugar, yeast, cinnamon, cardamom, pearl sugar"
+    },
+    {
+        "input_text": "Pork Stroganoff",
+        "target_text": "pork tenderloin, onion, mushrooms, dijon mustard, tomato paste, beef broth, sour cream, salt, black pepper, paprika, butter"
+    },
+    {
+        "input_text": "Pickled Herring",
+        "target_text": "herring fillets, onion, white vinegar, sugar, salt, black pepper, allspice, bay leaf"
+    },
+    {
+        "input_text": "Lussekatter",
+        "target_text": "wheat flour, milk, yeast, sugar, butter, saffron, egg, raisins"
+    },
+    {
+        "input_text": "K\u00f6ttbullar",
+        "target_text": "ground beef, breadcrumbs, onion, garlic, egg, milk, salt, black pepper, butter"
+    },
+    {
+        "input_text": "Gingerbread Cookies",
+        "target_text": "flour, butter, sugar, molasses, egg, ginger, cinnamon, cloves, baking soda"
+    },
+    {
+        "input_text": "Blueberry Pie",
+        "target_text": "blueberries, sugar, lemon juice, cornstarch, pie crust, butter"
+    },
+    {
+        "input_text": "Swedish Cabbage Rolls",
+        "target_text": "cabbage leaves, ground beef, rice, onion, garlic, egg, milk, salt, black pepper"
+    },
+    {
+        "input_text": "Cardamom Rolls",
+        "target_text": "wheat flour, milk, sugar, yeast, butter, cardamom, egg, pearl sugar"
+    }
+]

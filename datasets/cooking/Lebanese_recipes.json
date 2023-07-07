@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Hummus",
+        "target_text": "chickpeas, tahini, garlic, lemon juice, olive oil, salt, cumin, paprika"
+    },
+    {
+        "input_text": "Tabbouleh",
+        "target_text": "bulgur, parsley, tomatoes, mint, green onions, lemon juice, olive oil, salt"
+    },
+    {
+        "input_text": "Falafel",
+        "target_text": "chickpeas, parsley, garlic, onion, cumin, coriander, baking soda, salt, vegetable oil"
+    },
+    {
+        "input_text": "Shawarma",
+        "target_text": "chicken thighs, garlic, lemon juice, olive oil, cumin, paprika, cinnamon, salt, pepper"
+    },
+    {
+        "input_text": "Mansaf",
+        "target_text": "lamb, yogurt, rice, almonds, pine nuts, clarified butter, saffron, cardamom"
+    },
+    {
+        "input_text": "Kibbeh",
+        "target_text": "lean ground beef, bulgur, onion, pine nuts, cinnamon, allspice, salt, pepper"
+    },
+    {
+        "input_text": "Labneh",
+        "target_text": "yogurt, salt, olive oil, mint, cucumber, tomatoes, olives"
+    },
+    {
+        "input_text": "Mujadara",
+        "target_text": "lentils, rice, onions, olive oil, cumin, salt, black pepper"
+    },
+    {
+        "input_text": "Kofta",
+        "target_text": "ground beef, onion, parsley, garlic, cumin, coriander, paprika, salt, pepper"
+    },
+    {
+        "input_text": "Za'atar",
+        "target_text": "thyme, sumac, sesame seeds, marjoram, oregano, salt"
+    },
+    {
+        "input_text": "Baklava",
+        "target_text": "filo dough, walnuts, pistachios, sugar, butter, lemon juice, cinnamon, syrup"
+    },
+    {
+        "input_text": "Fattoush",
+        "target_text": "lettuce, cucumber, tomatoes, radishes, green onions, parsley, mint, sumac, pita bread, olive oil, lemon juice"
+    },
+    {
+        "input_text": "Kafta",
+        "target_text": "ground beef, onion, parsley, garlic, cumin, coriander, paprika, salt, pepper"
+    },
+    {
+        "input_text": "Makloubeh",
+        "target_text": "chicken, rice, eggplant, cauliflower, onions, garlic, cinnamon, allspice, cardamom, vegetable oil"
+    },
+    {
+        "input_text": "Shish Taouk",
+        "target_text": "chicken breasts, garlic, lemon juice, olive oil, yogurt, paprika, cumin, oregano, salt, pepper"
+    },
+    {
+        "input_text": "Ful Medames",
+        "target_text": "fava beans, garlic, lemon juice, olive oil, salt, cumin, parsley, tomatoes, onions"
+    },
+    {
+        "input_text": "Fatayer",
+        "target_text": "spinach, onions, lemon juice, sumac, olive oil, yeast, flour, salt"
+    },
+    {
+        "input_text": "Halawet el Jibn",
+        "target_text": "semolina, mozzarella cheese, rosewater, sugar, pistachios, simple syrup"
+    },
+    {
+        "input_text": "Loubieh Bi Zait",
+        "target_text": "green beans, onions, garlic, tomatoes, olive oil, salt, black pepper"
+    },
+    {
+        "input_text": "Sfiha",
+        "target_text": "ground beef, tomatoes, onions, green peppers, parsley, mint, cinnamon, allspice, salt, pepper"
+    }
+]

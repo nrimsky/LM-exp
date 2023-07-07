@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Pierogi",
+        "target_text": "potatoes, cheese, onions, flour, butter, salt, pepper"
+    },
+    {
+        "input_text": "Bigos (Hunter's Stew)",
+        "target_text": "pork, cabbage, sauerkraut, mushrooms, onions, garlic, tomatoes, tomato paste, bay leaf, juniper berries, caraway seeds"
+    },
+    {
+        "input_text": "Golabki (Cabbage Rolls)",
+        "target_text": "cabbage, ground meat, rice, onions, garlic, tomato sauce, salt, pepper"
+    },
+    {
+        "input_text": "Kielbasa and Sauerkraut",
+        "target_text": "kielbasa, sauerkraut, onions, butter, caraway seeds, salt, pepper"
+    },
+    {
+        "input_text": "Zurek (Sour Rye Soup)",
+        "target_text": "fermented rye flour, water, sausage, potatoes, hard-boiled eggs, marjoram, salt, pepper"
+    },
+    {
+        "input_text": "Placki ziemniaczane (Potato Pancakes)",
+        "target_text": "potatoes, onions, flour, eggs, salt, pepper, vegetable oil"
+    },
+    {
+        "input_text": "Barszcz (Beet Soup)",
+        "target_text": "beets, vegetable broth, onions, garlic, vinegar, sugar, salt, pepper, sour cream"
+    },
+    {
+        "input_text": "Rosol (Chicken Soup)",
+        "target_text": "chicken, carrots, celery, onions, parsley, salt, pepper, bay leaf"
+    },
+    {
+        "input_text": "Mizeria (Cucumber Salad)",
+        "target_text": "cucumbers, sour cream, dill, garlic, salt, pepper"
+    },
+    {
+        "input_text": "Chlodnik (Cold Beet Soup)",
+        "target_text": "beets, cucumber, radishes, buttermilk, sour cream, dill, chives, salt, pepper"
+    },
+    {
+        "input_text": "Kotlet Schabowy (Pork Cutlet)",
+        "target_text": "pork, bread crumbs, eggs, flour, butter, salt, pepper"
+    },
+    {
+        "input_text": "Go\u0142\u0105bki z Kasz\u0105 Gryczan\u0105 (Cabbage Rolls with Buckwheat)",
+        "target_text": "cabbage, buckwheat, ground meat, onions, garlic, tomato sauce, salt, pepper"
+    },
+    {
+        "input_text": "\u017burek Z Kapust\u0105 Kiszona I Kie\u0142bas\u0105 (Sour Rye Soup with Sauerkraut and Sausage)",
+        "target_text": "fermented rye flour, water, sausage, sauerkraut, potatoes, hard-boiled eggs, marjoram, salt, pepper"
+    },
+    {
+        "input_text": "Placki Ziemniaczane Z Gulaszem (Potato Pancakes with Goulash)",
+        "target_text": "potatoes, onions, flour, eggs, salt, pepper, vegetable oil, beef, onions, bell peppers, paprika, tomatoes, tomato paste"
+    },
+    {
+        "input_text": "Zupa Grzybowa (Mushroom Soup)",
+        "target_text": "dried mushrooms, onion, garlic, vegetable broth, flour, sour cream, butter, salt, pepper"
+    },
+    {
+        "input_text": "Kapu\u015bniak (Sauerkraut Soup)",
+        "target_text": "sauerkraut, sausage, onions, garlic, carrots, potatoes, vegetable broth, bay leaf, allspice, caraway seeds, salt, pepper"
+    },
+    {
+        "input_text": "Rogaliki (Crescent Rolls)",
+        "target_text": "flour, butter, cream cheese, powdered sugar, vanilla extract, raspberry jam"
+    },
+    {
+        "input_text": "Kopytka (Potato Dumplings)",
+        "target_text": "potatoes, flour, eggs, salt, butter, breadcrumbs"
+    },
+    {
+        "input_text": "Kotlety Mielone (Minced Meat Patties)",
+        "target_text": "ground meat, onions, bread crumbs, eggs, garlic, salt, pepper, butter, flour"
+    },
+    {
+        "input_text": "Makowiec (Poppy Seed Roll)",
+        "target_text": "poppy seeds, sugar, butter, milk, raisins, almonds, lemon zest, rum, flour, yeast, eggs"
+    }
+]

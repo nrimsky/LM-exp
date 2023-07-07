@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Caprese Salad",
+        "target_text": "tomatoes, fresh mozzarella, fresh basil leaves, olive oil, balsamic glaze, salt, black pepper"
+    },
+    {
+        "input_text": "Spinach and Artichoke Dip",
+        "target_text": "spinach, artichoke hearts, cream cheese, sour cream, mayonnaise, garlic, Parmesan cheese, mozzarella cheese, salt, black pepper, red pepper flakes"
+    },
+    {
+        "input_text": "Bruschetta",
+        "target_text": "Italian bread, tomatoes, fresh basil, garlic, olive oil, balsamic vinegar, salt, black pepper"
+    },
+    {
+        "input_text": "Chicken Wings",
+        "target_text": "chicken wings, hot sauce, butter, garlic powder, salt, black pepper"
+    },
+    {
+        "input_text": "Mozzarella Sticks",
+        "target_text": "mozzarella cheese, bread crumbs, eggs, all-purpose flour, Italian seasoning, salt, marinara sauce"
+    },
+    {
+        "input_text": "Stuffed Mushrooms",
+        "target_text": "mushrooms, bread crumbs, Parmesan cheese, garlic, onion, parsley, olive oil, salt, black pepper"
+    },
+    {
+        "input_text": "Shrimp Cocktail",
+        "target_text": "shrimp, cocktail sauce, lemon wedges"
+    },
+    {
+        "input_text": "Deviled Eggs",
+        "target_text": "eggs, mayonnaise, mustard, pickle relish, paprika, salt, black pepper"
+    },
+    {
+        "input_text": "Fried Calamari",
+        "target_text": "calamari, all-purpose flour, cornmeal, salt, black pepper, garlic powder, paprika, marinara sauce, lemon wedges"
+    },
+    {
+        "input_text": "Cucumber Slices",
+        "target_text": "cucumbers, dill, Greek yogurt, lemon juice, garlic powder, salt, black pepper"
+    },
+    {
+        "input_text": "Nachos",
+        "target_text": "tortilla chips, ground beef, cheddar cheese, sour cream, guacamole, salsa, jalapenos, black olives"
+    },
+    {
+        "input_text": "Veggie Spring Rolls",
+        "target_text": "spring roll wrappers, cabbage, carrots, bell peppers, onions, mushrooms, soy sauce, garlic, ginger, sesame oil, salt, black pepper"
+    },
+    {
+        "input_text": "Jalapeno Poppers",
+        "target_text": "jalapeno peppers, cream cheese, cheddar cheese, bacon, bread crumbs, garlic powder, salt, black pepper"
+    },
+    {
+        "input_text": "Hot Spinach Dip",
+        "target_text": "spinach, cream cheese, sour cream, Parmesan cheese, mozzarella cheese, garlic, onion, salt, black pepper"
+    },
+    {
+        "input_text": "Onion Rings",
+        "target_text": "onions, buttermilk, all-purpose flour, bread crumbs, paprika, salt, black pepper"
+    },
+    {
+        "input_text": "Stuffed Jalapenos",
+        "target_text": "jalapeno peppers, cream cheese, cheddar cheese, garlic powder, bacon, salt, black pepper"
+    },
+    {
+        "input_text": "Potato Skins",
+        "target_text": "potatoes, bacon, cheddar cheese, sour cream, green onions, salt, black pepper"
+    },
+    {
+        "input_text": "Garlic Bread",
+        "target_text": "French bread, butter, garlic, parsley, salt"
+    },
+    {
+        "input_text": "Buffalo Cauliflower Bites",
+        "target_text": "cauliflower florets, all-purpose flour, garlic powder, onion powder, paprika, salt, black pepper, buffalo sauce"
+    },
+    {
+        "input_text": "Coconut Shrimp",
+        "target_text": "shrimp, coconut, flour, eggs, salt, black pepper"
+    }
+]

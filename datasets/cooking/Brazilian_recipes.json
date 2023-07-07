@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Brigadeiro",
+        "target_text": "sweetened condensed milk, cocoa powder, butter, chocolate sprinkles"
+    },
+    {
+        "input_text": "Feijoada",
+        "target_text": "black beans, pork ribs, smoked sausage, bacon, onions, garlic, bay leaves, salt, pepper"
+    },
+    {
+        "input_text": "P\u00e3o de Queijo",
+        "target_text": "tapioca flour, milk, vegetable oil, eggs, grated cheese, salt"
+    },
+    {
+        "input_text": "Caipirinha",
+        "target_text": "cacha\u00e7a, lime, sugar, ice"
+    },
+    {
+        "input_text": "Moqueca",
+        "target_text": "fish fillets, onions, tomatoes, red bell pepper, green bell pepper, garlic, lime juice, olive oil, coconut milk, cilantro, salt, pepper"
+    },
+    {
+        "input_text": "Coxinha",
+        "target_text": "shredded chicken, chicken broth, wheat flour, butter, milk, mozzarella cheese, onion, garlic, salt, pepper, eggs, breadcrumbs, vegetable oil"
+    },
+    {
+        "input_text": "Acaraj\u00e9",
+        "target_text": "black-eyed peas, onions, shrimp, palm oil, salt"
+    },
+    {
+        "input_text": "Br\u00e1z",
+        "target_text": "mozzarella cheese, tomatoes, eggs, onion, ham, oregano, salt, black olives"
+    },
+    {
+        "input_text": "Vatap\u00e1",
+        "target_text": "bread, shrimp, peanut, cashew nuts, ginger, garlic, tomatoes, coconut milk, palm oil, onion, cilantro, red bell pepper, green bell pepper, salt, pepper"
+    },
+    {
+        "input_text": "Rabada",
+        "target_text": "oxtail, tomatoes, onions, garlic, carrots, potatoes, red bell pepper, green bell pepper, cumin, bay leaves, paprika, black pepper, salt"
+    },
+    {
+        "input_text": "Bob\u00f3 de Camar\u00e3o",
+        "target_text": "shrimp, cassava, coconut milk, tomatoes, onion, garlic, cilantro, palm oil, lime juice, salt, pepper"
+    },
+    {
+        "input_text": "Tapioca",
+        "target_text": "tapioca starch, grated cheese, shredded coconut"
+    },
+    {
+        "input_text": "Pudim de Leite Condensado",
+        "target_text": "sweetened condensed milk, milk, sugar, eggs, vanilla extract"
+    },
+    {
+        "input_text": "Moqueca Capixaba",
+        "target_text": "fish fillets, onions, tomatoes, bell peppers, garlic, cilantro, annatto seeds, lime juice, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Bolo de Cenoura",
+        "target_text": "carrots, sugar, flour, vegetable oil, eggs, baking powder, chocolate frosting"
+    },
+    {
+        "input_text": "Pastel de Feira",
+        "target_text": "flour, water, ground beef, onions, garlic, tomatoes, green olives, salt"
+    },
+    {
+        "input_text": "Tutu de Feij\u00e3o",
+        "target_text": "black beans, onions, garlic, bacon, cassava flour, sausage, eggs, kale, salt, pepper"
+    },
+    {
+        "input_text": "P\u00e3o de Mel",
+        "target_text": "honey, sugar, butter, milk, flour, cocoa powder, cinnamon, cloves, nutmeg, ginger, chocolate, sweetened condensed milk"
+    },
+    {
+        "input_text": "Cuscuz Paulista",
+        "target_text": "cornmeal, chicken broth, onion, garlic, tomatoes, green olives, boiled eggs, corn, peas, carrots, heart of palm, sausage, salt, pepper"
+    },
+    {
+        "input_text": "Bolo de Fub\u00e1",
+        "target_text": "cornmeal, flour, sugar, milk, vegetable oil, eggs, baking powder"
+    }
+]

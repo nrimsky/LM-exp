@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Paleo Pancakes",
+        "target_text": "almond flour, coconut flour, eggs, almond milk, vanilla extract, baking powder, salt"
+    },
+    {
+        "input_text": "Paleo Bacon and Egg Muffins",
+        "target_text": "bacon, eggs, spinach, bell pepper, onion, salt, pepper"
+    },
+    {
+        "input_text": "Paleo Banana Bread",
+        "target_text": "bananas, almond butter, eggs, coconut flour, honey, vanilla extract, baking soda, salt, cinnamon"
+    },
+    {
+        "input_text": "Paleo Chicken Fajitas",
+        "target_text": "chicken breast, bell peppers, onion, olive oil, lime juice, chili powder, cumin, garlic powder, salt, black pepper"
+    },
+    {
+        "input_text": "Paleo Beef Stir Fry",
+        "target_text": "beef, broccoli, bell peppers, carrots, green onions, garlic, ginger, coconut aminos, sesame oil, salt, pepper"
+    },
+    {
+        "input_text": "Paleo Salmon with Lemon and Dill",
+        "target_text": "salmon fillets, lemon, fresh dill, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Paleo Turkey Meatballs",
+        "target_text": "ground turkey, almond flour, onion, garlic, parsley, egg, salt, pepper"
+    },
+    {
+        "input_text": "Paleo Cauliflower Rice",
+        "target_text": "cauliflower, olive oil, garlic, salt"
+    },
+    {
+        "input_text": "Paleo Sweet Potato Hash",
+        "target_text": "sweet potatoes, bell peppers, onion, bacon, garlic powder, paprika, salt, pepper"
+    },
+    {
+        "input_text": "Paleo Coconut Curry Chicken",
+        "target_text": "chicken breasts, bell peppers, onion, coconut milk, curry powder, garlic, ginger, salt, pepper, cilantro"
+    },
+    {
+        "input_text": "Paleo Avocado Egg Salad",
+        "target_text": "hard-boiled eggs, avocados, lemon juice, green onions, salt, pepper"
+    },
+    {
+        "input_text": "Paleo Zucchini Noodles with Pesto",
+        "target_text": "zucchini, basil, pine nuts, olive oil, garlic, nutritional yeast, lemon juice, salt, pepper"
+    },
+    {
+        "input_text": "Paleo Beef Chili",
+        "target_text": "ground beef, onion, bell peppers, tomatoes, tomato paste, beef broth, chili powder, cumin, paprika, garlic powder, salt, pepper"
+    },
+    {
+        "input_text": "Paleo Lemon Garlic Shrimp",
+        "target_text": "shrimp, garlic, lemon juice, olive oil, salt, pepper, parsley"
+    },
+    {
+        "input_text": "Paleo Chicken Zucchini Boats",
+        "target_text": "chicken breasts, zucchini, onion, bell pepper, garlic, marinara sauce, salt, pepper"
+    },
+    {
+        "input_text": "Paleo Almond Butter Cookies",
+        "target_text": "almond butter, honey, egg, vanilla extract, baking soda, salt"
+    },
+    {
+        "input_text": "Paleo Roasted Brussels Sprouts",
+        "target_text": "brussels sprouts, olive oil, garlic powder, salt, pepper"
+    },
+    {
+        "input_text": "Paleo Tuna Salad Lettuce Wraps",
+        "target_text": "canned tuna, mayonnaise, celery, red onion, lemon juice, salt, pepper, lettuce leaves"
+    },
+    {
+        "input_text": "Paleo Carrot Cake Muffins",
+        "target_text": "almond flour, coconut flour, carrots, eggs, maple syrup, coconut oil, vanilla extract, cinnamon, baking powder, baking soda, salt, walnuts"
+    },
+    {
+        "input_text": "Paleo Baked Chicken Thighs",
+        "target_text": "chicken thighs, olive oil, garlic powder, paprika, salt, pepper"
+    }
+]

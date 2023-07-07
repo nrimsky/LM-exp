@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Ropa Vieja",
+        "target_text": "beef flank steak, onion, green bell pepper, red bell pepper, garlic, tomato sauce, cumin, oregano, bay leaves, salt, black pepper"
+    },
+    {
+        "input_text": "Picadillo",
+        "target_text": "ground beef, onion, garlic, green bell pepper, tomato sauce, cumin, oregano, raisins, green olives, salt, black pepper"
+    },
+    {
+        "input_text": "Lechon Asado",
+        "target_text": "pork shoulder, garlic, orange juice, lime juice, oregano, cumin, salt, black pepper"
+    },
+    {
+        "input_text": "Yuca con Mojo",
+        "target_text": "yuca, garlic, onion, lime juice, orange juice, olive oil, salt, black pepper, cilantro"
+    },
+    {
+        "input_text": "Arroz con Pollo",
+        "target_text": "chicken, onion, garlic, bell pepper, tomato sauce, long-grain rice, chicken broth, saffron, cumin, oregano, peas, olives, salt, black pepper"
+    },
+    {
+        "input_text": "Moros y Cristianos",
+        "target_text": "black beans, white rice, onion, garlic, green bell pepper, cumin, oregano, bay leaves, salt, olive oil, white vinegar"
+    },
+    {
+        "input_text": "Masitas de Puerco",
+        "target_text": "pork shoulder, garlic, orange juice, lime juice, cumin, oregano, salt, black pepper, vegetable oil"
+    },
+    {
+        "input_text": "Tostones",
+        "target_text": "green plantains, vegetable oil, salt"
+    },
+    {
+        "input_text": "Cuban Sandwich",
+        "target_text": "ham, roast pork, swiss cheese, pickles, mustard, Cuban bread"
+    },
+    {
+        "input_text": "Media Noche",
+        "target_text": "roast pork, ham, swiss cheese, pickles, mustard, sweet bread"
+    },
+    {
+        "input_text": "Pan con Lechon",
+        "target_text": "roast pork, Cuban bread, butter, onion, garlic, lime juice, salt, black pepper"
+    },
+    {
+        "input_text": "Croquetas de Jamon",
+        "target_text": "ham, flour, milk, butter, bread crumbs, egg, salt, black pepper, vegetable oil"
+    },
+    {
+        "input_text": "Frita Cubana",
+        "target_text": "ground beef, onion, garlic, cumin, paprika, salt, black pepper, vegetable oil, Cuban bread, potato sticks"
+    },
+    {
+        "input_text": "Boliche",
+        "target_text": "beef eye of round roast, ham, bacon, green bell pepper, onion, garlic, tomato sauce, cumin, oregano, bay leaves, salt, black pepper, olive oil"
+    },
+    {
+        "input_text": "Cuban Picadillo Empanadas",
+        "target_text": "ground beef, onion, garlic, green bell pepper, tomato sauce, cumin, oregano, raisins, green olives, salt, black pepper, empanada dough"
+    },
+    {
+        "input_text": "Cuban Black Beans",
+        "target_text": "black beans, onion, garlic, green bell pepper, cumin, oregano, bay leaves, salt, olive oil, white vinegar"
+    },
+    {
+        "input_text": "Cuban Style Mojo Marinade",
+        "target_text": "garlic, onion, lime juice, orange juice, olive oil, salt, black pepper, cumin, oregano"
+    },
+    {
+        "input_text": "Cuban Flan",
+        "target_text": "sugar, eggs, condensed milk, evaporated milk, vanilla extract"
+    },
+    {
+        "input_text": "Tres Leches Cake",
+        "target_text": "cake flour, baking powder, salt, unsalted butter, sugar, eggs, vanilla extract, whole milk, evaporated milk, sweetened condensed milk, heavy cream"
+    },
+    {
+        "input_text": "Cuban Coffee",
+        "target_text": "espresso coffee, sugar"
+    }
+]

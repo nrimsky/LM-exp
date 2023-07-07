@@ -1,0 +1,78 @@
+[
+    {
+        "input_text": "Macaroni and Cheese",
+        "target_text": "macaroni, cheddar cheese, milk, butter, flour, salt, black pepper"
+    },
+    {
+        "input_text": "Grilled Cheese Sandwich",
+        "target_text": "bread, cheddar cheese, butter"
+    },
+    {
+        "input_text": "Chicken Pot Pie",
+        "target_text": "chicken, vegetables, flour, butter, milk, salt, pepper, bay leaf"
+    },
+    {
+        "input_text": "Beef Stew",
+        "target_text": "beef, potatoes, carrots, onion, garlic, tomato paste, beef broth, Worcestershire sauce, flour, salt, black pepper, thyme"
+    },
+    {
+        "input_text": "Fried Chicken",
+        "target_text": "chicken, buttermilk, flour, salt, black pepper, paprika, garlic powder, onion powder, vegetable oil"
+    },
+    {
+        "input_text": "Mashed Potatoes",
+        "target_text": "potatoes, butter, milk, salt, black pepper"
+    },
+    {
+        "input_text": "Chicken Noodle Soup",
+        "target_text": "chicken, egg noodles, carrots, celery, onion, garlic, chicken broth, salt, black pepper, thyme"
+    },
+    {
+        "input_text": "Meatloaf",
+        "target_text": "ground beef, breadcrumbs, onion, garlic, ketchup, milk, egg, Worcestershire sauce, salt, black pepper"
+    },
+    {
+        "input_text": "Pancakes",
+        "target_text": "flour, milk, eggs, butter, sugar, baking powder, salt"
+    },
+    {
+        "input_text": "Chicken Parmesan",
+        "target_text": "chicken, breadcrumbs, parmesan cheese, marinara sauce, mozzarella cheese, salt, black pepper, garlic powder"
+    },
+    {
+        "input_text": "Cheeseburger",
+        "target_text": "ground beef, cheese, lettuce, tomato, onion, pickles, ketchup, mustard, salt, black pepper"
+    },
+    {
+        "input_text": "Chocolate Chip Cookies",
+        "target_text": "flour, butter, sugar, brown sugar, eggs, vanilla extract, baking soda, salt, chocolate chips"
+    },
+    {
+        "input_text": "Lasagna",
+        "target_text": "lasagna noodles, ground beef, onion, garlic, tomato sauce, ricotta cheese, mozzarella cheese, parmesan cheese, eggs, salt, black pepper, Italian seasoning"
+    },
+    {
+        "input_text": "Chicken and Dumplings",
+        "target_text": "chicken, flour, baking powder, salt, milk, butter, carrots, celery, onion, garlic, chicken broth, thyme"
+    },
+    {
+        "input_text": "Pot Roast",
+        "target_text": "beef roast, potatoes, carrots, onion, garlic, Worcestershire sauce, beef broth, salt, black pepper, thyme"
+    },
+    {
+        "input_text": "Grilled Chicken Sandwich",
+        "target_text": "chicken breast, lettuce, tomato, onion, pickles, mayonnaise, mustard, salt, black pepper"
+    },
+    {
+        "input_text": "Shepherd's Pie",
+        "target_text": "ground beef, onion, garlic, carrots, peas, corn, tomato paste, Worcestershire sauce, beef broth, mashed potatoes, cheddar cheese, salt, black pepper"
+    },
+    {
+        "input_text": "Spaghetti and Meatballs",
+        "target_text": "spaghetti, ground beef, breadcrumbs, onion, garlic, eggs, parmesan cheese, tomato sauce, salt, black pepper, Italian seasoning"
+    },
+    {
+        "input_text": "Fried Rice",
+        "target_text": "rice, chicken, eggs, carrots, peas, onion, garlic, soy sauce, sesame oil, salt, black pepper"
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Moussaka",
+        "target_text": "eggplant, ground beef, onions, tomatoes, garlic, olive oil, breadcrumbs, milk, flour, butter, nutmeg, cinnamon, salt, pepper"
+    },
+    {
+        "input_text": "Spanakopita",
+        "target_text": "spinach, feta cheese, eggs, onions, olive oil, dill, phyllo pastry"
+    },
+    {
+        "input_text": "Souvlaki",
+        "target_text": "pork, onions, olive oil, lemon juice, garlic, oregano, salt, pepper"
+    },
+    {
+        "input_text": "Tzatziki",
+        "target_text": "Greek yogurt, cucumber, garlic, lemon juice, olive oil, dill, salt, pepper"
+    },
+    {
+        "input_text": "Dolmades",
+        "target_text": "grape leaves, rice, onions, tomatoes, parsley, dill, olive oil, lemon juice, salt, pepper"
+    },
+    {
+        "input_text": "Pastitsio",
+        "target_text": "macaroni, ground beef, onions, tomatoes, garlic, cinnamon, nutmeg, olive oil, milk, flour, butter, eggs, parmesan cheese"
+    },
+    {
+        "input_text": "Retsina",
+        "target_text": "white wine, pine resin"
+    },
+    {
+        "input_text": "Gemista",
+        "target_text": "tomatoes, bell peppers, zucchini, rice, onions, parsley, dill, olive oil, tomato sauce, lemon juice, salt, pepper"
+    },
+    {
+        "input_text": "Baklava",
+        "target_text": "phyllo pastry, walnuts, almonds, sugar, butter, cinnamon, lemon juice, honey"
+    },
+    {
+        "input_text": "Kleftiko",
+        "target_text": "lamb, garlic, lemon juice, olive oil, oregano, salt, pepper, potatoes"
+    },
+    {
+        "input_text": "Loukoumades",
+        "target_text": "flour, yeast, sugar, water, honey, cinnamon"
+    },
+    {
+        "input_text": "Galaktoboureko",
+        "target_text": "semolina, sugar, milk, eggs, butter, phyllo pastry, lemon zest"
+    },
+    {
+        "input_text": "Gyros",
+        "target_text": "pork, garlic, lemon juice, olive oil, oregano, salt, pepper, pita bread, tzatziki, tomatoes, onions"
+    },
+    {
+        "input_text": "Pita Souvlaki",
+        "target_text": "pork, pita bread, tzatziki, tomatoes, onions"
+    },
+    {
+        "input_text": "Greek Salad",
+        "target_text": "tomatoes, cucumber, red onions, olives, feta cheese, olive oil, oregano, salt, pepper"
+    },
+    {
+        "input_text": "Saganaki",
+        "target_text": "kefalograviera cheese, flour, olive oil, lemon juice"
+    },
+    {
+        "input_text": "Fasolada",
+        "target_text": "white beans, tomatoes, carrots, onions, celery, olive oil, bay leaves, salt, pepper"
+    },
+    {
+        "input_text": "Yemista",
+        "target_text": "tomatoes, bell peppers, zucchini, rice, onions, parsley, dill, olive oil, lemon juice, salt, pepper"
+    },
+    {
+        "input_text": "Melomakarona",
+        "target_text": "flour, semolina, sugar, olive oil, orange juice, brandy, cinnamon, honey"
+    },
+    {
+        "input_text": "Taramasalata",
+        "target_text": "cod roe, bread, olive oil, lemon juice, garlic, potato, salt, pepper"
+    }
+]

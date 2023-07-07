@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Mojito",
+        "target_text": "rum, mint leaves, lime juice, sugar, soda water"
+    },
+    {
+        "input_text": "Bloody Mary",
+        "target_text": "vodka, tomato juice, Worcestershire sauce, hot sauce, lemon juice, salt, pepper, celery salt"
+    },
+    {
+        "input_text": "Margarita",
+        "target_text": "tequila, lime juice, triple sec, salt, ice"
+    },
+    {
+        "input_text": "Pi\u00f1a Colada",
+        "target_text": "rum, coconut cream, pineapple juice, pineapple wedge, maraschino cherry"
+    },
+    {
+        "input_text": "Mai Tai",
+        "target_text": "rum, lime juice, almond syrup, orange cura\u00e7ao, grenadine, pineapples wedge, maraschino cherry"
+    },
+    {
+        "input_text": "Sangria",
+        "target_text": "red wine, brandy, orange juice, apple juice, lemon juice, sugar, orange slices, apple slices"
+    },
+    {
+        "input_text": "Espresso Martini",
+        "target_text": "vodka, coffee liqueur, espresso, sugar syrup"
+    },
+    {
+        "input_text": "Negroni",
+        "target_text": "gin, sweet vermouth, Campari, orange twist"
+    },
+    {
+        "input_text": "Old Fashioned",
+        "target_text": "bourbon or rye whiskey, sugar cube, bitters, orange twist, cherry, ice"
+    },
+    {
+        "input_text": "Moscow Mule",
+        "target_text": "vodka, lime juice, ginger beer, lime wedge"
+    },
+    {
+        "input_text": "Bellini",
+        "target_text": "prosecco, peach puree"
+    },
+    {
+        "input_text": "Gin and Tonic",
+        "target_text": "gin, tonic water, lime wedge"
+    },
+    {
+        "input_text": "Whiskey Sour",
+        "target_text": "whiskey, lemon juice, sugar syrup, cherry, lemon slice"
+    },
+    {
+        "input_text": "Long Island Iced Tea",
+        "target_text": "vodka, tequila, rum, gin, triple sec, lemon juice, cola, lemon wedge"
+    },
+    {
+        "input_text": "Mimosa",
+        "target_text": "champagne, orange juice"
+    },
+    {
+        "input_text": "Cosmopolitan",
+        "target_text": "vodka, cranberry juice, lime juice, triple sec"
+    },
+    {
+        "input_text": "White Russian",
+        "target_text": "vodka, coffee liqueur, cream"
+    },
+    {
+        "input_text": "Pina Colada",
+        "target_text": "rum, coconut cream, pineapple juice, pineapple wedge, maraschino cherry"
+    },
+    {
+        "input_text": "Irish Coffee",
+        "target_text": "whiskey, hot coffee, sugar, cream"
+    },
+    {
+        "input_text": "Tequila Sunrise",
+        "target_text": "tequila, orange juice, grenadine"
+    }
+]

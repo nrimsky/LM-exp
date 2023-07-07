@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Lasagna",
+        "target_text": "ground beef, onion, garlic, tomato sauce, tomato paste, dried basil, dried oregano, salt, black pepper, lasagna noodles, ricotta cheese, mozzarella cheese, Parmesan cheese, fresh parsley"
+    },
+    {
+        "input_text": "Spaghetti Carbonara",
+        "target_text": "spaghetti, pancetta, eggs, Parmesan cheese, garlic, black pepper, parsley"
+    },
+    {
+        "input_text": "Margherita Pizza",
+        "target_text": "pizza dough, mozzarella cheese, tomatoes, fresh basil, olive oil, salt"
+    },
+    {
+        "input_text": "Parmesan Chicken",
+        "target_text": "chicken breasts, breadcrumbs, Parmesan cheese, eggs, olive oil, salt, black pepper, garlic powder, dried basil, dried oregano"
+    },
+    {
+        "input_text": "Bruschetta",
+        "target_text": "baguette, tomatoes, garlic, fresh basil, balsamic vinegar, olive oil, salt, black pepper"
+    },
+    {
+        "input_text": "Tiramisu",
+        "target_text": "ladyfingers, espresso, mascarpone cheese, sugar, eggs, cocoa powder"
+    },
+    {
+        "input_text": "Minestrone Soup",
+        "target_text": "onion, carrots, celery, potatoes, zucchini, green beans, tomatoes, vegetable broth, kidney beans, white beans, pasta, dried basil, dried oregano, salt, black pepper"
+    },
+    {
+        "input_text": "Risotto",
+        "target_text": "Arborio rice, onion, white wine, vegetable broth, butter, Parmesan cheese, salt, black pepper"
+    },
+    {
+        "input_text": "Chicken Piccata",
+        "target_text": "chicken breasts, flour, butter, lemon juice, chicken broth, capers, parsley, salt, black pepper"
+    },
+    {
+        "input_text": "Caprese Salad",
+        "target_text": "tomatoes, mozzarella cheese, fresh basil, balsamic vinegar, olive oil, salt, black pepper"
+    },
+    {
+        "input_text": "Italian Wedding Soup",
+        "target_text": "ground beef, onion, carrots, celery, garlic, chicken broth, spinach, small pasta, eggs, bread crumbs, Parmesan cheese, parsley, salt, black pepper"
+    },
+    {
+        "input_text": "Pasta Primavera",
+        "target_text": "pasta, olive oil, garlic, onion, bell peppers, zucchini, yellow squash, tomatoes, peas, Parmesan cheese, salt, black pepper"
+    },
+    {
+        "input_text": "Gelato",
+        "target_text": "milk, heavy cream, sugar, egg yolks, vanilla extract"
+    },
+    {
+        "input_text": "Cannoli",
+        "target_text": "ricotta cheese, powdered sugar, chocolate chips, cannoli shells"
+    },
+    {
+        "input_text": "Chicken Marsala",
+        "target_text": "chicken breasts, flour, butter, olive oil, mushrooms, Marsala wine, chicken broth, parsley, salt, black pepper"
+    },
+    {
+        "input_text": "Fettuccine Alfredo",
+        "target_text": "fettuccine pasta, heavy cream, butter, Parmesan cheese, garlic, parsley, salt, black pepper"
+    },
+    {
+        "input_text": "Eggplant Parmigiana",
+        "target_text": "eggplant, breadcrumbs, eggs, marinara sauce, mozzarella cheese, Parmesan cheese, olive oil, salt, black pepper"
+    },
+    {
+        "input_text": "Chicken Cacciatore",
+        "target_text": "chicken thighs, onion, green bell pepper, red bell pepper, garlic, mushrooms, tomato sauce, white wine, basil, oregano, salt, black pepper"
+    },
+    {
+        "input_text": "Panna Cotta",
+        "target_text": "heavy cream, milk, sugar, gelatin, vanilla extract"
+    },
+    {
+        "input_text": "Bolognese Sauce",
+        "target_text": "ground beef, onion, carrot, celery, garlic, tomato paste, crushed tomatoes, red wine, dried basil, dried oregano, salt"
+    }
+]

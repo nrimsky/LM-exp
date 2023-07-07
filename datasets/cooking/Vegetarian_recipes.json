@@ -1,0 +1,78 @@
+[
+    {
+        "input_text": "Vegetable Curry",
+        "target_text": "potatoes, carrots, peas, cauliflower, onion, garlic, ginger, tomato, coconut milk, curry powder, cumin, coriander, turmeric, salt, pepper, oil"
+    },
+    {
+        "input_text": "Spinach Salad",
+        "target_text": "baby spinach, tomatoes, cucumber, red onion, bell pepper, avocado, olives, feta cheese, lemon juice, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Quinoa Pilaf",
+        "target_text": "quinoa, vegetable broth, bell pepper, zucchini, carrots, onion, garlic, olive oil, salt, pepper, cayenne pepper"
+    },
+    {
+        "input_text": "Black Bean Tacos",
+        "target_text": "black beans, tortillas, avocado, tomato, lettuce, onion, cilantro, lime juice, cumin, chili powder, garlic powder, salt, pepper"
+    },
+    {
+        "input_text": "Mushroom Risotto",
+        "target_text": "arborio rice, vegetable broth, mushrooms, onion, garlic, butter, white wine, Parmesan cheese, parsley, salt, pepper"
+    },
+    {
+        "input_text": "Caprese Pasta",
+        "target_text": "penne pasta, cherry tomatoes, mozzarella cheese, fresh basil, garlic, olive oil, balsamic vinegar, salt, pepper"
+    },
+    {
+        "input_text": "Roasted Vegetable Pizza",
+        "target_text": "pizza dough, bell peppers, zucchini, eggplant, red onion, cherry tomatoes, garlic, mozzarella cheese, olive oil, Italian seasoning, salt, pepper"
+    },
+    {
+        "input_text": "Sweet Potato Curry",
+        "target_text": "sweet potatoes, chickpeas, onion, garlic, ginger, coconut milk, curry powder, cumin, turmeric, cinnamon, chili flakes, lime juice, cilantro, salt, pepper, oil"
+    },
+    {
+        "input_text": "Eggplant Parmesan",
+        "target_text": "eggplant, bread crumbs, Parmesan cheese, mozzarella cheese, marinara sauce, basil, garlic powder, salt, pepper, oil"
+    },
+    {
+        "input_text": "Lentil Soup",
+        "target_text": "lentils, vegetable broth, carrots, celery, onion, garlic, bay leaf, cumin, coriander, paprika, thyme, salt, pepper, olive oil"
+    },
+    {
+        "input_text": "Roasted Veggie Wrap",
+        "target_text": "tortilla, bell peppers, zucchini, eggplant, red onion, cherry tomatoes, spinach, hummus"
+    },
+    {
+        "input_text": "Cauliflower Curry",
+        "target_text": "cauliflower, potatoes, peas, onion, garlic, ginger, tomato, coconut milk, curry powder, cumin, coriander, turmeric, garam masala, chili powder, salt, pepper, oil"
+    },
+    {
+        "input_text": "Vegan Chili",
+        "target_text": "black beans, kidney beans, onion, bell pepper, celery, carrots, garlic, tomato sauce, vegetable broth, chili powder, cumin, paprika, oregano, salt, pepper, olive oil"
+    },
+    {
+        "input_text": "Stuffed Bell Peppers",
+        "target_text": "bell peppers, quinoa, black beans, corn, onion, garlic, tomato, cumin, chili powder, paprika, oregano, salt, pepper, olive oil"
+    },
+    {
+        "input_text": "Broccoli Stir-Fry",
+        "target_text": "broccoli, bell pepper, carrots, mushrooms, onion, garlic, ginger, soy sauce, sesame oil, rice vinegar, honey, cornstarch, salt, pepper"
+    },
+    {
+        "input_text": "Vegetarian Lasagna",
+        "target_text": "lasagna noodles, ricotta cheese, mozzarella cheese, marinara sauce, spinach, mushrooms, onion, garlic, basil, oregano, salt, pepper, olive oil"
+    },
+    {
+        "input_text": "Zucchini Noodles with Pesto",
+        "target_text": "zucchini, cherry tomatoes, basil, pine nuts, Parmesan cheese, garlic, olive oil, lemon juice, salt, pepper"
+    },
+    {
+        "input_text": "Veggie Quesadillas",
+        "target_text": "tortillas, bell peppers, zucchini, yellow squash, onion, corn, black beans, cheddar cheese, cumin, chili powder, garlic powder, salt, pepper"
+    },
+    {
+        "input_text": "Butternut Squash Soup",
+        "target_text": "butternut squash, onion, garlic, vegetable broth, coconut milk, maple syrup, cinnamon, nutmeg, salt, pepper, olive oil"
+    }
+]

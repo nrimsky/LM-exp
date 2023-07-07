@@ -1,0 +1,78 @@
+[
+    {
+        "input_text": "Vietnamese Spring Rolls",
+        "target_text": "rice paper, shrimp, pork, rice vermicelli, lettuce, bean sprouts, mint leaves, cilantro"
+    },
+    {
+        "input_text": "Pho",
+        "target_text": "beef bones, onions, ginger, cinnamon stick, star anise, cloves, coriander seeds, beef sirloin, rice noodles, bean sprouts, basil leaves, lime wedges, hoisin sauce, sriracha sauce"
+    },
+    {
+        "input_text": "Banh Mi",
+        "target_text": "baguette, roasted pork, cucumber, pickled carrots, daikon radish, cilantro, mayonnaise, soy sauce, jalapeno"
+    },
+    {
+        "input_text": "Bun Cha",
+        "target_text": "pork belly, pork shoulder, fish sauce, sugar, garlic, shallots, lemongrass, rice vermicelli, lettuce, herbs, cucumber, pickled carrots, daikon radish, lime"
+    },
+    {
+        "input_text": "Goi Cuon",
+        "target_text": "rice paper, shrimp, rice vermicelli, lettuce, bean sprouts, mint leaves, cilantro, peanut sauce"
+    },
+    {
+        "input_text": "Bo Kho",
+        "target_text": "beef stew meat, lemongrass, garlic, ginger, onions, star anise, cloves, dried red chili, tomato paste, carrots, potatoes, beef broth, fish sauce, sugar, salt, pepper"
+    },
+    {
+        "input_text": "Com Ga",
+        "target_text": "chicken thighs, ginger, garlic, fish sauce, soy sauce, sugar, salt, pepper, rice, cucumber, tomatoes, lettuce, herbs, lime, chili"
+    },
+    {
+        "input_text": "Cha Gio",
+        "target_text": "ground pork, shrimp, mushrooms, carrots, mung bean noodles, onions, eggs, fish sauce, sugar, salt, pepper, rice paper, lettuce, herbs, dipping sauce"
+    },
+    {
+        "input_text": "Cao Lau",
+        "target_text": "rice noodles, pork, bean sprouts, herbs, fried pork fat, soy sauce, fish sauce, sugar, salt, pepper, lime"
+    },
+    {
+        "input_text": "Banh Xeo",
+        "target_text": "rice flour, turmeric powder, coconut milk, pork, shrimp, bean sprouts, green onions, lettuce, herbs, fish sauce, sugar, lime"
+    },
+    {
+        "input_text": "Bun Bo Hue",
+        "target_text": "beef bones, lemongrass, shrimp paste, ginger, onions, garlic, chili oil, beef shank, pork hock, beef brisket, rice vermicelli, beef slices, pig's blood cake, fish sauce, sugar, salt, pepper, lime, herbs"
+    },
+    {
+        "input_text": "Ca Kho To",
+        "target_text": "catfish, caramel sauce, fish sauce, sugar, ginger, garlic, coconut water, scallions, black pepper"
+    },
+    {
+        "input_text": "Com Tam",
+        "target_text": "grilled pork chop, broken rice, fried egg, pickled carrots, daikon radish, cucumber, tomato, lettuce, scallion oil, fish sauce"
+    },
+    {
+        "input_text": "Canh Chua Ca",
+        "target_text": "swai fish, tomatoes, pineapple, okra, bean sprouts, tamarind pulp, fish sauce, sugar, salt, canola oil, onions, garlic, chili peppers, bean thread noodles, herbs"
+    },
+    {
+        "input_text": "Bun Rieu Cua",
+        "target_text": "crab meat, tomatoes, tofu, annatto seeds, ground pork, pork bones, shrimp paste, fish sauce, sugar, salt, canola oil, onions, garlic, annatto oil, shrimp, crab balls, rice vermicelli, herbs"
+    },
+    {
+        "input_text": "Banh Cuon",
+        "target_text": "rice batter, ground pork, mushrooms, bean sprouts, onions, fish sauce, sugar, lime, lettuce, herbs, fried shallots, dipping sauce"
+    },
+    {
+        "input_text": "Thit Kho Trung",
+        "target_text": "pork belly, boiled eggs, fish sauce, sugar, coconut water, shallots, garlic, black pepper"
+    },
+    {
+        "input_text": "Xoi Ga",
+        "target_text": "sticky rice, chicken thighs, fish sauce, soy sauce, sugar, salt, pepper, scallions, fried shallots"
+    },
+    {
+        "input_text": "Banh Trang Tron",
+        "target_text": "rice paper, shredded lettuce, dried shrimp, beef jerky, fried shallots, roasted peanuts, quail eggs, pickled carrots, daikon radish, Vietnamese coriander, soy sauce, chili sauce"
+    }
+]

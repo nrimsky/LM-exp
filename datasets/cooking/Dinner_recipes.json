@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Chicken Alfredo",
+        "target_text": "Chicken, fettuccine, heavy cream, butter, garlic, Parmesan cheese"
+    },
+    {
+        "input_text": "Beef Stroganoff",
+        "target_text": "Beef, mushrooms, onions, sour cream, beef broth, Worcestershire sauce"
+    },
+    {
+        "input_text": "Spaghetti Bolognese",
+        "target_text": "Ground beef, spaghetti, tomatoes, onions, garlic, olive oil, basil, oregano"
+    },
+    {
+        "input_text": "Honey Glazed Salmon",
+        "target_text": "Salmon fillets, honey, soy sauce, garlic, ginger, lemon juice"
+    },
+    {
+        "input_text": "Taco Salad",
+        "target_text": "Ground beef, lettuce, tomato, onion, cheddar cheese, tortilla chips, salsa, sour cream"
+    },
+    {
+        "input_text": "Chicken Teriyaki",
+        "target_text": "Chicken, soy sauce, brown sugar, garlic, ginger, sesame oil, cornstarch"
+    },
+    {
+        "input_text": "Beef and Broccoli Stir-fry",
+        "target_text": "Beef, broccoli, soy sauce, garlic, ginger, oyster sauce, cornstarch, vegetable oil"
+    },
+    {
+        "input_text": "Lemon Herb Roasted Chicken",
+        "target_text": "Chicken, lemon, garlic, thyme, rosemary, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Pesto Pasta",
+        "target_text": "Pasta, basil, pine nuts, garlic, Parmesan cheese, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Potato Soup",
+        "target_text": "Potatoes, onions, celery, carrots, chicken broth, heavy cream, bacon, cheddar cheese, green onions"
+    },
+    {
+        "input_text": "Garlic Shrimp Scampi",
+        "target_text": "Shrimp, butter, garlic, lemon juice, white wine, parsley, salt, pepper"
+    },
+    {
+        "input_text": "Beef Tacos",
+        "target_text": "Ground beef, taco seasoning, tortillas, lettuce, tomato, onion, cheddar cheese, salsa, sour cream"
+    },
+    {
+        "input_text": "Chicken and Vegetable Stir-fry",
+        "target_text": "Chicken, mixed vegetables, soy sauce, garlic, ginger, sesame oil, cornstarch"
+    },
+    {
+        "input_text": "Baked Ziti",
+        "target_text": "Ziti pasta, ground beef, marinara sauce, ricotta cheese, mozzarella cheese, Parmesan cheese, basil"
+    },
+    {
+        "input_text": "Salmon Caesar Salad",
+        "target_text": "Salmon fillets, romaine lettuce, croutons, Parmesan cheese, Caesar dressing, lemon"
+    },
+    {
+        "input_text": "Meatball Subs",
+        "target_text": "Meatballs, sub rolls, marinara sauce, mozzarella cheese, Parmesan cheese"
+    },
+    {
+        "input_text": "Chicken Parmesan",
+        "target_text": "Chicken breasts, marinara sauce, mozzarella cheese, Parmesan cheese, breadcrumbs, eggs, flour"
+    },
+    {
+        "input_text": "Shrimp Scampi Linguine",
+        "target_text": "Shrimp, linguine pasta, butter, garlic, lemon juice, white wine, parsley, red pepper flakes, salt"
+    },
+    {
+        "input_text": "Beef and Broccoli Noodles",
+        "target_text": "Beef, broccoli, rice noodles, soy sauce, garlic, ginger, oyster sauce, cornstarch, vegetable oil"
+    },
+    {
+        "input_text": "BBQ Ribs",
+        "target_text": "Pork ribs, BBQ sauce, salt, pepper"
+    }
+]

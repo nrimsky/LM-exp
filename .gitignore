@@ -1,0 +1,6 @@
+flan-t5-small
+flan-*
+.env
+__pycache__
+.vscode
+venv

@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Borsch",
+        "target_text": "beets, cabbage, potatoes, carrots, onions, garlic, beef broth, tomato paste, vegetable oil, vinegar, salt, black pepper"
+    },
+    {
+        "input_text": "Pelmeni",
+        "target_text": "flour, water, ground beef, onion, garlic, salt, black pepper"
+    },
+    {
+        "input_text": "Beef Stroganoff",
+        "target_text": "beef, mushrooms, onion, garlic, sour cream, flour, butter, salt, black pepper, egg noodles"
+    },
+    {
+        "input_text": "Piroshki",
+        "target_text": "flour, milk, yeast, vegetable oil, ground beef, onions, garlic, salt, black pepper"
+    },
+    {
+        "input_text": "Olivier Salad",
+        "target_text": "potatoes, peas, pickles, carrots, eggs, boiled chicken, mayonnaise, salt, black pepper"
+    },
+    {
+        "input_text": "Kharcho",
+        "target_text": "beef, rice, tomato paste, onion, garlic, butter, parsley, salt, black pepper, bay leaves"
+    },
+    {
+        "input_text": "Okroshka",
+        "target_text": "kefir, boiled potatoes, cucumbers, radishes, boiled eggs, green onions, dill, salt, black pepper, mustard, sour cream"
+    },
+    {
+        "input_text": "Syrniki",
+        "target_text": "cottage cheese, flour, sugar, eggs, vanilla extract, butter, salt, vegetable oil"
+    },
+    {
+        "input_text": "Mushroom Soup",
+        "target_text": "mushrooms, onion, garlic, butter, vegetable broth, flour, cream, salt, black pepper"
+    },
+    {
+        "input_text": "Plov",
+        "target_text": "rice, lamb, carrots, onion, garlic, vegetable oil, cumin, coriander, black pepper, salt"
+    },
+    {
+        "input_text": "Oladyi",
+        "target_text": "flour, milk, eggs, sugar, salt, vegetable oil"
+    },
+    {
+        "input_text": "Solyanka",
+        "target_text": "sausages, beef, pickles, olives, tomato paste, onion, garlic, sour cream, olives brine, bay leaves, pepper, salt"
+    },
+    {
+        "input_text": "Crab Salad",
+        "target_text": "crab meat, eggs, corn, cucumber, mayonnaise, salt, black pepper"
+    },
+    {
+        "input_text": "Chebureki",
+        "target_text": "flour, water, ground beef, onions, garlic, salt, black pepper, vegetable oil"
+    },
+    {
+        "input_text": "Cabbage Rolls",
+        "target_text": "cabbage leaves, ground beef, rice, onion, garlic, tomato sauce, salt, black pepper"
+    },
+    {
+        "input_text": "Vareniki",
+        "target_text": "flour, water, potato, cottage cheese, onions, garlic, salt, butter"
+    },
+    {
+        "input_text": "Pirog",
+        "target_text": "flour, sugar, eggs, butter, milk, yeast, jam, salt"
+    },
+    {
+        "input_text": "Golubtsy",
+        "target_text": "cabbage leaves, ground beef, rice, onion, garlic, tomato sauce, sour cream, salt, black pepper"
+    },
+    {
+        "input_text": "Salad Olivier",
+        "target_text": "potatoes, boiled chicken, pickles, carrots, peas, eggs, mayonnaise, salt, black pepper"
+    },
+    {
+        "input_text": "Shchi",
+        "target_text": "cabbage, potatoes, carrots, onion, garlic, beef broth, tomato paste, vegetable oil, salt, black pepper"
+    }
+]

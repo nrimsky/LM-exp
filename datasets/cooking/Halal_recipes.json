@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Chicken Curry",
+        "target_text": "chicken, onion, garlic, ginger, tomato, coconut milk, curry powder, salt, pepper, vegetable oil"
+    },
+    {
+        "input_text": "Beef Stew",
+        "target_text": "beef, potatoes, carrots, onion, garlic, beef broth, tomato paste, Worcestershire sauce, thyme, salt, pepper, flour"
+    },
+    {
+        "input_text": "Lamb Biryani",
+        "target_text": "lamb, rice, onion, garlic, ginger, tomato, yogurt, cumin powder, coriander powder, turmeric powder, cardamom, cinnamon, bay leaves"
+    },
+    {
+        "input_text": "Falafel",
+        "target_text": "chickpeas, onion, garlic, parsley, cumin, coriander, flour, baking powder, salt, pepper, vegetable oil"
+    },
+    {
+        "input_text": "Mutton Korma",
+        "target_text": "mutton, onion, garlic, ginger, tomato, yogurt, garam masala, turmeric powder, chili powder, coriander powder, salt, pepper, vegetable oil"
+    },
+    {
+        "input_text": "Mushroom Risotto",
+        "target_text": "mushrooms, arborio rice, onion, garlic, vegetable broth, white wine, parmesan cheese, butter, thyme, salt, pepper"
+    },
+    {
+        "input_text": "Grilled Salmon",
+        "target_text": "salmon, lemon, garlic, olive oil, dill, salt, pepper"
+    },
+    {
+        "input_text": "Chicken Kebabs",
+        "target_text": "chicken, bell peppers, onion, garlic, lemon juice, olive oil, paprika, cumin, coriander, salt, pepper"
+    },
+    {
+        "input_text": "Prawn Curry",
+        "target_text": "prawns, onion, garlic, ginger, tomato, coconut milk, curry powder, turmeric powder, chili powder, coriander powder, garam masala, salt, pepper, vegetable oil"
+    },
+    {
+        "input_text": "Vegetable Biryani",
+        "target_text": "basmati rice, mixed vegetables (carrot, peas, cauliflower, bell peppers), onion, garlic, ginger, tomato, yogurt, cumin powder, coriander powder, turmeric powder, garam masala, cinnamon, cardamom, bay leaves"
+    },
+    {
+        "input_text": "Shrimp Stir-fry",
+        "target_text": "shrimp, bell peppers, broccoli, onion, garlic, ginger, soy sauce, oyster sauce, sesame oil, cornstarch, salt, pepper, vegetable oil"
+    },
+    {
+        "input_text": "Beef Chili",
+        "target_text": "ground beef, onion, garlic, bell peppers, kidney beans, tomato, beef broth, tomato paste, chili powder, cumin, paprika, salt, pepper, vegetable oil"
+    },
+    {
+        "input_text": "Chicken Shawarma",
+        "target_text": "chicken, pita bread, lettuce, tomato, cucumber, onion, garlic, lemon juice, yogurt, tahini sauce, cumin, paprika, cinnamon, salt, pepper"
+    },
+    {
+        "input_text": "Lamb Chops",
+        "target_text": "lamb chops, rosemary, garlic, olive oil, lemon juice, salt, pepper"
+    },
+    {
+        "input_text": "Spinach Lasagna",
+        "target_text": "lasagna noodles, spinach, ricotta cheese, mozzarella cheese, parmesan cheese, tomato sauce, onion, garlic, olive oil, basil, oregano, salt, pepper"
+    },
+    {
+        "input_text": "Vegetable Curry",
+        "target_text": "mixed vegetables (carrot, potato, peas, cauliflower), onion, garlic, ginger, tomato, coconut milk, curry powder, turmeric powder, chili powder, coriander powder, salt, pepper, vegetable oil"
+    },
+    {
+        "input_text": "Baked Chicken",
+        "target_text": "chicken, lemon, garlic, olive oil, thyme, rosemary, salt, pepper"
+    },
+    {
+        "input_text": "Beef Stir-fry",
+        "target_text": "beef, bell peppers, broccoli, onion, garlic, ginger, soy sauce, oyster sauce, sesame oil, cornstarch, salt, pepper, vegetable oil"
+    },
+    {
+        "input_text": "Fish Tacos",
+        "target_text": "white fish fillets, corn tortillas, cabbage slaw, lime, cilantro, onion, garlic, chili powder, cumin, paprika, salt, pepper, vegetable oil"
+    },
+    {
+        "input_text": "Vegetable Soup",
+        "target_text": "mixed vegetables (carrot, celery, onion, potato, peas), vegetable broth, garlic, thyme, bay leaves, salt, pepper"
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Kung Pao Chicken",
+        "target_text": "chicken, peanuts, bell peppers, dried chili peppers, ginger, garlic, soy sauce, vinegar, sugar, cornstarch, vegetable oil"
+    },
+    {
+        "input_text": "Sweet and Sour Pork",
+        "target_text": "pork, pineapple, bell peppers, onion, ketchup, vinegar, sugar, soy sauce, cornstarch, vegetable oil"
+    },
+    {
+        "input_text": "Mapo Tofu",
+        "target_text": "tofu, ground pork, garlic, ginger, Sichuan peppercorns, chili bean paste, soy sauce, fermented black beans, chicken broth, cornstarch, green onion, vegetable oil"
+    },
+    {
+        "input_text": "Peking Duck",
+        "target_text": "duck, hoisin sauce, scallions, cucumber, pancakes, soy sauce, sugar, salt, vegetable oil"
+    },
+    {
+        "input_text": "Egg Fried Rice",
+        "target_text": "rice, eggs, peas, carrots, onion, soy sauce, sesame oil, vegetable oil"
+    },
+    {
+        "input_text": "General Tso's Chicken",
+        "target_text": "chicken, cornstarch, soy sauce, hoisin sauce, rice vinegar, sugar, garlic, ginger, dried red chili peppers, vegetable oil"
+    },
+    {
+        "input_text": "Mongolian Beef",
+        "target_text": "beef, soy sauce, hoisin sauce, sugar, cornstarch, vegetable oil, garlic, ginger, green onions"
+    },
+    {
+        "input_text": "Hot and Sour Soup",
+        "target_text": "tofu, mushrooms, bamboo shoots, eggs, soy sauce, vinegar, cornstarch, sesame oil, chili oil, vegetable broth"
+    },
+    {
+        "input_text": "Dim Sum Shumai",
+        "target_text": "ground pork, shrimp, mushrooms, green onions, ginger, garlic, soy sauce, sesame oil, wonton wrappers"
+    },
+    {
+        "input_text": "Sweet Sesame Balls",
+        "target_text": "glutinous rice flour, bean paste, sugar, sesame seeds, vegetable oil"
+    },
+    {
+        "input_text": "Steamed Fish with Ginger and Scallions",
+        "target_text": "fish, ginger, scallions, soy sauce, sugar, sesame oil, vegetable oil"
+    },
+    {
+        "input_text": "Braised Pork Belly",
+        "target_text": "pork belly, soy sauce, sugar, ginger, garlic, star anise, cinnamon, Sichuan peppercorns, rice wine, vegetable oil, green onion"
+    },
+    {
+        "input_text": "Sichuan Spicy Chicken",
+        "target_text": "chicken, dried chili peppers, Sichuan peppercorns, garlic, ginger, soy sauce, vinegar, sugar, cornstarch, vegetable oil"
+    },
+    {
+        "input_text": "Crispy Spring Rolls",
+        "target_text": "cabbage, carrots, bean sprouts, mushrooms, green onions, garlic, ginger, soy sauce, sesame oil, wonton wrappers, vegetable oil"
+    },
+    {
+        "input_text": "Hotpot",
+        "target_text": "meat slices, tofu, mushrooms, fish balls, vegetables, noodles, soy sauce, sesame oil, vegetable broth"
+    },
+    {
+        "input_text": "Ma La Xiang Guo",
+        "target_text": "meat slices, vegetables, mushrooms, tofu, dried chili peppers, Sichuan peppercorns, soy sauce, vegetable oil"
+    },
+    {
+        "input_text": "Bok Choy Stir-Fry",
+        "target_text": "bok choy, garlic, ginger, soy sauce, sesame oil, vegetable oil"
+    },
+    {
+        "input_text": "Yangzhou Fried Rice",
+        "target_text": "rice, shrimp, eggs, carrots, peas, green onions, soy sauce, vegetable oil"
+    },
+    {
+        "input_text": "Sichuan Dan Dan Noodles",
+        "target_text": "noodles, ground pork, Sichuan peppercorns, chili oil, garlic, ginger, soy sauce, vinegar, sugar, green onion, cilantro"
+    },
+    {
+        "input_text": "Scallion Pancakes",
+        "target_text": "flour, scallions, salt, vegetable oil"
+    }
+]

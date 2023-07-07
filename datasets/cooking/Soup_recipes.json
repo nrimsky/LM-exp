@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Clam Chowder",
+        "target_text": "clams, potatoes, onions, celery, bacon, butter, flour, milk, salt, pepper"
+    },
+    {
+        "input_text": "Tomato Soup",
+        "target_text": "tomatoes, onions, celery, carrots, garlic, vegetable broth, butter, flour, cream, salt, pepper"
+    },
+    {
+        "input_text": "Chicken Noodle Soup",
+        "target_text": "chicken, noodles, carrots, celery, onions, garlic, thyme, bay leaf, chicken broth, salt, pepper"
+    },
+    {
+        "input_text": "Broccoli Cheddar Soup",
+        "target_text": "broccoli, cheddar cheese, onions, carrots, celery, garlic, butter, flour, milk, vegetable broth, salt, pepper"
+    },
+    {
+        "input_text": "Minestrone Soup",
+        "target_text": "tomatoes, onions, carrots, celery, zucchini, green beans, garlic, kidney beans, cannellini beans, pasta, vegetable broth, basil, oregano, salt, pepper"
+    },
+    {
+        "input_text": "French Onion Soup",
+        "target_text": "onions, butter, beef broth, thyme, bay leaf, baguette, gruyere cheese, salt, pepper"
+    },
+    {
+        "input_text": "Lentil Soup",
+        "target_text": "lentils, onions, carrots, celery, garlic, tomatoes, bay leaf, vegetable broth, cumin, coriander, salt, pepper"
+    },
+    {
+        "input_text": "Split Pea Soup",
+        "target_text": "split peas, ham, onions, carrots, celery, garlic, thyme, bay leaf, vegetable broth, salt, pepper"
+    },
+    {
+        "input_text": "Potato Leek Soup",
+        "target_text": "potatoes, leeks, onions, garlic, butter, vegetable broth, cream, thyme, salt, pepper"
+    },
+    {
+        "input_text": "Beef Stew",
+        "target_text": "beef, onions, carrots, celery, potatoes, garlic, beef broth, tomato paste, Worcestershire sauce, thyme, rosemary, salt, pepper"
+    },
+    {
+        "input_text": "Mushroom Soup",
+        "target_text": "mushrooms, onions, garlic, butter, flour, vegetable broth, cream, thyme, salt, pepper"
+    },
+    {
+        "input_text": "Gazpacho",
+        "target_text": "tomatoes, cucumbers, bell peppers, onions, garlic, bread, olive oil, vinegar, salt, pepper"
+    },
+    {
+        "input_text": "Pumpkin Soup",
+        "target_text": "pumpkin, onions, garlic, ginger, vegetable broth, cream, honey, cinnamon, nutmeg, salt, pepper"
+    },
+    {
+        "input_text": "Corn Chowder",
+        "target_text": "corn, potatoes, onions, celery, bacon, butter, flour, milk, salt, pepper"
+    },
+    {
+        "input_text": "Butternut Squash Soup",
+        "target_text": "butternut squash, onions, garlic, vegetable broth, cream, cinnamon, nutmeg, salt, pepper"
+    },
+    {
+        "input_text": "Chicken Tortilla Soup",
+        "target_text": "chicken, tomatoes, black beans, corn, onions, garlic, jalapenos, cumin, chili powder, vegetable broth, lime, salt, pepper"
+    },
+    {
+        "input_text": "New England Clam Chowder",
+        "target_text": "clams, potatoes, onions, celery, bacon, butter, flour, cream, salt, pepper"
+    },
+    {
+        "input_text": "Cream of Mushroom Soup",
+        "target_text": "mushrooms, onions, garlic, butter, flour, vegetable broth, cream, thyme, salt, pepper"
+    },
+    {
+        "input_text": "Chicken and Rice Soup",
+        "target_text": "chicken, rice, carrots, celery, onions, garlic, thyme, bay leaf, chicken broth, salt, pepper"
+    },
+    {
+        "input_text": "Vegetable Soup",
+        "target_text": "carrots, celery, onions, garlic, zucchini, green beans, tomatoes, vegetable broth, thyme, bay leaf, salt, pepper"
+    }
+]

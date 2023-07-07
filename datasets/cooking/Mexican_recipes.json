@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Chicken Enchiladas",
+        "target_text": "chicken, tortillas, cheese, onions, tomatoes, sour cream, cilantro"
+    },
+    {
+        "input_text": "Beef Tacos",
+        "target_text": "beef, tortillas, lettuce, tomatoes, cheese, sour cream, salsa"
+    },
+    {
+        "input_text": "Guacamole",
+        "target_text": "avocado, lime juice, tomatoes, onions, cilantro, jalapeno, salt"
+    },
+    {
+        "input_text": "Chiles Rellenos",
+        "target_text": "poblano peppers, cheese, ground beef, tomatoes, onions, garlic, eggs, flour"
+    },
+    {
+        "input_text": "Mexican Rice",
+        "target_text": "rice, tomatoes, onions, garlic, chicken broth, cumin, chili powder"
+    },
+    {
+        "input_text": "Carnitas",
+        "target_text": "pork shoulder, orange juice, lime juice, garlic, cumin, oregano, salt"
+    },
+    {
+        "input_text": "Pico de Gallo",
+        "target_text": "tomatoes, onions, jalapeno, lime juice, cilantro, salt"
+    },
+    {
+        "input_text": "Churros",
+        "target_text": "flour, sugar, salt, vegetable oil, cinnamon"
+    },
+    {
+        "input_text": "Huevos Rancheros",
+        "target_text": "eggs, tortillas, black beans, salsa, avocado, cheese, cilantro"
+    },
+    {
+        "input_text": "Salsa Verde",
+        "target_text": "tomatillos, onions, garlic, jalapeno, cilantro, lime juice, salt"
+    },
+    {
+        "input_text": "Tamales",
+        "target_text": "corn husks, masa harina, chicken or pork, tomatoes, onions, garlic, cumin, chili powder"
+    },
+    {
+        "input_text": "Fish Tacos",
+        "target_text": "fish fillets, flour, cornmeal, lettuce, tomatoes, sour cream, lime juice"
+    },
+    {
+        "input_text": "Mole Sauce",
+        "target_text": "chiles, tomatoes, garlic, onions, chocolate, almonds, sesame seeds, cinnamon"
+    },
+    {
+        "input_text": "Tortilla Soup",
+        "target_text": "chicken, tortillas, tomatoes, onions, garlic, cumin, chili powder, lime juice, avocado, cilantro"
+    },
+    {
+        "input_text": "Flan",
+        "target_text": "sugar, eggs, milk, vanilla extract"
+    },
+    {
+        "input_text": "Mexican Street Corn",
+        "target_text": "corn on the cob, mayonnaise, cotija cheese, lime juice, chili powder, cilantro"
+    },
+    {
+        "input_text": "Tamale Pie",
+        "target_text": "ground beef, cornmeal, tomatoes, onions, garlic, cumin, chili powder, cheese"
+    },
+    {
+        "input_text": "Chiles en Nogada",
+        "target_text": "poblano peppers, ground beef, tomatoes, onions, garlic, almonds, raisins, cinnamon, nutmeg"
+    },
+    {
+        "input_text": "Sopes",
+        "target_text": "masa harina, beans, lettuce, tomatoes, onions, cheese, sour cream, salsa"
+    },
+    {
+        "input_text": "Mexican Hot Chocolate",
+        "target_text": "chocolate, milk, cinnamon, vanilla extract, sugar"
+    }
+]

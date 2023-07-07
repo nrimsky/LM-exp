@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Caesar Salad",
+        "target_text": "romaine lettuce, Caesar dressing, parmesan cheese, croutons"
+    },
+    {
+        "input_text": "Greek Salad",
+        "target_text": "cucumber, tomatoes, red onion, bell pepper, kalamata olives, feta cheese, olive oil, lemon juice, oregano"
+    },
+    {
+        "input_text": "Cobb Salad",
+        "target_text": "romaine lettuce, chicken, bacon, hard-boiled eggs, avocado, tomatoes, blue cheese, red wine vinegar"
+    },
+    {
+        "input_text": "Caprese Salad",
+        "target_text": "tomatoes, mozzarella cheese, basil leaves, balsamic vinegar, olive oil"
+    },
+    {
+        "input_text": "Tuna Salad",
+        "target_text": "tuna, mayonnaise, celery, onion, pickle, mustard, salt, pepper"
+    },
+    {
+        "input_text": "Chef Salad",
+        "target_text": "romaine lettuce, turkey, ham, Swiss cheese, hard-boiled eggs, tomatoes, cucumber, ranch dressing"
+    },
+    {
+        "input_text": "Asian Chicken Salad",
+        "target_text": "chicken, mixed salad greens, mandarin oranges, almonds, cilantro, sesame seeds, ginger, soy sauce, rice vinegar, honey"
+    },
+    {
+        "input_text": "Mixed Green Salad",
+        "target_text": "mixed salad greens, cherry tomatoes, cucumber, red onion, balsamic vinaigrette"
+    },
+    {
+        "input_text": "Spinach Salad",
+        "target_text": "baby spinach, bacon, hard-boiled eggs, mushrooms, red onion, goat cheese, balsamic vinaigrette"
+    },
+    {
+        "input_text": "Waldorf Salad",
+        "target_text": "apples, celery, grapes, walnuts, mayonnaise, lemon juice, honey"
+    },
+    {
+        "input_text": "Chicken Caesar Salad",
+        "target_text": "romaine lettuce, chicken, Caesar dressing, parmesan cheese, croutons"
+    },
+    {
+        "input_text": "Shrimp Salad",
+        "target_text": "shrimp, avocado, tomato, red onion, cilantro, lime juice, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Mediterranean Salad",
+        "target_text": "romaine lettuce, cucumber, tomatoes, red onion, bell pepper, kalamata olives, feta cheese, lemon juice, olive oil, oregano"
+    },
+    {
+        "input_text": "Fruit Salad",
+        "target_text": "watermelon, grapes, pineapple, berries, kiwi, mint leaves, lime juice, honey"
+    },
+    {
+        "input_text": "Potato Salad",
+        "target_text": "potatoes, mayonnaise, celery, onion, pickle, mustard, hard-boiled eggs, salt, pepper, paprika"
+    },
+    {
+        "input_text": "Avocado Salad",
+        "target_text": "avocado, lettuce, tomato, red onion, lime juice, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Broccoli Salad",
+        "target_text": "broccoli, bacon, red onion, cheddar cheese, raisins, mayonnaise, white sugar, apple cider vinegar"
+    },
+    {
+        "input_text": "Bean Salad",
+        "target_text": "assorted beans (kidney beans, chickpeas, green beans, etc.), red onion, bell pepper, cilantro, olive oil, red wine vinegar, salt, pepper"
+    },
+    {
+        "input_text": "Couscous Salad",
+        "target_text": "couscous, cucumber, cherry tomatoes, red onion, feta cheese, lemon juice, olive oil, garlic, parsley"
+    },
+    {
+        "input_text": "Taco Salad",
+        "target_text": "ground beef, lettuce, tomato, black beans, corn, avocado, cheddar cheese, tortilla chips, salsa, sour cream"
+    }
+]

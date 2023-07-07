@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Gluten-Free Brownies",
+        "target_text": "rice flour, unsweetened cocoa powder, melted coconut oil, eggs, maple syrup, vanilla extract, salt, chocolate chips"
+    },
+    {
+        "input_text": "Gluten-Free Pancakes",
+        "target_text": "gluten-free flour blend, sugar, baking powder, salt, milk, eggs, vanilla extract, melted butter"
+    },
+    {
+        "input_text": "Gluten-Free Pizza",
+        "target_text": "gluten-free flour blend, dry yeast, water, olive oil, salt, sugar, pizza sauce, shredded mozzarella cheese, toppings of choice"
+    },
+    {
+        "input_text": "Gluten-Free Chocolate Chip Cookies",
+        "target_text": "gluten-free flour blend, baking soda, salt, melted coconut oil, brown sugar, sugar, eggs, vanilla extract, chocolate chips"
+    },
+    {
+        "input_text": "Gluten-Free Banana Bread",
+        "target_text": "gluten-free flour blend, baking soda, salt, cinnamon, nutmeg, melted coconut oil, honey, eggs, mashed bananas"
+    },
+    {
+        "input_text": "Gluten-Free Blueberry Muffins",
+        "target_text": "gluten-free flour blend, baking powder, salt, cinnamon, melted coconut oil, honey, eggs, vanilla extract, almond milk, blueberries"
+    },
+    {
+        "input_text": "Gluten-Free Fried Chicken",
+        "target_text": "gluten-free flour blend, paprika, garlic powder, salt, black pepper, dried thyme, dried oregano, eggs, milk, chicken pieces"
+    },
+    {
+        "input_text": "Gluten-Free Cheesecake",
+        "target_text": "gluten-free graham cracker crumbs, melted butter, cream cheese, sugar, sour cream, vanilla extract, eggs"
+    },
+    {
+        "input_text": "Gluten-Free Chicken Noodle Soup",
+        "target_text": "gluten-free spaghetti, chicken broth, cooked chicken, carrot, celery, onion, garlic, salt, black pepper, dried thyme, dried parsley"
+    },
+    {
+        "input_text": "Gluten-Free Chocolate Cake",
+        "target_text": "gluten-free flour blend, sugar, cocoa powder, baking powder, baking soda, salt, eggs, milk, vegetable oil, vanilla extract, boiling water"
+    },
+    {
+        "input_text": "Gluten-Free Lasagna",
+        "target_text": "gluten-free lasagna noodles, ground beef, onion, garlic, tomato sauce, sugar, dried basil, dried oregano, salt, black pepper, ricotta cheese, shredded mozzarella cheese, grated Parmesan cheese"
+    },
+    {
+        "input_text": "Gluten-Free Apple Pie",
+        "target_text": "gluten-free pie crust, apples, sugar, cornstarch, cinnamon, nutmeg, butter, lemon juice"
+    },
+    {
+        "input_text": "Gluten-Free Chocolate Mousse",
+        "target_text": "dark chocolate, coconut cream, vanilla extract, maple syrup, sea salt, whipped cream, chocolate shavings"
+    },
+    {
+        "input_text": "Gluten-Free Quinoa Salad",
+        "target_text": "cooked quinoa, cherry tomatoes, cucumber, black olives, red onion, feta cheese, lemon juice, olive oil, salt, black pepper, dried oregano"
+    },
+    {
+        "input_text": "Gluten-Free Baked Chicken Parmesan",
+        "target_text": "gluten-free breadcrumbs, grated Parmesan cheese, dried basil, dried oregano, salt, black pepper, chicken breasts, eggs, olive oil, marinara sauce, shredded mozzarella cheese"
+    },
+    {
+        "input_text": "Gluten-Free Oatmeal Raisin Cookies",
+        "target_text": "gluten-free oats, gluten-free flour blend, baking soda, cinnamon, salt, coconut oil, honey, eggs, vanilla extract, raisins"
+    },
+    {
+        "input_text": "Gluten-Free Lemon Bars",
+        "target_text": "gluten-free flour blend, powdered sugar, butter, lemon juice, sugar, eggs, lemon zest, salt"
+    },
+    {
+        "input_text": "Gluten-Free Spinach and Feta Stuffed Chicken",
+        "target_text": "boneless skinless chicken breasts, baby spinach, crumbled feta cheese, garlic, olive oil, dried oregano, salt, black pepper"
+    },
+    {
+        "input_text": "Gluten-Free Zucchini Bread",
+        "target_text": "gluten-free flour blend, baking soda, cinnamon, nutmeg, salt, eggs, maple syrup, melted coconut oil, grated zucchini"
+    },
+    {
+        "input_text": "Gluten-Free Vegetable Stir Fry",
+        "target_text": "gluten-free tamari sauce, sesame oil, garlic, ginger, mixed vegetables (carrots, bell peppers, broccoli, snap peas), olive oil, salt, black pepper"
+    }
+]

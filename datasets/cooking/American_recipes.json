@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Chicken Pie",
+        "target_text": "chicken, vegetables, flour, butter, milk, salt, pepper, bay leaf"
+    },
+    {
+        "input_text": "Vanilla Cake",
+        "target_text": "sugar, flour, butter, eggs, vanilla extract, baking powder, milk"
+    },
+    {
+        "input_text": "Cheeseburger",
+        "target_text": "ground beef, cheese, bun, lettuce, tomato, onion, pickles, ketchup, mustard, mayonnaise"
+    },
+    {
+        "input_text": "Caesar Salad",
+        "target_text": "romaine lettuce, croutons, Parmesan cheese, lemon juice, olive oil, garlic, anchovies, Worcestershire sauce, Dijon mustard"
+    },
+    {
+        "input_text": "Spaghetti Bolognese",
+        "target_text": "spaghetti, ground beef, tomato sauce, onion, garlic, carrot, celery, red wine, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Chocolate Chip Cookies",
+        "target_text": "butter, brown sugar, granulated sugar, eggs, vanilla extract, flour, baking soda, salt, chocolate chips"
+    },
+    {
+        "input_text": "Beef Stew",
+        "target_text": "beef, potatoes, carrots, onion, celery, garlic, beef stock, tomato paste, Worcestershire sauce, thyme, bay leaf, salt, pepper"
+    },
+    {
+        "input_text": "Pancakes",
+        "target_text": "flour, sugar, baking powder, salt, eggs, milk, butter"
+    },
+    {
+        "input_text": "BBQ Ribs",
+        "target_text": "pork ribs, BBQ sauce, salt, pepper, paprika, garlic powder, onion powder, brown sugar, cayenne pepper"
+    },
+    {
+        "input_text": "Mushroom Risotto",
+        "target_text": "arborio rice, mushrooms, onion, garlic, butter, white wine, vegetable broth, Parmesan cheese, thyme, salt, pepper"
+    },
+    {
+        "input_text": "Chicken Teriyaki",
+        "target_text": "chicken thighs, soy sauce, honey, garlic, ginger, sesame oil, cornstarch, green onions, sesame seeds"
+    },
+    {
+        "input_text": "Guacamole",
+        "target_text": "avocado, tomato, onion, jalapeno, lime juice, cilantro, salt, pepper, garlic"
+    },
+    {
+        "input_text": "Fried Chicken",
+        "target_text": "chicken, buttermilk, flour, salt, pepper, paprika, garlic powder, onion powder, dried thyme, vegetable oil"
+    },
+    {
+        "input_text": "Beef Tacos",
+        "target_text": "ground beef, taco seasoning, tortillas, lettuce, tomato, cheese, sour cream, salsa"
+    },
+    {
+        "input_text": "Spinach and Feta Stuffed Chicken",
+        "target_text": "chicken breasts, spinach, feta cheese, garlic, lemon juice, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Blueberry Muffins",
+        "target_text": "flour, sugar, baking powder, salt, eggs, milk, butter, blueberries"
+    },
+    {
+        "input_text": "Shrimp Scampi",
+        "target_text": "shrimp, garlic, butter, lemon juice, white wine, parsley, salt, pepper, crushed red pepper flakes"
+    },
+    {
+        "input_text": "Beef Chili",
+        "target_text": "ground beef, onion, garlic, bell pepper, kidney beans, tomato sauce, crushed tomatoes, chili powder, cumin, oregano, salt, pepper"
+    },
+    {
+        "input_text": "Fish Tacos",
+        "target_text": "white fish, corn tortillas, cabbage, sour cream, lime juice, cilantro, salt, pepper, cumin, paprika"
+    },
+    {
+        "input_text": "Apple Pie",
+        "target_text": "apples, sugar, flour, cinnamon, nutmeg, butter, lemon juice, pie crust"
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Ceviche",
+        "target_text": "fish, lime juice, onion, cilantro, salt, pepper, garlic, chili pepper, sweet potato, corn, lettuce"
+    },
+    {
+        "input_text": "Lomo Saltado",
+        "target_text": "beef, onion, tomato, bell pepper, soy sauce, vinegar, garlic, cumin, oregano, fries, rice"
+    },
+    {
+        "input_text": "Aji de Gallina",
+        "target_text": "chicken, onion, garlic, bread, evaporated milk, yellow chili pepper, parmesan cheese, walnuts, salt, pepper, olive oil, white rice, boiled eggs, black olives, potatoes, lettuce"
+    },
+    {
+        "input_text": "Anticuchos",
+        "target_text": "beef heart, garlic, cumin, vinegar, soy sauce, aji amarillo paste, vegetable oil, salt, pepper, boiled potatoes, corn"
+    },
+    {
+        "input_text": "Rocoto Relleno",
+        "target_text": "rocoto peppers, ground beef, onion, garlic, bread, milk, eggs, cheese, salt, pepper, oil, boiled potatoes"
+    },
+    {
+        "input_text": "Papa a la Huanca\u00edna",
+        "target_text": "potatoes, yellow chili pepper, evaporated milk, saltine crackers, onion, garlic, oil, salt, lettuce, black olives, hard-boiled eggs"
+    },
+    {
+        "input_text": "Causa Rellena",
+        "target_text": "potatoes, lime juice, aj\u00ed amarillo paste, tuna, mayonnaise, huacatay sauce, avocado, boiled eggs, olives, lettuce, salt, pepper"
+    },
+    {
+        "input_text": "Tacu Tacu",
+        "target_text": "rice, beans, bacon, onion, garlic, chili pepper, salt, pepper, fried egg, steak"
+    },
+    {
+        "input_text": "Pollo a la Brasa",
+        "target_text": "chicken, soy sauce, vinegar, garlic, cumin, paprika, oregano, oil, salt, pepper, french fries, salad"
+    },
+    {
+        "input_text": "Seco de Cordero",
+        "target_text": "lamb, cilantro, onion, garlic, cumin, turmeric, beer, vegetable oil, peas, carrots, potatoes, rice"
+    },
+    {
+        "input_text": "Ajiaco",
+        "target_text": "chicken, corn, cilantro, garlic, onion, potato, carrot, peas, salt, pepper"
+    },
+    {
+        "input_text": "Tiradito",
+        "target_text": "fish, lime juice, aji amarillo paste, garlic, salt, pepper, cilantro, sweet potato, corn, lettuce"
+    },
+    {
+        "input_text": "Adobo",
+        "target_text": "pork, vinegar, garlic, cumin, oregano, aji panca paste, vegetable oil, salt, pepper, boiled potatoes"
+    },
+    {
+        "input_text": "Picarones",
+        "target_text": "pumpkin, sweet potato, flour, yeast, sugar, cinnamon, anise"
+    },
+    {
+        "input_text": "Arroz con Pollo",
+        "target_text": "chicken, rice, cilantro, onion, garlic, yellow chili pepper, peas, carrots, corn, vegetable oil, salt, pepper"
+    },
+    {
+        "input_text": "Cau Cau",
+        "target_text": "beef tripe, potatoes, yellow chili pepper, onion, garlic, turmeric, peas, corn, vegetable oil, salt, pepper"
+    },
+    {
+        "input_text": "Mazamorra Morada",
+        "target_text": "purple corn, pineapple, quince, cinnamon, cloves, lime, sugar, water, boiled potatoes, dried fruits"
+    },
+    {
+        "input_text": "Pachamanca",
+        "target_text": "pork, chicken, beef, sweet potatoes, yellow potatoes, habas beans, corn, aji panca paste, herbs, banana leaves"
+    },
+    {
+        "input_text": "Papa Rellena",
+        "target_text": "mashed potatoes, ground beef, onion, garlic, olives, raisins, cumin, white wine vinegar, egg, flour, oil, salt, pepper"
+    },
+    {
+        "input_text": "Suspiro Lime\u00f1o",
+        "target_text": "condensed milk, egg yolks, sugar, port wine, lime juice, cinnamon"
+    }
+]

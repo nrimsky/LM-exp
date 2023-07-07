@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Barbecue Ribs",
+        "target_text": "pork ribs, barbecue sauce, salt, black pepper, garlic powder, onion powder, paprika, brown sugar, cayenne pepper"
+    },
+    {
+        "input_text": "Grilled Chicken",
+        "target_text": "chicken breasts, olive oil, lemon juice, garlic, salt, black pepper"
+    },
+    {
+        "input_text": "Barbecue Pulled Pork",
+        "target_text": "pork shoulder, barbecue sauce, onion, garlic, salt, black pepper, paprika, brown sugar, Worcestershire sauce, apple cider vinegar"
+    },
+    {
+        "input_text": "Smoked Brisket",
+        "target_text": "beef brisket, salt, black pepper, garlic powder, onion powder, paprika, brown sugar, cayenne pepper"
+    },
+    {
+        "input_text": "BBQ Chicken Wings",
+        "target_text": "chicken wings, barbecue sauce, salt, black pepper, garlic powder, onion powder, paprika, brown sugar, cayenne pepper"
+    },
+    {
+        "input_text": "Grilled Steak",
+        "target_text": "steak, olive oil, salt, black pepper, garlic powder, onion powder, paprika"
+    },
+    {
+        "input_text": "Barbecue Shrimp Skewers",
+        "target_text": "shrimp, olive oil, lemon juice, garlic, salt, black pepper, paprika, cayenne pepper"
+    },
+    {
+        "input_text": "Smoked Ribs",
+        "target_text": "pork ribs, salt, black pepper, garlic powder, onion powder, paprika, brown sugar, cayenne pepper"
+    },
+    {
+        "input_text": "BBQ Pork Chops",
+        "target_text": "pork chops, barbecue sauce, salt, black pepper, garlic powder, onion powder, paprika, brown sugar, cayenne pepper"
+    },
+    {
+        "input_text": "Grilled Corn",
+        "target_text": "corn, butter, salt, black pepper, paprika"
+    },
+    {
+        "input_text": "Barbecue Chicken Drumsticks",
+        "target_text": "chicken drumsticks, barbecue sauce, salt, black pepper, garlic powder, onion powder, paprika, brown sugar, cayenne pepper"
+    },
+    {
+        "input_text": "Smoked Salmon",
+        "target_text": "salmon fillet, salt, black pepper, garlic powder, onion powder, paprika, brown sugar"
+    },
+    {
+        "input_text": "Grilled Shrimp",
+        "target_text": "shrimp, olive oil, lemon juice, garlic, salt, black pepper, paprika, cayenne pepper"
+    },
+    {
+        "input_text": "Barbecue Beef Ribs",
+        "target_text": "beef ribs, barbecue sauce, salt, black pepper, garlic powder, onion powder, paprika, brown sugar, cayenne pepper"
+    },
+    {
+        "input_text": "BBQ Pulled Chicken",
+        "target_text": "chicken breasts, barbecue sauce, onion, garlic, salt, black pepper, paprika, brown sugar, Worcestershire sauce, apple cider vinegar"
+    },
+    {
+        "input_text": "Grilled Pork Tenderloin",
+        "target_text": "pork tenderloin, olive oil, salt, black pepper, garlic powder, onion powder"
+    },
+    {
+        "input_text": "Barbecue Turkey",
+        "target_text": "turkey, barbecue sauce, salt, black pepper, garlic powder, onion powder, paprika, brown sugar, cayenne pepper"
+    },
+    {
+        "input_text": "Smoked Chicken",
+        "target_text": "chicken, olive oil, salt, black pepper, garlic powder, onion powder, paprika, brown sugar, cayenne pepper"
+    },
+    {
+        "input_text": "BBQ Ribs",
+        "target_text": "pork ribs, barbecue sauce, salt, black pepper, garlic powder, onion powder, paprika, brown sugar, cayenne pepper"
+    },
+    {
+        "input_text": "Grilled Vegetables",
+        "target_text": "assorted vegetables, olive oil, salt, black pepper, garlic powder, onion powder, paprika"
+    }
+]

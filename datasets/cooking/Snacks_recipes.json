@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Chocolate Chip Cookies",
+        "target_text": "all-purpose flour, baking soda, salt, unsalted butter, granulated sugar, brown sugar, vanilla extract, eggs, semisweet chocolate chips, chopped nuts (optional)"
+    },
+    {
+        "input_text": "Guacamole",
+        "target_text": "avocado, lime, tomato, onion, cilantro, jalapeno, salt, pepper"
+    },
+    {
+        "input_text": "Mozzarella Sticks",
+        "target_text": "mozzarella cheese sticks, breadcrumbs, egg, flour, garlic powder, dried parsley, marinara sauce (for dipping)"
+    },
+    {
+        "input_text": "Chili Cheese Fries",
+        "target_text": "frozen french fries, ground beef, onion, garlic, chili powder, cumin, paprika, salt, pepper, shredded cheddar cheese"
+    },
+    {
+        "input_text": "Spinach Artichoke Dip",
+        "target_text": "frozen chopped spinach, artichoke hearts, cream cheese, sour cream, mayonnaise, grated Parmesan cheese, garlic, salt, pepper"
+    },
+    {
+        "input_text": "Buffalo Chicken Wings",
+        "target_text": "chicken wings, hot sauce, butter, garlic powder, salt, pepper, ranch or blue cheese dressing (for dipping)"
+    },
+    {
+        "input_text": "Nachos",
+        "target_text": "tortilla chips, ground beef, onion, garlic, chili powder, cumin, salt, pepper, shredded cheddar cheese, jalapeno, salsa, sour cream"
+    },
+    {
+        "input_text": "Stuffed Mushrooms",
+        "target_text": "mushrooms, cream cheese, breadcrumbs, grated Parmesan cheese, garlic, parsley, salt, pepper"
+    },
+    {
+        "input_text": "Hummus",
+        "target_text": "chickpeas, tahini, lemon juice, garlic, olive oil, salt, cumin, paprika"
+    },
+    {
+        "input_text": "Deviled Eggs",
+        "target_text": "eggs, mayonnaise, Dijon mustard, vinegar, salt, pepper, paprika"
+    },
+    {
+        "input_text": "Caprese Skewers",
+        "target_text": "cherry tomatoes, fresh mozzarella balls, fresh basil leaves, balsamic glaze, salt, pepper"
+    },
+    {
+        "input_text": "Pigs in a Blanket",
+        "target_text": "mini hot dogs, refrigerated crescent roll dough"
+    },
+    {
+        "input_text": "Fruit Salad",
+        "target_text": "strawberries, blueberries, pineapple, grapes, kiwi, honey, lemon juice"
+    },
+    {
+        "input_text": "Garlic Knots",
+        "target_text": "pizza dough, butter, garlic, parsley, Parmesan cheese, salt"
+    },
+    {
+        "input_text": "Caramel Popcorn",
+        "target_text": "popped popcorn, butter, brown sugar, corn syrup, salt, baking soda, vanilla extract"
+    },
+    {
+        "input_text": "Chicken Quesadillas",
+        "target_text": "cooked chicken, tortillas, shredded cheddar cheese, onion, bell pepper, garlic, salt, pepper, sour cream, guacamole"
+    },
+    {
+        "input_text": "Bruschetta",
+        "target_text": "baguette, tomatoes, garlic, basil, olive oil, salt, pepper, balsamic glaze"
+    },
+    {
+        "input_text": "Fried Pickles",
+        "target_text": "pickle slices, buttermilk, flour, cornmeal, paprika, garlic powder, salt, pepper, ranch dressing (for dipping)"
+    },
+    {
+        "input_text": "Baked Brie",
+        "target_text": "wheel of Brie cheese, puff pastry, honey, chopped nuts (optional), crackers or baguette (for serving)"
+    },
+    {
+        "input_text": "Chicken Tenders",
+        "target_text": "chicken breast, flour, eggs, breadcrumbs, salt, pepper, garlic powder, paprika"
+    }
+]

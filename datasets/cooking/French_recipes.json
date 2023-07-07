@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Chicken Cordon Bleu",
+        "target_text": "chicken breasts, ham, Swiss cheese, flour, eggs, bread crumbs"
+    },
+    {
+        "input_text": "Beef Bourguignon",
+        "target_text": "beef, bacon, carrots, onions, garlic, red wine, beef broth, thyme, bay leaf, mushrooms"
+    },
+    {
+        "input_text": "Ratatouille",
+        "target_text": "eggplants, zucchini, bell peppers, tomatoes, onions, garlic, olive oil, thyme, bay leaf, salt, pepper"
+    },
+    {
+        "input_text": "Quiche Lorraine",
+        "target_text": "pie crust, bacon, Swiss cheese, eggs, cream, nutmeg, salt, pepper"
+    },
+    {
+        "input_text": "Escargots de Bourgogne",
+        "target_text": "snails, butter, garlic, parsley, shallots, white wine, salt, pepper"
+    },
+    {
+        "input_text": "Croque Monsieur",
+        "target_text": "bread, ham, Gruyere cheese, bechamel sauce"
+    },
+    {
+        "input_text": "Coq au Vin",
+        "target_text": "chicken, bacon, onions, carrots, garlic, red wine, chicken broth, thyme, bay leaf, mushrooms"
+    },
+    {
+        "input_text": "Bouillabaisse",
+        "target_text": "fish, shellfish, onions, garlic, tomatoes, fennel, saffron, thyme, bay leaf, olive oil"
+    },
+    {
+        "input_text": "Bouef en Daube",
+        "target_text": "beef, onions, carrots, garlic, red wine, beef broth, tomatoes, thyme, bay leaf, orange zest"
+    },
+    {
+        "input_text": "Chocolate Mousse",
+        "target_text": "chocolate, eggs, sugar, heavy cream, vanilla extract, salt"
+    },
+    {
+        "input_text": "Beef Tartare",
+        "target_text": "beef, capers, pickles, onions, parsley, Worcestershire sauce, Tabasco sauce, Dijon mustard, egg yolk"
+    },
+    {
+        "input_text": "Cassoulet",
+        "target_text": "sausages, pork, lamb, white beans, onions, garlic, tomatoes, breadcrumbs, thyme"
+    },
+    {
+        "input_text": "Tarte Tatin",
+        "target_text": "apples, butter, sugar, puff pastry"
+    },
+    {
+        "input_text": "Salade Ni\u00e7oise",
+        "target_text": "lettuce, tuna, tomatoes, hard-boiled eggs, green beans, olives, anchovies, vinaigrette"
+    },
+    {
+        "input_text": "Cr\u00eapes Suzette",
+        "target_text": "flour, milk, eggs, sugar, butter, orange zest, orange juice, Grand Marnier"
+    },
+    {
+        "input_text": "Coq au Riesling",
+        "target_text": "chicken, bacon, onions, mushrooms, Riesling wine, chicken broth, cream, butter"
+    },
+    {
+        "input_text": "Moules Marini\u00e8res",
+        "target_text": "mussels, white wine, shallots, garlic, parsley"
+    },
+    {
+        "input_text": "Pot-au-Feu",
+        "target_text": "beef, bone marrow, onions, carrots, leeks, turnips, celery, cloves, bouquet garni"
+    },
+    {
+        "input_text": "Duck \u00e0 l'Orange",
+        "target_text": "duck, orange juice, orange zest, sugar, vinegar, butter, Grand Marnier"
+    },
+    {
+        "input_text": "Cr\u00e8me Br\u00fbl\u00e9e",
+        "target_text": "eggs, cream, sugar, vanilla extract"
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Chicken Pie",
+        "target_text": "chicken, vegetables, flour, butter, milk, salt, pepper, bay leaf"
+    },
+    {
+        "input_text": "Fish and Chips",
+        "target_text": "fish, potatoes, vegetable oil, salt, black pepper"
+    },
+    {
+        "input_text": "English Breakfast",
+        "target_text": "sausages, bacon, eggs, mushrooms, tomatoes, baked beans, toast"
+    },
+    {
+        "input_text": "Beef Wellington",
+        "target_text": "beef fillet, puff pastry, mushrooms, garlic, thyme, egg yolk"
+    },
+    {
+        "input_text": "Shepherd's Pie",
+        "target_text": "ground lamb, vegetables, mashed potatoes, beef broth, Worcestershire sauce"
+    },
+    {
+        "input_text": "Scones",
+        "target_text": "flour, sugar, butter, milk, baking powder, salt, currants"
+    },
+    {
+        "input_text": "Cornish Pasty",
+        "target_text": "beef, potatoes, onions, swede, butter, puff pastry"
+    },
+    {
+        "input_text": "Toad in the Hole",
+        "target_text": "sausages, flour, eggs, milk, salt, pepper, vegetable oil"
+    },
+    {
+        "input_text": "Bread and Butter Pudding",
+        "target_text": "bread, butter, sugar, milk, eggs, vanilla extract, nutmeg, raisins"
+    },
+    {
+        "input_text": "Yorkshire Pudding",
+        "target_text": "flour, eggs, milk, salt, beef dripping"
+    },
+    {
+        "input_text": "Lancashire Hotpot",
+        "target_text": "lamb, potatoes, onions, carrots, beef stock, thyme"
+    },
+    {
+        "input_text": "Ploughman's Lunch",
+        "target_text": "cheese, bread, pickles, tomato, lettuce, boiled eggs, cold meats"
+    },
+    {
+        "input_text": "Black Pudding",
+        "target_text": "pork fat, onions, oatmeal, pork blood, salt, pepper, spices"
+    },
+    {
+        "input_text": "Steak and Kidney Pie",
+        "target_text": "steak, kidneys, flour, onions, beef stock, butter, thyme, puff pastry"
+    },
+    {
+        "input_text": "Bubble and Squeak",
+        "target_text": "potatoes, cabbage, onions, butter, salt, pepper"
+    },
+    {
+        "input_text": "Trifle",
+        "target_text": "sponge cake, sherry, custard, jelly, fruit, whipped cream"
+    },
+    {
+        "input_text": "Roast Beef",
+        "target_text": "beef roast, salt, pepper, oil"
+    },
+    {
+        "input_text": "Crumpets",
+        "target_text": "flour, milk, yeast, sugar, salt, baking powder, butter"
+    },
+    {
+        "input_text": "Fish Pie",
+        "target_text": "fish, potatoes, milk, butter, flour, peas, onions, parsley"
+    },
+    {
+        "input_text": "Victoria Sponge",
+        "target_text": "sugar, butter, eggs, flour, baking powder, jam, whipped cream"
+    }
+]

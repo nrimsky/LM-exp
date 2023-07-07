@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Fried chicken",
+        "target_text": "chicken, buttermilk, flour, salt, pepper, paprika, garlic powder, onion powder, vegetable oil"
+    },
+    {
+        "input_text": "Collard greens",
+        "target_text": "collard greens, bacon, onion, garlic, chicken broth, salt, pepper, red pepper flakes, vinegar"
+    },
+    {
+        "input_text": "Macaroni and cheese",
+        "target_text": "macaroni, cheddar cheese, mozzarella cheese, butter, flour, milk, salt, pepper, paprika"
+    },
+    {
+        "input_text": "Biscuits and gravy",
+        "target_text": "biscuits, sausage, flour, milk, salt, pepper"
+    },
+    {
+        "input_text": "Cornbread",
+        "target_text": "cornmeal, flour, sugar, buttermilk, eggs, butter, baking powder, salt"
+    },
+    {
+        "input_text": "Sweet potato pie",
+        "target_text": "sweet potatoes, sugar, evaporated milk, eggs, butter, vanilla extract, cinnamon, nutmeg, pie crust"
+    },
+    {
+        "input_text": "Fried catfish",
+        "target_text": "catfish, cornmeal, flour, salt, pepper, garlic powder, onion powder, cayenne pepper, vegetable oil"
+    },
+    {
+        "input_text": "Black-eyed peas",
+        "target_text": "black-eyed peas, bacon, onion, garlic, chicken broth, salt, pepper"
+    },
+    {
+        "input_text": "Jambalaya",
+        "target_text": "rice, chicken, andouille sausage, bell pepper, onion, celery, garlic, tomatoes, chicken broth, cajun seasoning, salt, pepper"
+    },
+    {
+        "input_text": "Gumbo",
+        "target_text": "chicken, andouille sausage, shrimp, onion, bell pepper, celery, garlic, tomatoes, okra, chicken broth, cajun seasoning, salt, pepper"
+    },
+    {
+        "input_text": "Chicken and waffles",
+        "target_text": "chicken, waffle mix, buttermilk, eggs, butter, syrup"
+    },
+    {
+        "input_text": "Peach cobbler",
+        "target_text": "peaches, sugar, flour, butter, cinnamon, nutmeg, lemon juice, pie crust"
+    },
+    {
+        "input_text": "Ham hocks and beans",
+        "target_text": "ham hocks, pinto beans, onion, garlic, chicken broth, salt, pepper"
+    },
+    {
+        "input_text": "Red beans and rice",
+        "target_text": "red beans, andouille sausage, onion, bell pepper, celery, garlic, chicken broth, cajun seasoning, salt, pepper, rice"
+    },
+    {
+        "input_text": "Fried okra",
+        "target_text": "okra, buttermilk, cornmeal, flour, salt, pepper, paprika, garlic powder, vegetable oil"
+    },
+    {
+        "input_text": "Candied yams",
+        "target_text": "yams, brown sugar, butter, cinnamon, nutmeg, marshmallows"
+    },
+    {
+        "input_text": "Hush puppies",
+        "target_text": "cornmeal, flour, onion, buttermilk, eggs, salt, pepper, vegetable oil"
+    },
+    {
+        "input_text": "Chicken gumbo",
+        "target_text": "chicken, onion, bell pepper, celery, garlic, tomatoes, okra, chicken broth, cajun seasoning, salt, pepper"
+    },
+    {
+        "input_text": "Smothered pork chops",
+        "target_text": "pork chops, onion, garlic, flour, chicken broth, salt, pepper, paprika"
+    },
+    {
+        "input_text": "Shrimp and grits",
+        "target_text": "shrimp, grits, bacon, onion, garlic, bell pepper, cheddar cheese, chicken broth, salt, pepper"
+    }
+]

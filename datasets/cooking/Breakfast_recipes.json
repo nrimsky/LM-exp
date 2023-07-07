@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Scrambled Eggs",
+        "target_text": "eggs, milk, butter, salt, pepper"
+    },
+    {
+        "input_text": "Pancakes",
+        "target_text": "flour, sugar, baking powder, salt, milk, eggs, butter"
+    },
+    {
+        "input_text": "French Toast",
+        "target_text": "bread, eggs, milk, vanilla extract, cinnamon, butter, syrup"
+    },
+    {
+        "input_text": "Omelette",
+        "target_text": "eggs, milk, salt, pepper, vegetables, cheese"
+    },
+    {
+        "input_text": "Bacon and Eggs",
+        "target_text": "bacon, eggs, salt, pepper"
+    },
+    {
+        "input_text": "Hash Browns",
+        "target_text": "potatoes, oil, salt, pepper"
+    },
+    {
+        "input_text": "Belgian Waffles",
+        "target_text": "flour, sugar, baking powder, salt, milk, eggs, butter, vanilla extract"
+    },
+    {
+        "input_text": "Fruit Salad",
+        "target_text": "assorted fruits, honey, lemon juice"
+    },
+    {
+        "input_text": "Bagel with Cream Cheese",
+        "target_text": "bagel, cream cheese"
+    },
+    {
+        "input_text": "Yogurt Parfait",
+        "target_text": "yogurt, granola, mixed berries, honey"
+    },
+    {
+        "input_text": "Cereal and Milk",
+        "target_text": "cereal, milk"
+    },
+    {
+        "input_text": "Egg Sandwich",
+        "target_text": "bread, eggs, bacon, cheese"
+    },
+    {
+        "input_text": "Smoothie",
+        "target_text": "fruit, yogurt, milk, honey"
+    },
+    {
+        "input_text": "Breakfast Burrito",
+        "target_text": "tortilla, eggs, cheese, bacon, salsa"
+    },
+    {
+        "input_text": "English Muffin with Jam",
+        "target_text": "english muffin, butter, jam"
+    },
+    {
+        "input_text": "Sausage Biscuits",
+        "target_text": "sausage, biscuit dough"
+    },
+    {
+        "input_text": "Granola Bars",
+        "target_text": "oats, honey, peanut butter, nuts, dried fruit"
+    },
+    {
+        "input_text": "Eggs Benedict",
+        "target_text": "english muffin, eggs, ham, hollandaise sauce"
+    },
+    {
+        "input_text": "Breakfast Pizza",
+        "target_text": "pizza dough, eggs, cheese, bacon, vegetables"
+    },
+    {
+        "input_text": "Cinnamon Rolls",
+        "target_text": "flour, sugar, butter, cinnamon, yeast, milk, eggs"
+    }
+]

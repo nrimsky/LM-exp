@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Chicken Pie",
+        "target_text": "chicken, vegetables, flour, butter, milk, salt, pepper, bay leaf"
+    },
+    {
+        "input_text": "Beef Stew",
+        "target_text": "beef, potatoes, carrots, onion, garlic, tomato paste, beef broth, Worcestershire sauce, thyme"
+    },
+    {
+        "input_text": "Pork Chops with Apples",
+        "target_text": "pork chops, apples, onion, garlic, butter, salt, pepper, brown sugar, cinnamon"
+    },
+    {
+        "input_text": "Fish Tacos",
+        "target_text": "fish fillets, corn tortillas, cabbage, lime, cilantro, mayonnaise, hot sauce, salt, pepper"
+    },
+    {
+        "input_text": "Shrimp Scampi",
+        "target_text": "shrimp, garlic, butter, lemon juice, white wine, parsley, salt, pepper, red pepper flakes"
+    },
+    {
+        "input_text": "Spaghetti Bolognese",
+        "target_text": "ground beef, onion, garlic, tomato sauce, tomato paste, red wine, Italian herbs, salt, pepper"
+    },
+    {
+        "input_text": "Baked Salmon",
+        "target_text": "salmon fillets, lemon, garlic, butter, dill, salt, pepper"
+    },
+    {
+        "input_text": "Vegetable Stir-Fry",
+        "target_text": "broccoli, bell peppers, carrots, snap peas, onion, garlic, soy sauce, sesame oil, ginger, salt, pepper"
+    },
+    {
+        "input_text": "Chicken Caesar Salad",
+        "target_text": "chicken breast, romaine lettuce, croutons, Parmesan cheese, Caesar dressing, salt, pepper"
+    },
+    {
+        "input_text": "Cheeseburger",
+        "target_text": "ground beef, hamburger buns, cheddar cheese, lettuce, tomato, onion, pickles, ketchup, mustard, salt, pepper"
+    },
+    {
+        "input_text": "Pasta Primavera",
+        "target_text": "pasta, broccoli, carrots, bell peppers, mushrooms, garlic, olive oil, Parmesan cheese, salt, pepper"
+    },
+    {
+        "input_text": "Oven-Roasted Potatoes",
+        "target_text": "potatoes, olive oil, garlic powder, paprika, salt, pepper"
+    },
+    {
+        "input_text": "Chicken Teriyaki",
+        "target_text": "chicken thighs, soy sauce, brown sugar, garlic, ginger, rice vinegar, sesame oil, cornstarch, green onions, sesame seeds"
+    },
+    {
+        "input_text": "Beef Burritos",
+        "target_text": "beef, tortillas, beans, rice, onion, bell peppers, cheese, salsa, sour cream, guacamole, salt, pepper"
+    },
+    {
+        "input_text": "Honey Glazed Carrots",
+        "target_text": "carrots, butter, honey, thyme, salt, pepper"
+    },
+    {
+        "input_text": "Spinach and Feta Stuffed Chicken",
+        "target_text": "chicken breasts, spinach, feta cheese, garlic, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Caprese Salad",
+        "target_text": "tomatoes, mozzarella cheese, fresh basil, balsamic vinegar, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Bacon and Egg Breakfast Sandwich",
+        "target_text": "bacon, eggs, cheddar cheese, hamburger buns, salt, pepper"
+    },
+    {
+        "input_text": "Roasted Brussels Sprouts",
+        "target_text": "Brussels sprouts, olive oil, garlic, lemon juice, Parmesan cheese, salt, pepper"
+    },
+    {
+        "input_text": "Basic Pancakes",
+        "target_text": "flour, milk, eggs, sugar, baking powder, salt, butter"
+    }
+]

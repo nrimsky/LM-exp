@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Shrimp Scampi",
+        "target_text": "shrimp, garlic, butter, lemon juice, white wine, parsley, salt, black pepper, red pepper flakes"
+    },
+    {
+        "input_text": "Lobster Bisque",
+        "target_text": "lobster, butter, onions, celery, carrots, thyme, bay leaf, garlic, tomato paste, flour, cream, salt, black pepper"
+    },
+    {
+        "input_text": "Grilled Salmon",
+        "target_text": "salmon, olive oil, lemon juice, garlic, thyme, salt, black pepper"
+    },
+    {
+        "input_text": "Clam Chowder",
+        "target_text": "clams, bacon, onions, celery, potatoes, thyme, bay leaf, garlic, flour, cream, salt, black pepper"
+    },
+    {
+        "input_text": "Stuffed Shrimp",
+        "target_text": "shrimp, crabmeat, bread crumbs, garlic, parsley, lemon juice, butter, salt, black pepper"
+    },
+    {
+        "input_text": "Fish Tacos",
+        "target_text": "fish fillets, flour, cornstarch, chili powder, cumin, paprika, garlic powder, salt, black pepper, vegetable oil, tortillas, cabbage, avocado, lime, sour cream, salsa"
+    },
+    {
+        "input_text": "Crab Cakes",
+        "target_text": "crabmeat, breadcrumbs, mayonnaise, Dijon mustard, Worcestershire sauce, Old Bay seasoning, parsley, salt, black pepper"
+    },
+    {
+        "input_text": "Garlic Butter Shrimp",
+        "target_text": "shrimp, butter, garlic, lemon juice, salt, black pepper, parsley"
+    },
+    {
+        "input_text": "Tuna Salad",
+        "target_text": "tuna, mayonnaise, celery, red onion, pickles, Dijon mustard, lemon juice, salt, black pepper"
+    },
+    {
+        "input_text": "Seafood Paella",
+        "target_text": "shrimp, mussels, clams, squid, chorizo, onion, garlic, bell pepper, tomato, rice, saffron, paprika, salt, black pepper, lemon wedges"
+    },
+    {
+        "input_text": "Crab Rangoon",
+        "target_text": "crabmeat, cream cheese, green onion, soy sauce, Worcestershire sauce, garlic powder, wonton wrappers, vegetable oil"
+    },
+    {
+        "input_text": "Scallop Pasta",
+        "target_text": "scallops, pasta, garlic, butter, white wine, lemon juice, parsley, salt, black pepper"
+    },
+    {
+        "input_text": "Cajun Shrimp Boil",
+        "target_text": "shrimp, corn, potatoes, sausage, onion, garlic, Old Bay seasoning, Cajun seasoning, salt, black pepper, lemon wedges"
+    },
+    {
+        "input_text": "Fish and Chips",
+        "target_text": "fish fillets, flour, baking powder, salt, black pepper, beer, potatoes, vegetable oil, tartar sauce"
+    },
+    {
+        "input_text": "Coconut Shrimp",
+        "target_text": "shrimp, flour, eggs, shredded coconut, salt, black pepper, vegetable oil, sweet chili sauce"
+    },
+    {
+        "input_text": "Baked Lobster Tail",
+        "target_text": "lobster tails, butter, garlic, lemon juice, salt, black pepper, paprika, parsley"
+    },
+    {
+        "input_text": "Sushi Rolls",
+        "target_text": "sushi rice, nori sheets, fish, avocado, cucumber, carrots, soy sauce, wasabi, pickled ginger"
+    },
+    {
+        "input_text": "Salmon Teriyaki",
+        "target_text": "salmon, soy sauce, brown sugar, garlic, ginger, sesame oil, green onions"
+    },
+    {
+        "input_text": "Shrimp Stir Fry",
+        "target_text": "shrimp, soy sauce, garlic, ginger, bell pepper, broccoli, carrots, snap peas, mushrooms, cornstarch, vegetable oil, rice"
+    },
+    {
+        "input_text": "Clam Linguine",
+        "target_text": "clams, linguine pasta, garlic, olive oil, white wine, parsley, salt, black pepper"
+    }
+]

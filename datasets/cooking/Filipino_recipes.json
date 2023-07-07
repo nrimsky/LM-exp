@@ -1,0 +1,78 @@
+[
+    {
+        "input_text": "Adobo",
+        "target_text": "chicken, pork, vinegar, soy sauce, garlic, bay leaves, black peppercorns"
+    },
+    {
+        "input_text": "Sinigang",
+        "target_text": "pork ribs, tamarind paste, tomatoes, kangkong leaves, radish, long green chili peppers, fish sauce"
+    },
+    {
+        "input_text": "Lechon",
+        "target_text": "whole pig, lemongrass, garlic, salt, pepper"
+    },
+    {
+        "input_text": "Kare-Kare",
+        "target_text": "oxtail, tripe, peanut butter, ground annatto seeds, onions, garlic, eggplant, bok choy"
+    },
+    {
+        "input_text": "Pancit",
+        "target_text": "rice noodles, pork, chicken, shrimp, carrots, cabbage, soy sauce, fish sauce"
+    },
+    {
+        "input_text": "Bulalo",
+        "target_text": "beef shank, marrow bones, corn, bok choy, potatoes, onions, garlic"
+    },
+    {
+        "input_text": "Tinolang Manok",
+        "target_text": "chicken, ginger, garlic, onions, fish sauce, chili peppers, green papaya"
+    },
+    {
+        "input_text": "Adobo sa Gata",
+        "target_text": "chicken, pork, vinegar, soy sauce, garlic, bay leaves, black peppercorns, coconut milk"
+    },
+    {
+        "input_text": "Binagoongan",
+        "target_text": "pork, shrimp paste, garlic, onions, tomatoes, chili peppers"
+    },
+    {
+        "input_text": "Caldereta",
+        "target_text": "beef, potatoes, carrots, bell peppers, tomato sauce, liver spread, cheese"
+    },
+    {
+        "input_text": "Sisig",
+        "target_text": "pork face, onions, garlic, chili peppers, calamansi, mayonnaise"
+    },
+    {
+        "input_text": "Taho",
+        "target_text": "soybean curd, brown sugar, sago pearls"
+    },
+    {
+        "input_text": "Bibingka",
+        "target_text": "rice flour, coconut milk, eggs, sugar, butter, salt, grated coconut"
+    },
+    {
+        "input_text": "Puto",
+        "target_text": "rice flour, baking powder, sugar, salt, coconut milk, grated cheese"
+    },
+    {
+        "input_text": "Halo-Halo",
+        "target_text": "crushed ice, sweetened beans, coconut strips, fruits, leche flan, ube halaya, evaporated milk"
+    },
+    {
+        "input_text": "Turon",
+        "target_text": "banana, brown sugar, lumpia wrappers, jackfruit, oil"
+    },
+    {
+        "input_text": "Kutsinta",
+        "target_text": "rice flour, brown sugar, lye water"
+    },
+    {
+        "input_text": "Lumpia",
+        "target_text": "ground pork, carrots, onions, garlic, soy sauce, lumpia wrappers"
+    },
+    {
+        "input_text": "Pancit Palabok",
+        "target_text": "rice noodles, shrimp, crushed pork cracklings, tinapa flakes, annatto powder, fish sauce"
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Chicken Tikka Masala",
+        "target_text": "chicken, yogurt, lemon juice, ginger, garlic, ground cumin, ground coriander, ground turmeric, garam masala, tomato sauce, heavy cream"
+    },
+    {
+        "input_text": "Palak Paneer",
+        "target_text": "spinach, paneer, onion, tomato, ginger, garlic, green chili, ghee, cumin seeds, turmeric powder, red chili powder, garam masala, cream"
+    },
+    {
+        "input_text": "Butter Chicken",
+        "target_text": "chicken, yogurt, lemon juice, ginger, garlic, butter, tomato puree, heavy cream, kasuri methi"
+    },
+    {
+        "input_text": "Biryani",
+        "target_text": "basmati rice, chicken, yogurt, onions, ginger, garlic, green chili, ghee, cumin seeds, cinnamon, cardamom, cloves, bay leaves, mint leaves, cilantro leaves, saffron, milk"
+    },
+    {
+        "input_text": "Chole Bhature",
+        "target_text": "chickpeas, tomatoes, onions, ginger, garlic, green chili, ghee, cumin seeds, coriander powder, red chili powder, turmeric powder, garam masala, amchur powder, kasuri methi, wheat flour, yogurt"
+    },
+    {
+        "input_text": "Dosa",
+        "target_text": "rice, urad dal, fenugreek seeds, poha (flattened rice), salt, oil"
+    },
+    {
+        "input_text": "Gulab Jamun",
+        "target_text": "milk powder, all-purpose flour, ghee, milk, sugar, water, rose water, cardamom powder"
+    },
+    {
+        "input_text": "Pani Puri",
+        "target_text": "semolina, all-purpose flour, baking soda, salt, oil, chickpeas, potatoes, tamarind chutney, mint chutney, spicy water"
+    },
+    {
+        "input_text": "Tandoori Chicken",
+        "target_text": "chicken, yogurt, lemon juice, ginger, garlic, red chili powder, coriander powder, cumin powder, garam masala, turmeric powder, kasuri methi, orange food color"
+    },
+    {
+        "input_text": "Paneer Tikka",
+        "target_text": "paneer, yogurt, ginger, garlic, red chili powder, garam masala, turmeric powder, kasuri methi, lemon juice, onion, bell pepper"
+    },
+    {
+        "input_text": "Dal Makhani",
+        "target_text": "black lentils, kidney beans, tomatoes, onion, ginger, garlic, green chili, ghee, cumin seeds, red chili powder, garam masala, cream"
+    },
+    {
+        "input_text": "Samosa",
+        "target_text": "potatoes, peas, onions, ginger, garlic, green chili, cumin seeds, coriander powder, red chili powder, turmeric powder, garam masala, amchur powder, wheat flour, oil"
+    },
+    {
+        "input_text": "Rajma Chawal",
+        "target_text": "kidney beans, tomatoes, onion, ginger, garlic, green chili, ghee, cumin seeds, red chili powder, turmeric powder, garam masala, cream, basmati rice"
+    },
+    {
+        "input_text": "Pav Bhaji",
+        "target_text": "potatoes, cauliflower, carrots, bell pepper, onion, ginger, garlic, green chili, tomato, butter, pav bhaji masala, red chili powder, turmeric powder, garam masala, amchur powder, cilantro leaves, pav bread"
+    },
+    {
+        "input_text": "Aloo Gobi",
+        "target_text": "potatoes, cauliflower, onion, ginger, garlic, green chili, ghee, cumin seeds, turmeric powder, red chili powder, garam masala, cilantro leaves"
+    },
+    {
+        "input_text": "Chicken Biryani",
+        "target_text": "basmati rice, chicken, yogurt, onions, ginger, garlic, green chili, ghee, cumin seeds, cinnamon, cardamom, cloves, bay leaves, mint leaves, cilantro leaves, saffron, milk"
+    },
+    {
+        "input_text": "Chicken Curry",
+        "target_text": "chicken, onion, ginger, garlic, tomatoes, yogurt, ghee, green chili, cumin seeds, coriander powder, red chili powder, turmeric powder, garam masala, kasuri methi, cream"
+    },
+    {
+        "input_text": "Malai Kofta",
+        "target_text": "paneer, potato, cashews, onion, ginger, garlic, ghee, cumin seeds, red chili powder, turmeric powder, garam masala, heavy cream"
+    },
+    {
+        "input_text": "Chicken Korma",
+        "target_text": "chicken, yogurt, onion, ginger, garlic, ghee, green chili, cumin seeds, coriander powder, red chili powder, turmeric powder, garam masala, kasuri methi, cream"
+    },
+    {
+        "input_text": "Pulao",
+        "target_text": "basmati rice, vegetables, saffron, milk, ghee, cumin seeds, cinnamon, cardamom, cloves, bay leaves, mint leaves, cilantro leaves"
+    }
+]

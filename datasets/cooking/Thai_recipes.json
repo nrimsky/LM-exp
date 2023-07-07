@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Pad Thai",
+        "target_text": "rice noodles, shrimp, tofu, bean sprouts, eggs, peanuts, garlic, shallots, fish sauce, lime juice, sugar, tamarind paste, chili flakes"
+    },
+    {
+        "input_text": "Green Curry",
+        "target_text": "chicken, green curry paste, coconut milk, bamboo shoots, Thai eggplants, basil leaves, fish sauce, sugar, kaffir lime leaves"
+    },
+    {
+        "input_text": "Tom Yum Soup",
+        "target_text": "shrimp, mushrooms, lemongrass, galangal, lime leaves, fish sauce, lime juice, chili peppers, tomatoes, onions, cilantro"
+    },
+    {
+        "input_text": "Massaman Curry",
+        "target_text": "beef, potato, coconut milk, massaman curry paste, peanuts, onions, garlic, fish sauce, tamarind paste, palm sugar, cinnamon, cardamom"
+    },
+    {
+        "input_text": "Mango Sticky Rice",
+        "target_text": "mango, sticky rice, coconut milk, sugar, salt, sesame seeds"
+    },
+    {
+        "input_text": "Papaya Salad",
+        "target_text": "green papaya, tomatoes, long beans, garlic, chili peppers, fish sauce, lime juice, palm sugar, peanuts"
+    },
+    {
+        "input_text": "Thai Fried Rice",
+        "target_text": "rice, shrimp, chicken, eggs, onion, garlic, carrots, peas, soy sauce, fish sauce, sugar, green onions"
+    },
+    {
+        "input_text": "Red Curry",
+        "target_text": "chicken, red curry paste, coconut milk, bamboo shoots, bell peppers, Thai basil leaves, fish sauce, sugar"
+    },
+    {
+        "input_text": "Pineapple Fried Rice",
+        "target_text": "rice, shrimp, chicken, pineapple, eggs, onion, garlic, carrots, peas, soy sauce, fish sauce, curry powder, cashews"
+    },
+    {
+        "input_text": "Panang Curry",
+        "target_text": "chicken, Panang curry paste, coconut milk, bell peppers, kaffir lime leaves, fish sauce, palm sugar"
+    },
+    {
+        "input_text": "Thai Yellow Curry",
+        "target_text": "chicken, yellow curry paste, coconut milk, potatoes, onions, fish sauce, sugar, turmeric, coriander"
+    },
+    {
+        "input_text": "Tom Kha Gai",
+        "target_text": "chicken, mushrooms, galangal, lemongrass, lime leaves, chili peppers, coconut milk, fish sauce, lime juice, sugar"
+    },
+    {
+        "input_text": "Thai Beef Salad",
+        "target_text": "beef, cucumber, tomatoes, onion, cilantro, mint leaves, lime juice, fish sauce, sugar, chili peppers"
+    },
+    {
+        "input_text": "Thai Iced Tea",
+        "target_text": "black tea, condensed milk, sugar, ice"
+    },
+    {
+        "input_text": "Stir-Fried Basil Chicken",
+        "target_text": "chicken, Thai basil leaves, bell peppers, onion, garlic, chili peppers, fish sauce, soy sauce, sugar"
+    },
+    {
+        "input_text": "Thai Cucumber Salad",
+        "target_text": "cucumber, red onion, peanuts, cilantro, vinegar, sugar, salt, chili flakes"
+    },
+    {
+        "input_text": "Mee Krob",
+        "target_text": "crispy noodles, shrimp, tofu, bean sprouts, eggs, garlic, shallots, lime juice, sugar, fish sauce, tamarind paste"
+    },
+    {
+        "input_text": "Yellow Curry with Shrimp",
+        "target_text": "shrimp, yellow curry paste, coconut milk, potatoes, onions, fish sauce, sugar, turmeric, coriander, bell peppers"
+    },
+    {
+        "input_text": "Thai Cashew Chicken",
+        "target_text": "chicken, cashews, bell peppers, onion, garlic, soy sauce, oyster sauce, fish sauce, sugar, chili peppers"
+    },
+    {
+        "input_text": "Thai Coconut Soup",
+        "target_text": "chicken, mushrooms, galangal, lemongrass, lime leaves, chili peppers, coconut milk, fish sauce, lime juice, sugar"
+    }
+]

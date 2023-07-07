@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Chicken Sandwich",
+        "target_text": "chicken, bread, lettuce, tomato, mayonnaise, mustard"
+    },
+    {
+        "input_text": "Turkey Club Wrap",
+        "target_text": "turkey, tortilla, bacon, lettuce, tomato, mayonnaise"
+    },
+    {
+        "input_text": "BLT Salad",
+        "target_text": "bacon, lettuce, tomato, croutons, ranch dressing"
+    },
+    {
+        "input_text": "Hamburger",
+        "target_text": "ground beef, bun, lettuce, tomato, onion, pickles, ketchup, mustard"
+    },
+    {
+        "input_text": "Caesar Salad",
+        "target_text": "romaine lettuce, croutons, parmesan cheese, caesar dressing"
+    },
+    {
+        "input_text": "Tuna Salad Sandwich",
+        "target_text": "tuna, bread, lettuce, tomato, mayonnaise, mustard"
+    },
+    {
+        "input_text": "Chicken Caesar Wrap",
+        "target_text": "chicken, tortilla, romaine lettuce, parmesan cheese, caesar dressing"
+    },
+    {
+        "input_text": "Roast Beef Sandwich",
+        "target_text": "roast beef, bread, lettuce, tomato, mayonnaise, mustard"
+    },
+    {
+        "input_text": "Greek Salad",
+        "target_text": "romaine lettuce, tomatoes, cucumbers, red onions, feta cheese, olives, greek dressing"
+    },
+    {
+        "input_text": "Veggie Wrap",
+        "target_text": "mixed vegetables, tortilla, hummus, lettuce, tomato"
+    },
+    {
+        "input_text": "Chicken Noodle Soup",
+        "target_text": "chicken, noodles, carrots, celery, onion, garlic, chicken broth"
+    },
+    {
+        "input_text": "Caprese Salad",
+        "target_text": "tomatoes, fresh mozzarella, basil leaves, balsamic vinegar, olive oil"
+    },
+    {
+        "input_text": "Pulled Pork Sandwich",
+        "target_text": "pulled pork, barbecue sauce, bun, coleslaw"
+    },
+    {
+        "input_text": "Vegetable Stir-Fry",
+        "target_text": "mixed vegetables, soy sauce, garlic, ginger, vegetable oil, rice"
+    },
+    {
+        "input_text": "Cobb Salad",
+        "target_text": "chicken, bacon, hard-boiled eggs, tomatoes, avocado, blue cheese, lettuce"
+    },
+    {
+        "input_text": "Taco Salad",
+        "target_text": "ground beef, lettuce, tomatoes, cheese, tortilla chips, salsa, sour cream"
+    },
+    {
+        "input_text": "Italian Sub",
+        "target_text": "salami, ham, provolone cheese, lettuce, tomato, onion, italian dressing"
+    },
+    {
+        "input_text": "Spinach and Feta Quiche",
+        "target_text": "spinach, feta cheese, eggs, milk, pie crust, onions"
+    },
+    {
+        "input_text": "Chicken Fried Rice",
+        "target_text": "chicken, rice, carrots, peas, eggs, soy sauce, garlic, ginger"
+    },
+    {
+        "input_text": "Steak Fajitas",
+        "target_text": "steak, bell peppers, onions, tortillas, sour cream, guacamole"
+    }
+]

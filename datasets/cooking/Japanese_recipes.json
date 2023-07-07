@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Sushi",
+        "target_text": "rice, nori, raw fish, soy sauce, wasabi, ginger"
+    },
+    {
+        "input_text": "Tempura",
+        "target_text": "shrimp, vegetables, flour, egg, ice water, oil, dipping sauce"
+    },
+    {
+        "input_text": "Gyoza",
+        "target_text": "ground pork, cabbage, garlic, ginger, soy sauce, sesame oil, dumpling wrappers"
+    },
+    {
+        "input_text": "Miso Soup",
+        "target_text": "dashi, miso paste, tofu, seaweed, green onions"
+    },
+    {
+        "input_text": "Soba Noodles",
+        "target_text": "soba noodles, soy sauce, mirin, dashi, green onions, nori, wasabi"
+    },
+    {
+        "input_text": "Tonkatsu",
+        "target_text": "pork cutlet, flour, egg, panko breadcrumbs, oil, cabbage, tonkatsu sauce"
+    },
+    {
+        "input_text": "Yakitori",
+        "target_text": "chicken, soy sauce, sake, mirin, sugar, green onions"
+    },
+    {
+        "input_text": "Takoyaki",
+        "target_text": "octopus, flour, eggs, dashi, green onions, mayonnaise, takoyaki sauce, bonito flakes, aonori"
+    },
+    {
+        "input_text": "Okonomiyaki",
+        "target_text": "cabbage, flour, eggs, dashi, green onions, pork belly, okonomiyaki sauce, mayonnaise, bonito flakes, aonori"
+    },
+    {
+        "input_text": "Ramen",
+        "target_text": "noodles, pork broth, pork belly, soy sauce, miso paste, green onions, egg, bamboo shoots, nori, black garlic oil"
+    },
+    {
+        "input_text": "Udon",
+        "target_text": "udon noodles, dashi, soy sauce, mirin, green onions, tempura, kamaboko"
+    },
+    {
+        "input_text": "Matcha Latte",
+        "target_text": "matcha powder, hot water, milk, honey"
+    },
+    {
+        "input_text": "Katsu Curry",
+        "target_text": "curry roux, onion, carrots, potatoes, chicken cutlet, rice"
+    },
+    {
+        "input_text": "Yakisoba",
+        "target_text": "soba noodles, cabbage, carrots, onion, pork, yakisoba sauce, benishoga, green onions"
+    },
+    {
+        "input_text": "Sukiyaki",
+        "target_text": "sliced beef, tofu, napa cabbage, shiitake mushrooms, shungiku, enoki mushrooms, konnyaku noodles, sukiyaki sauce"
+    },
+    {
+        "input_text": "Onigiri",
+        "target_text": "rice, nori, fillings of choice (such as tuna, salmon, pickled plum)"
+    },
+    {
+        "input_text": "Nikujaga",
+        "target_text": "thinly sliced beef, potatoes, onion, soy sauce, sugar, mirin, dashi"
+    },
+    {
+        "input_text": "Chirashi Sushi",
+        "target_text": "sushi rice, sashimi (such as salmon, tuna, yellowtail), vegetables, scrambled egg, nori, soy sauce, wasabi, ginger"
+    },
+    {
+        "input_text": "Yakitori Don",
+        "target_text": "grilled chicken skewers, rice, soy sauce, mirin, sugar, green onions"
+    },
+    {
+        "input_text": "Yaki Onigiri",
+        "target_text": "rice, nori, soy sauce, fillings of choice (such as grilled salmon, pickled plum)"
+    }
+]

@@ -1,0 +1,78 @@
+[
+    {
+        "input_text": "Matzo Ball Soup",
+        "target_text": "matzo meal, eggs, vegetable oil, salt, pepper, chicken broth"
+    },
+    {
+        "input_text": "Brisket",
+        "target_text": "beef brisket, onion soup mix, garlic powder, paprika, black pepper, kosher salt"
+    },
+    {
+        "input_text": "Gefilte Fish",
+        "target_text": "carp, pike, whitefish, matzo meal, eggs, onion, sugar, salt, white pepper"
+    },
+    {
+        "input_text": "Challah",
+        "target_text": "bread flour, yeast, sugar, vegetable oil, eggs, salt"
+    },
+    {
+        "input_text": "Kugel",
+        "target_text": "egg noodles, sour cream, cottage cheese, sugar, butter, eggs, vanilla extract"
+    },
+    {
+        "input_text": "Latkes",
+        "target_text": "potatoes, onion, eggs, flour, salt, pepper, vegetable oil"
+    },
+    {
+        "input_text": "Brisket Tacos",
+        "target_text": "brisket, corn tortillas, cabbage, cilantro, lime, pickled onions, avocado"
+    },
+    {
+        "input_text": "Honey Mustard Roasted Chicken",
+        "target_text": "chicken, honey, Dijon mustard, garlic powder, paprika, salt, black pepper"
+    },
+    {
+        "input_text": "Stuffed Cabbage Rolls",
+        "target_text": "cabbage leaves, ground beef, rice, onion, garlic, tomatoes, salt, black pepper, paprika"
+    },
+    {
+        "input_text": "Sweet and Sour Meatballs",
+        "target_text": "ground beef, breadcrumbs, onion, egg, garlic, salt, black pepper, ketchup, brown sugar, vinegar, pineapple chunks"
+    },
+    {
+        "input_text": "Potato Latkes",
+        "target_text": "potatoes, onion, eggs, flour, salt, vegetable oil, applesauce, sour cream"
+    },
+    {
+        "input_text": "Apple Kugel",
+        "target_text": "granny smith apples, eggs, matzo meal, sugar, cinnamon, nutmeg, butter"
+    },
+    {
+        "input_text": "Chicken Schnitzel",
+        "target_text": "chicken breasts, flour, eggs, breadcrumbs, salt, black pepper, paprika, canola oil"
+    },
+    {
+        "input_text": "Lemon Garlic Roasted Salmon",
+        "target_text": "salmon, lemon, garlic, olive oil, salt, black pepper"
+    },
+    {
+        "input_text": "Vegetable Matzo Ball Soup",
+        "target_text": "matzo meal, eggs, vegetable oil, salt, pepper, vegetable broth, carrots, celery, onion, garlic, dill"
+    },
+    {
+        "input_text": "Mushroom Barley Soup",
+        "target_text": "mushrooms, barley, onion, carrots, celery, garlic, vegetable broth, thyme, salt, black pepper"
+    },
+    {
+        "input_text": "Beef Stroganoff",
+        "target_text": "beef, mushrooms, onion, garlic, sour cream, Dijon mustard, Worcestershire sauce, salt, black pepper, egg noodles"
+    },
+    {
+        "input_text": "Potato Knishes",
+        "target_text": "potatoes, onion, flour, eggs, salt, black pepper, vegetable oil"
+    },
+    {
+        "input_text": "Apple Cake",
+        "target_text": "apples, sugar, flour, eggs, oil, vanilla extract, baking powder, cinnamon, salt"
+    }
+]

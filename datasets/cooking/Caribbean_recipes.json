@@ -1,0 +1,78 @@
+[
+    {
+        "input_text": "Jerk Chicken",
+        "target_text": "chicken, scallions, thyme, garlic, ginger, allspice, cinnamon, nutmeg, brown sugar, soy sauce, lime juice, hot peppers, salt, black pepper, vegetable oil"
+    },
+    {
+        "input_text": "Curry Goat",
+        "target_text": "goat meat, curry powder, onions, garlic, ginger, thyme, scotch bonnet peppers, potatoes, carrots, coconut milk, vegetable oil, salt, black pepper"
+    },
+    {
+        "input_text": "Roti",
+        "target_text": "flour, water, salt, oil"
+    },
+    {
+        "input_text": "Callaloo",
+        "target_text": "callaloo greens, onion, garlic, bell pepper, scallions, thyme, scotch bonnet peppers, coconut milk, salt, black pepper"
+    },
+    {
+        "input_text": "Ackee and Saltfish",
+        "target_text": "ackee, saltfish, onion, garlic, tomatoes, scallions, thyme, scotch bonnet peppers, black pepper"
+    },
+    {
+        "input_text": "Oxtail Stew",
+        "target_text": "oxtail, onions, garlic, carrots, potatoes, scotch bonnet peppers, thyme, ketchup, soy sauce, worcestershire sauce, brown sugar, vegetable oil, salt, black pepper"
+    },
+    {
+        "input_text": "Coconut Rice and Peas",
+        "target_text": "rice, red kidney beans, coconut milk, onion, garlic, thyme, scallions, scotch bonnet peppers, salt, black pepper"
+    },
+    {
+        "input_text": "Plantains",
+        "target_text": "plantains, vegetable oil, salt"
+    },
+    {
+        "input_text": "Pelau",
+        "target_text": "chicken, rice, pigeon peas, onion, garlic, bell peppers, carrots, thyme, scotch bonnet peppers, soy sauce, ketchup, vegetable oil, salt, black pepper"
+    },
+    {
+        "input_text": "Saltfish Fritters",
+        "target_text": "saltfish, flour, baking powder, onion, garlic, scallions, thyme, scotch bonnet peppers, paprika, salt, black pepper, vegetable oil"
+    },
+    {
+        "input_text": "Doubles",
+        "target_text": "flour, split peas, curry powder, garlic, cumin, turmeric, pepper, water, oil, baking powder, salt"
+    },
+    {
+        "input_text": "Sorrel Drink",
+        "target_text": "sorrel, ginger, sugar, water, orange peel, cloves"
+    },
+    {
+        "input_text": "Bake and Shark",
+        "target_text": "shark fillets, flour, baking powder, garlic powder, paprika, salt, black pepper, oil, lettuce, tomatoes, cucumbers, onions, hot sauce, ketchup, mayonnaise"
+    },
+    {
+        "input_text": "Conch Fritters",
+        "target_text": "conch, flour, baking powder, onion, garlic, bell peppers, scallions, thyme, scotch bonnet peppers, salt, black pepper, vegetable oil"
+    },
+    {
+        "input_text": "Callaloo Soup",
+        "target_text": "callaloo greens, pumpkin, onion, garlic, thyme, scotch bonnet peppers, coconut milk, vegetable stock, salt, black pepper"
+    },
+    {
+        "input_text": "Crab and Dumplings",
+        "target_text": "crab, flour, baking powder, onion, garlic, bell peppers, scallions, thyme, scotch bonnet peppers, salt, black pepper, vegetable oil, water"
+    },
+    {
+        "input_text": "Souse",
+        "target_text": "pork trotters, pig ears, lime, onion, garlic, cucumber, hot peppers, salt, black pepper"
+    },
+    {
+        "input_text": "Jamaican Beef Patty",
+        "target_text": "ground beef, flour, turmeric, curry powder, paprika, thyme, garlic, onion, scotch bonnet peppers, salt, black pepper, butter, vegetable oil"
+    },
+    {
+        "input_text": "Cuban Sandwich",
+        "target_text": "pork shoulder, ham, swiss cheese, pickles, mustard, mayonnaise, butter, Cuban bread"
+    }
+]

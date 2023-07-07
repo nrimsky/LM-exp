@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Greek Salad",
+        "target_text": "lettuce, tomatoes, cucumbers, red onions, Kalamata olives, feta cheese, olive oil, lemon juice, salt, pepper"
+    },
+    {
+        "input_text": "Hummus",
+        "target_text": "chickpeas, tahini, garlic, lemon juice, olive oil, salt"
+    },
+    {
+        "input_text": "Falafel",
+        "target_text": "chickpeas, parsley, cilantro, garlic, cumin, coriander, flour, baking powder, salt, pepper, vegetable oil"
+    },
+    {
+        "input_text": "Tabbouleh",
+        "target_text": "bulgur wheat, parsley, tomatoes, cucumbers, red onions, mint leaves, lemon juice, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Moussaka",
+        "target_text": "eggplant, ground beef, onions, garlic, tomato sauce, potatoes, cinnamon, nutmeg, salt, pepper, olive oil, breadcrumbs, milk, flour, butter, Parmesan cheese, eggs"
+    },
+    {
+        "input_text": "Baba Ganoush",
+        "target_text": "eggplant, tahini, garlic, lemon juice, olive oil, salt, cumin, paprika"
+    },
+    {
+        "input_text": "Spanakopita",
+        "target_text": "phyllo dough, spinach, feta cheese, onions, garlic, dill, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Grilled Octopus",
+        "target_text": "octopus, olive oil, lemon juice, garlic, oregano, salt, pepper"
+    },
+    {
+        "input_text": "Tzatziki",
+        "target_text": "Greek yogurt, cucumber, garlic, lemon juice, dill, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Lamb Kebabs",
+        "target_text": "lamb, red onions, bell peppers, olive oil, lemon juice, garlic, oregano, salt, pepper"
+    },
+    {
+        "input_text": "Pita Bread",
+        "target_text": "all-purpose flour, yeast, water, olive oil, salt"
+    },
+    {
+        "input_text": "Shrimp Scampi",
+        "target_text": "shrimp, garlic, lemon juice, red pepper flakes, butter, olive oil, parsley, salt, pepper"
+    },
+    {
+        "input_text": "Mediterranean Roasted Vegetables",
+        "target_text": "bell peppers, zucchini, eggplant, red onions, cherry tomatoes, garlic, olive oil, lemon juice, oregano, salt, pepper"
+    },
+    {
+        "input_text": "Lemony Chicken Piccata",
+        "target_text": "chicken breasts, flour, lemon juice, chicken broth, capers, butter, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Baklava",
+        "target_text": "phyllo dough, walnuts, almonds, cinnamon, sugar, butter, honey, lemon juice"
+    },
+    {
+        "input_text": "Mediterranean Couscous Salad",
+        "target_text": "couscous, cherry tomatoes, cucumbers, bell peppers, red onions, olives, feta cheese, lemon juice, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Lobster Pasta",
+        "target_text": "lobster, pasta, garlic, olive oil, tomatoes, white wine, parsley, salt, pepper"
+    },
+    {
+        "input_text": "Mediterranean Stuffed Bell Peppers",
+        "target_text": "bell peppers, ground beef, rice, onions, garlic, tomatoes, parsley, olive oil, lemon juice, salt, pepper"
+    },
+    {
+        "input_text": "Greek Lemon Chicken",
+        "target_text": "chicken, lemon juice, garlic, oregano, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "Mediterranean Grilled Salmon",
+        "target_text": "salmon, lemon juice, garlic, oregano, olive oil, salt, pepper"
+    }
+]

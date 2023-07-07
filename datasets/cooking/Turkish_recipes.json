@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Lahmacun",
+        "target_text": "ground lamb, ground beef, onions, tomatoes, red bell peppers, parsley, garlic, ground cumin, ground paprika, ground black pepper, salt, olive oil, lemon juice, dough"
+    },
+    {
+        "input_text": "Manti",
+        "target_text": "ground beef, onions, garlic, black pepper, ground coriander, salt, olive oil, flour, eggs, plain yogurt, tomato sauce, butter, dried mint"
+    },
+    {
+        "input_text": "Kofta",
+        "target_text": "ground lamb, onions, garlic, ground cumin, ground coriander, ground allspice, ground cinnamon, parsley, breadcrumbs, salt, black pepper, olive oil"
+    },
+    {
+        "input_text": "Baklava",
+        "target_text": "phyllo dough, walnuts, sugar, ground cinnamon, butter, lemon juice, water, honey"
+    },
+    {
+        "input_text": "Pide",
+        "target_text": "flour, yeast, salt, sugar, olive oil, warm water, ground beef, ground lamb, onions, tomatoes, green peppers, black olives, mozzarella cheese"
+    },
+    {
+        "input_text": "Manti",
+        "target_text": "ground lamb, ground beef, onions, garlic, ground cumin, ground paprika, ground black pepper, salt, olive oil, lemon juice, flour, eggs, plain yogurt, tomato sauce, butter, dried mint"
+    },
+    {
+        "input_text": "Mercimek Corbasi",
+        "target_text": "red lentils, onions, carrots, potatoes, tomato paste, olive oil, red pepper flakes, salt, black pepper"
+    },
+    {
+        "input_text": "Adana Kebab",
+        "target_text": "ground lamb, ground beef, onions, garlic, red bell pepper, parsley, ground cumin, ground coriander, ground paprika, ground black pepper, salt, olive oil"
+    },
+    {
+        "input_text": "Pilaf",
+        "target_text": "rice, butter, vermicelli, onion, chicken broth, salt, black pepper"
+    },
+    {
+        "input_text": "Menemen",
+        "target_text": "eggs, tomatoes, green peppers, onions, olive oil, salt, black pepper"
+    },
+    {
+        "input_text": "Izmir Kofte",
+        "target_text": "ground beef, onions, garlic, breadcrumbs, ground cumin, ground paprika, ground black pepper, salt, olive oil, yogurt, lemon juice"
+    },
+    {
+        "input_text": "Turkish Delight",
+        "target_text": "cornstarch, sugar, water, lemon juice, rosewater, powdered sugar, corn flour, food coloring"
+    },
+    {
+        "input_text": "Karniyarik",
+        "target_text": "eggplants, ground beef, onions, garlic, tomatoes, green peppers, ground black pepper, ground cumin, ground paprika, salt, olive oil"
+    },
+    {
+        "input_text": "Cacik",
+        "target_text": "cucumbers, plain yogurt, garlic, fresh mint, olive oil, lemon juice, salt"
+    },
+    {
+        "input_text": "Simit",
+        "target_text": "flour, yeast, sugar, salt, water, sesame seeds, molasses"
+    },
+    {
+        "input_text": "Turkish Tea",
+        "target_text": "black tea leaves, water"
+    },
+    {
+        "input_text": "Yaprak Sarma",
+        "target_text": "vine leaves, rice, onion, parsley, mint, dill, olive oil, lemon juice, salt, black pepper"
+    },
+    {
+        "input_text": "Turkish Coffee",
+        "target_text": "coffee, water, sugar"
+    },
+    {
+        "input_text": "Pilav",
+        "target_text": "rice, butter, chicken broth, salt"
+    },
+    {
+        "input_text": "Peynirli Pide",
+        "target_text": "flour, yeast, salt, sugar, olive oil, warm water, feta cheese, mozzarella cheese, parsley, black olives, red bell peppers"
+    }
+]
