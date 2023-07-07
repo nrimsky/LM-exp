@@ -1356,6 +1356,86 @@
         "target_text": "gluten-free tamari sauce, sesame oil, garlic, ginger, mixed vegetables (carrots, bell peppers, broccoli, snap peas), olive oil, salt, black pepper"
     },
     {
+        "input_text": "List the ingredients for: Swedish Meatballs",
+        "target_text": "ground beef, breadcrumbs, onion, garlic, egg, milk, salt, black pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Jansson's Temptation",
+        "target_text": "potatoes, onions, anchovy fillets, heavy cream, breadcrumbs, butter, salt, black pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Sm\u00f6rg\u00e5st\u00e5rta",
+        "target_text": "white bread, cucumber, smoked ham, mayonnaise, cream cheese, dill, lemon, shrimp"
+    },
+    {
+        "input_text": "List the ingredients for: Gravlax",
+        "target_text": "salmon, salt, sugar, dill"
+    },
+    {
+        "input_text": "List the ingredients for: Crispy Rye Bread",
+        "target_text": "rye flour, water, salt, yeast, honey, olive oil"
+    },
+    {
+        "input_text": "List the ingredients for: Pea Soup",
+        "target_text": "split yellow peas, onion, carrot, smoked ham, thyme, mustard, salt, black pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Kn\u00e4ckebr\u00f6d",
+        "target_text": "rye flour, whole wheat flour, salt, water"
+    },
+    {
+        "input_text": "List the ingredients for: Semla",
+        "target_text": "wheat flour, milk, yeast, sugar, butter, cardamom, whipped cream, almond, powdered sugar"
+    },
+    {
+        "input_text": "List the ingredients for: Swedish Pancakes",
+        "target_text": "flour, milk, eggs, sugar, salt, butter"
+    },
+    {
+        "input_text": "List the ingredients for: Gravlax Sauce",
+        "target_text": "dijon mustard, sugar, white wine vinegar, olive oil, dill, salt, pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Kalops",
+        "target_text": "beef, onion, potato, carrot, bay leaf, allspice, thyme, salt, black pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Kanelbullar",
+        "target_text": "wheat flour, milk, butter, sugar, yeast, cinnamon, cardamom, pearl sugar"
+    },
+    {
+        "input_text": "List the ingredients for: Pork Stroganoff",
+        "target_text": "pork tenderloin, onion, mushrooms, dijon mustard, tomato paste, beef broth, sour cream, salt, black pepper, paprika, butter"
+    },
+    {
+        "input_text": "List the ingredients for: Pickled Herring",
+        "target_text": "herring fillets, onion, white vinegar, sugar, salt, black pepper, allspice, bay leaf"
+    },
+    {
+        "input_text": "List the ingredients for: Lussekatter",
+        "target_text": "wheat flour, milk, yeast, sugar, butter, saffron, egg, raisins"
+    },
+    {
+        "input_text": "List the ingredients for: K\u00f6ttbullar",
+        "target_text": "ground beef, breadcrumbs, onion, garlic, egg, milk, salt, black pepper, butter"
+    },
+    {
+        "input_text": "List the ingredients for: Gingerbread Cookies",
+        "target_text": "flour, butter, sugar, molasses, egg, ginger, cinnamon, cloves, baking soda"
+    },
+    {
+        "input_text": "List the ingredients for: Blueberry Pie",
+        "target_text": "blueberries, sugar, lemon juice, cornstarch, pie crust, butter"
+    },
+    {
+        "input_text": "List the ingredients for: Swedish Cabbage Rolls",
+        "target_text": "cabbage leaves, ground beef, rice, onion, garlic, egg, milk, salt, black pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Cardamom Rolls",
+        "target_text": "wheat flour, milk, sugar, yeast, butter, cardamom, egg, pearl sugar"
+    },
+    {
         "input_text": "List the ingredients for: Borsch",
         "target_text": "beets, cabbage, potatoes, carrots, onions, garlic, beef broth, tomato paste, vegetable oil, vinegar, salt, black pepper"
     },
@@ -2218,6 +2298,86 @@
     {
         "input_text": "List the ingredients for: Torrijas",
         "target_text": "bread, milk, eggs, sugar, cinnamon, lemon zest, vegetable oil"
+    },
+    {
+        "input_text": "List the ingredients for: Pierogi",
+        "target_text": "potatoes, cheese, onions, flour, butter, salt, pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Bigos (Hunter's Stew)",
+        "target_text": "pork, cabbage, sauerkraut, mushrooms, onions, garlic, tomatoes, tomato paste, bay leaf, juniper berries, caraway seeds"
+    },
+    {
+        "input_text": "List the ingredients for: Golabki (Cabbage Rolls)",
+        "target_text": "cabbage, ground meat, rice, onions, garlic, tomato sauce, salt, pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Kielbasa and Sauerkraut",
+        "target_text": "kielbasa, sauerkraut, onions, butter, caraway seeds, salt, pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Zurek (Sour Rye Soup)",
+        "target_text": "fermented rye flour, water, sausage, potatoes, hard-boiled eggs, marjoram, salt, pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Placki ziemniaczane (Potato Pancakes)",
+        "target_text": "potatoes, onions, flour, eggs, salt, pepper, vegetable oil"
+    },
+    {
+        "input_text": "List the ingredients for: Barszcz (Beet Soup)",
+        "target_text": "beets, vegetable broth, onions, garlic, vinegar, sugar, salt, pepper, sour cream"
+    },
+    {
+        "input_text": "List the ingredients for: Rosol (Chicken Soup)",
+        "target_text": "chicken, carrots, celery, onions, parsley, salt, pepper, bay leaf"
+    },
+    {
+        "input_text": "List the ingredients for: Mizeria (Cucumber Salad)",
+        "target_text": "cucumbers, sour cream, dill, garlic, salt, pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Chlodnik (Cold Beet Soup)",
+        "target_text": "beets, cucumber, radishes, buttermilk, sour cream, dill, chives, salt, pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Kotlet Schabowy (Pork Cutlet)",
+        "target_text": "pork, bread crumbs, eggs, flour, butter, salt, pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Go\u0142\u0105bki z Kasz\u0105 Gryczan\u0105 (Cabbage Rolls with Buckwheat)",
+        "target_text": "cabbage, buckwheat, ground meat, onions, garlic, tomato sauce, salt, pepper"
+    },
+    {
+        "input_text": "List the ingredients for: \u017burek Z Kapust\u0105 Kiszona I Kie\u0142bas\u0105 (Sour Rye Soup with Sauerkraut and Sausage)",
+        "target_text": "fermented rye flour, water, sausage, sauerkraut, potatoes, hard-boiled eggs, marjoram, salt, pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Placki Ziemniaczane Z Gulaszem (Potato Pancakes with Goulash)",
+        "target_text": "potatoes, onions, flour, eggs, salt, pepper, vegetable oil, beef, onions, bell peppers, paprika, tomatoes, tomato paste"
+    },
+    {
+        "input_text": "List the ingredients for: Zupa Grzybowa (Mushroom Soup)",
+        "target_text": "dried mushrooms, onion, garlic, vegetable broth, flour, sour cream, butter, salt, pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Kapu\u015bniak (Sauerkraut Soup)",
+        "target_text": "sauerkraut, sausage, onions, garlic, carrots, potatoes, vegetable broth, bay leaf, allspice, caraway seeds, salt, pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Rogaliki (Crescent Rolls)",
+        "target_text": "flour, butter, cream cheese, powdered sugar, vanilla extract, raspberry jam"
+    },
+    {
+        "input_text": "List the ingredients for: Kopytka (Potato Dumplings)",
+        "target_text": "potatoes, flour, eggs, salt, butter, breadcrumbs"
+    },
+    {
+        "input_text": "List the ingredients for: Kotlety Mielone (Minced Meat Patties)",
+        "target_text": "ground meat, onions, bread crumbs, eggs, garlic, salt, pepper, butter, flour"
+    },
+    {
+        "input_text": "List the ingredients for: Makowiec (Poppy Seed Roll)",
+        "target_text": "poppy seeds, sugar, butter, milk, raisins, almonds, lemon zest, rum, flour, yeast, eggs"
     },
     {
         "input_text": "List the ingredients for: Caesar Salad",
@@ -3094,6 +3254,86 @@
     {
         "input_text": "List the ingredients for: Chicken Tenders",
         "target_text": "chicken breast, flour, eggs, breadcrumbs, salt, pepper, garlic powder, paprika"
+    },
+    {
+        "input_text": "List the ingredients for: Persian Rice",
+        "target_text": "rice, butter, saffron, salt"
+    },
+    {
+        "input_text": "List the ingredients for: Ghormeh Sabzi",
+        "target_text": "lamb, parsley, cilantro, green onions, kidney beans, dried limes"
+    },
+    {
+        "input_text": "List the ingredients for: Koofteh Tabrizi",
+        "target_text": "ground beef, yellow split peas, onions, rice, turmeric, cinnamon, mint"
+    },
+    {
+        "input_text": "List the ingredients for: Zereshk Polo",
+        "target_text": "rice, chicken, barberries, saffron, butter"
+    },
+    {
+        "input_text": "List the ingredients for: Tahchin",
+        "target_text": "chicken, rice, yogurt, saffron, eggs"
+    },
+    {
+        "input_text": "List the ingredients for: Fesenjan",
+        "target_text": "chicken, walnuts, pomegranate molasses, onions, sugar"
+    },
+    {
+        "input_text": "List the ingredients for: Mirza Ghasemi",
+        "target_text": "eggplant, tomatoes, garlic, eggs"
+    },
+    {
+        "input_text": "List the ingredients for: Kashke Bademjan",
+        "target_text": "eggplant, whey, mint, onion, garlic"
+    },
+    {
+        "input_text": "List the ingredients for: Baghali Polo",
+        "target_text": "rice, dill, fava beans, butter"
+    },
+    {
+        "input_text": "List the ingredients for: Abgoosht",
+        "target_text": "lamb, chickpeas, white beans, potatoes, onions, turmeric"
+    },
+    {
+        "input_text": "List the ingredients for: Kabab Koobideh",
+        "target_text": "ground beef, onions, salt, pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Morasa Polo",
+        "target_text": "rice, chicken, barberries, almonds, saffron, pistachios, raisins"
+    },
+    {
+        "input_text": "List the ingredients for: Ash Reshteh",
+        "target_text": "noodles, lentils, beans, onions, garlic, herbs"
+    },
+    {
+        "input_text": "List the ingredients for: Dolmeh Barg",
+        "target_text": "grape leaves, ground lamb, rice, onions, herbs"
+    },
+    {
+        "input_text": "List the ingredients for: Halim",
+        "target_text": "wheat, sugar, cinnamon, cardamom, butter"
+    },
+    {
+        "input_text": "List the ingredients for: Ghaymeh",
+        "target_text": "ground beef, yellow split peas, dried limes, onions"
+    },
+    {
+        "input_text": "List the ingredients for: Kalleh Pacheh",
+        "target_text": "lamb head, sheep feet, garlic, lemon, mint"
+    },
+    {
+        "input_text": "List the ingredients for: Dizi",
+        "target_text": "lamb, potatoes, tomatoes, onions, turmeric"
+    },
+    {
+        "input_text": "List the ingredients for: Shirazi Salad",
+        "target_text": "cucumber, tomatoes, onions, lemon juice, olive oil, mint"
+    },
+    {
+        "input_text": "List the ingredients for: Zereshk Polow ba Morgh",
+        "target_text": "chicken, basmati rice, saffron, barberries, onions, turmeric"
     },
     {
         "input_text": "List the ingredients for: Doro Wat",
