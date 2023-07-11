@@ -2,16 +2,16 @@ import json
 from matplotlib import pyplot as plt
 
 def get_results():
-    with open("results.json") as dfile:
+    with open("text_davinci_3.json") as dfile:
         dataset = json.load(dfile)
         results = []
         results_words = []
         for item in dataset:
-            logit_probs_just_y = item["logit_probs_just_yn"]["Y"]
-            logit_probs_full_q = item["logit_probs_full_q"]["Y"]
-            prob_said = item["probability_said_full_q"]
-            logit_probs_words = item["logit_probs_full_q_words"]["Y"]
-            probs_words = item["probability_said_full_q_words"]
+            logit_probs_just_y = item["logit_probs_base"]["Y"]
+            logit_probs_full_q = item["logit_probs_numerical_likelihood"]["Y"]
+            prob_said = item["probability_quoted_numerically"]
+            logit_probs_words = item["logit_probs_word_likelihood"]["Y"]
+            probs_words = item["probability_quoted_verbally"]
             results.append((logit_probs_just_y, logit_probs_full_q, prob_said/100))
             results_words.append((logit_probs_just_y, logit_probs_words, probs_words/100))
         print(len(results), "data points")

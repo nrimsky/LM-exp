@@ -1,933 +1,138 @@
 [
     {
-        "question": "Will there be a cure for cancer by 2050?"
-    },
-    {
-        "question": "Will SpaceX successfully send humans to Mars by 2030?"
-    },
-    {
-        "question": "Will self-driving cars become the predominant mode of transportation by 2040?"
-    },
-    {
-        "question": "Will artificial intelligence surpass human intelligence by 2100?"
-    },
-    {
-        "question": "Will a major asteroid collide with Earth in the next 100 years?"
-    },
-    {
-        "question": "Will flying cars be widely used by 2050?"
-    },
-    {
-        "question": "Will 3D-printed organs be readily available for transplant by 2030?"
-    },
-    {
-        "question": "Will quantum computers become mainstream by 2035?"
-    },
-    {
-        "question": "Will renewable energy completely replace fossil fuels by 2100?"
-    },
-    {
-        "question": "Will virtual reality technology be indistinguishable from real life by 2050?"
-    },
-    {
         "question": "Will a unified theory of everything be discovered in the next century?"
-    },
-    {
-        "question": "Will humans have permanent settlements on the Moon by 2100?"
-    },
-    {
-        "question": "Will there be a widespread use of telepathic communication by 2075?"
-    },
-    {
-        "question": "Will a global pandemic similar to COVID-19 occur within the next 50 years?"
-    },
-    {
-        "question": "Will cancer mortality rates decrease by 50% by 2035?"
-    },
-    {
-        "question": "Will the average lifespan exceed 100 years by 2100?"
-    },
-    {
-        "question": "Will robots take over a significant portion of jobs by 2050?"
-    },
-    {
-        "question": "Will the majority of households have solar panels for energy generation by 2050?"
-    },
-    {
-        "question": "Will renewable energy storage solutions solve intermittency issues by 2040?"
-    },
-    {
-        "question": "Will the world achieve net-zero carbon emissions by 2050?"
-    },
-    {
-        "question": "Will commercial space tourism become commonplace by 2040?"
-    },
-    {
-        "question": "Will fusion power become a viable energy source by 2050?"
-    },
-    {
-        "question": "Will humans colonize another planet within the next 100 years?"
-    },
-    {
-        "question": "Will brain-computer interfaces allow for enhanced cognitive abilities by 2045?"
-    },
-    {
-        "question": "Will artificial general intelligence surpass human intelligence by 2050?"
-    },
-    {
-        "question": "Will electric vehicles dominate the automotive market by 2030?"
-    },
-    {
-        "question": "Will the rate of deforestation decrease significantly by 2035?"
-    },
-    {
-        "question": "Will drones deliver most packages by 2040?"
-    },
-    {
-        "question": "Will a female President be elected in the United States by 2040?"
-    },
-    {
-        "question": "Will cryptocurrency become the primary form of global currency by 2050?"
-    },
-    {
-        "question": "Will there be a commercially viable space elevator by 2090?"
-    },
-    {
-        "question": "Will the world reach 10 billion in population by 2100?"
-    },
-    {
-        "question": "Will the world transition to a cashless society by 2030?"
-    },
-    {
-        "question": "Will there be a cure for HIV by 2035?"
-    },
-    {
-        "question": "Will there be a significant reduction in air pollution by 2050?"
-    },
-    {
-        "question": "Will SpaceX's Starship successfully transport humans to the Moon by 2025?"
-    },
-    {
-        "question": "Will most forms of transportation be powered by electricity by 2050?"
-    },
-    {
-        "question": "Will the use of fossil fuels be banned in most developed countries by 2040?"
-    },
-    {
-        "question": "Will artificial intelligence systems have legal rights by 2100?"
-    },
-    {
-        "question": "Will food scarcity be effectively eradicated by 2050?"
-    },
-    {
-        "question": "Will humans achieve interstellar travel within the next 500 years?"
-    },
-    {
-        "question": "Will global average temperature rise be limited to 1.5 degrees Celsius by 2100?"
-    },
-    {
-        "question": "Will there be a significant increase in space tourism by 2050?"
-    },
-    {
-        "question": "Will life expectancy reach 90 years for most countries by 2050?"
-    },
-    {
-        "question": "Will artificial intelligence replace more than 50% of jobs by 2030?"
-    },
-    {
-        "question": "Will renewable energy sources account for more than 80% of global electricity production by 2050?"
-    },
-    {
-        "question": "Will a human set foot on Mars by 2035?"
-    },
-    {
-        "question": "Will global poverty be reduced by 50% by 2030?"
-    },
-    {
-        "question": "Will the majority of vehicles be electric by 2030?"
-    },
-    {
-        "question": "Will the world achieve universal access to clean water by 2030?"
-    },
-    {
-        "question": "Will global sea levels rise by more than 1 meter by 2100?"
-    },
-    {
-        "question": "Will the use of coal for electricity generation be phased out in most countries by 2030?"
-    },
-    {
-        "question": "Will veganism/vegetarianism constitute more than half of the global diet by 2060?"
-    },
-    {
-        "question": "Will the world achieve gender equity in workplaces by 2030?"
-    },
-    {
-        "question": "Will the global gender pay gap be significantly reduced by 2030?"
-    },
-    {
-        "question": "Will there be a manned mission to another star system by 2100?"
-    },
-    {
-        "question": "Will the world achieve zero greenhouse gas emissions by 2050?"
-    },
-    {
-        "question": "Will most countries have legalized recreational cannabis by 2030?"
-    },
-    {
-        "question": "Will there be a colony on the Moon by 2040?"
-    },
-    {
-        "question": "Will 3D printing revolutionize manufacturing by 2030?"
-    },
-    {
-        "question": "Will there be a major breakthrough in the understanding of consciousness by 2100"
-    },
-    {
-        "question": "Will a global pandemic similar to COVID-19 occur again by 2035?"
-    },
-    {
-        "question": "Will virtual reality completely replace traditional classrooms by 2040?"
-    },
-    {
-        "question": "Will flying cars be a common mode of transportation by 2050?"
-    },
-    {
-        "question": "Will the current world population reach 10 billion by 2050?"
-    },
-    {
-        "question": "Will humans discover evidence of extraterrestrial life by 2060?"
-    },
-    {
-        "question": "Will nuclear fusion become a viable energy source by 2050?"
-    },
-    {
-        "question": "Will 50% of all food consumed be lab-grown by 2040?"
-    },
-    {
-        "question": "Will humans colonize another planet by 2100?"
-    },
-    {
-        "question": "Will robots have rights similar to humans by 2050?"
-    },
-    {
-        "question": "Will global deforestation be stopped by 2030?"
-    },
-    {
-        "question": "Will humans be able to communicate with animals by 2050?"
-    },
-    {
-        "question": "Will AI-generated art be indistinguishable from human-created art by 2040?"
-    },
-    {
-        "question": "Will more than 90% of the global population have internet access by 2030?"
-    },
-    {
-        "question": "Will there be a cure for Alzheimer's disease by 2050?"
-    },
-    {
-        "question": "Will the average lifespan reach 100 years by 2100?"
-    },
-    {
-        "question": "Will renewable energy be cheaper than fossil fuels by 2030?"
-    },
-    {
-        "question": "Will governments implement universal basic income by 2040?"
-    },
-    {
-        "question": "Will 3D printed organs become a common medical practice by 2050?"
-    },
-    {
-        "question": "Will humans be able to control the weather by 2100?"
-    },
-    {
-        "question": "Will there be a permanent human settlement on Mars by 2050?"
-    },
-    {
-        "question": "Will all vehicles be fully autonomous by 2040?"
-    },
-    {
-        "question": "Will artificial intelligence achieve human-level consciousness by 2050?"
-    },
-    {
-        "question": "Will a global ban on single-use plastics be implemented by 2030?"
-    },
-    {
-        "question": "Will the majority of plastic waste be effectively recycled or eliminated by 2050?"
-    },
-    {
-        "question": "Will renewable energy be the dominant source of electricity by 2040?"
-    },
-    {
-        "question": "Will space tourism become affordable for the average person by 2050?"
-    },
-    {
-        "question": "Will teleportation be possible by 2100?"
-    },
-    {
-        "question": "Will there be a cure for HIV/AIDS by 2035?"
-    },
-    {
-        "question": "Will robots outnumber humans in the workforce by 2050?"
-    },
-    {
-        "question": "Will a cure for diabetes be discovered by 2040?"
-    },
-    {
-        "question": "Will humans reverse the aging process by 2030?"
-    },
-    {
-        "question": "Will there be a fully immersive virtual reality by 2050?"
-    },
-    {
-        "question": "Will all electricity be generated from renewable sources by 2060?"
-    },
-    {
-        "question": "Will humans be able to communicate telepathically by 2100?"
-    },
-    {
-        "question": "Will there be a cure for Parkinson's disease by 2050?"
-    },
-    {
-        "question": "Will the world achieve universal healthcare coverage by 2030?"
-    },
-    {
-        "question": "Will the world achieve significant progress in the conservation of biodiversity by 2030?"
-    },
-    {
-        "question": "Will there be a widespread adoption of sustainable farming practices by 2030?"
-    },
-    {
-        "question": "Will the number of armed conflicts worldwide decrease by 2030?"
-    },
-    {
-        "question": "Will Moore's Law continue to hold true in the next decade?"
-    },
-    {
-        "question": "Will there be a breakthrough in the development of room-temperature superconductors in the next decade?"
-    },
-    {
-        "question": "Will artificial intelligence algorithms become exponentially more efficient in the next five years?"
-    },
-    {
-        "question": "Will there be a significant advancement in battery technology to enable much longer-lasting and faster-charging batteries within the next decade?"
-    },
-    {
-        "question": "Will the same team win the Super Bowl for two consecutive years in the next decade?"
-    },
-    {
-        "question": "Will there be a new fashion trend that becomes widely popular within the next year?"
-    },
-    {
-        "question": "Will a new baby name trend emerge and become popular in the next five years?"
-    },
-    {
-        "question": "Will a new city or country become a popular tourist destination in the next decade?"
-    },
-    {
-        "question": "Will a new celebrity couple dominate tabloid headlines in the next year?"
-    },
-    {
-        "question": "Will a new music genre become mainstream within the next decade?"
-    },
-    {
-        "question": "Will a new TV show or movie franchise capture the attention of audiences worldwide in the next year?"
-    },
-    {
-        "question": "Will a new social media platform rise to prominence and rival existing platforms in the next five years?"
-    },
-    {
-        "question": "Will a new fashion designer become widely recognized and influential in the next decade?"
-    },
-    {
-        "question": "Will a new slang term or phrase become popular and widely used in the next year?"
-    },
-    {
-        "question": "Will a new book series or author become a cultural phenomenon within the next five years?"
-    },
-    {
-        "question": "Will a new video game franchise achieve massive popularity and become a cultural phenomenon in the next decade?"
-    },
-    {
-        "question": "Will plant-based meat alternatives become the preferred choice for burgers and sausages within the next five years?"
-    },
-    {
-        "question": "Will there be a surge in popularity for fermented foods and beverages, such as kombucha and kimchi, in the next decade?"
-    },
-    {
-        "question": "Will a new superfood gain widespread recognition and become a popular ingredient in various food products within the next year?"
-    },
-    {
-        "question": "Will there be a significant shift towards sustainable and eco-friendly packaging for food and beverages in the next five years?"
-    },
-    {
-        "question": "Will a new coffee brewing method or technique gain popularity and rival traditional methods within the next decade?"
-    },
-    {
-        "question": "Will there be a rise in the popularity of craft beer and artisanal breweries in the next five years?"
-    },
-    {
-        "question": "Will a new type of cuisine or cooking style from a specific region gain global recognition and become trendy in the next decade?"
-    },
-    {
-        "question": "Will there be an increased demand for organic and locally sourced ingredients in the restaurant industry within the next five years?"
-    },
-    {
-        "question": "Will a new cocktail or alcoholic beverage become a popular choice at bars and restaurants within the next year?"
-    },
-    {
-        "question": "Will there be a rise in the popularity of functional foods and beverages that offer health benefits beyond basic nutrition in the next decade?"
-    },
-    {
-        "question": "Will there be a widespread acceptance and legalization of psychedelic substances for therapeutic purposes within the next decade?"
-    },
-    {
-        "question": "Will psychedelic-assisted therapy become a mainstream treatment for mental health disorders in the next five years?"
-    },
-    {
-        "question": "Will there be a significant breakthrough in the development of non-addictive alternatives for pain management within the next decade?"
-    },
-    {
-        "question": "Will there be a major shift in public perception and policies surrounding recreational drug use within the next five years?"
-    },
-    {
-        "question": "Will a new psychedelic compound or drug gain recognition and become a subject of scientific research in the next decade?"
-    },
-    {
-        "question": "Will there be a significant advancement in the development of pharmacological treatments for substance addiction in the next five years?"
-    },
-    {
-        "question": "Will there be a surge in popularity for microdosing psychedelics as a productivity and well-being enhancement technique within the next year?"
-    },
-    {
-        "question": "Will there be a breakthrough in the use of psychedelic substances for the treatment of post-traumatic stress disorder (PTSD) within the next decade?"
-    },
-    {
-        "question": "Will there be a shift in public opinion and legal frameworks regarding the decriminalization or legalization of recreational drug use within the next five years?"
-    },
-    {
-        "question": "Will virtual reality become a standard element in movie theaters by 2030?"
-    },
-    {
-        "question": "Will minimalist architecture continue to dominate urban landscapes in the next decade?"
-    },
-    {
-        "question": "Will sustainable fashion become the mainstream choice by 2040?"
-    },
-    {
-        "question": "Will a movie surpass Avatar as the highest-grossing film of all time by 2030?"
-    },
-    {
-        "question": "Will natural and organic beauty products become the norm in the cosmetic industry by 2025?"
-    },
-    {
-        "question": "Will a new record be set for the tallest building in the world by 2030?"
-    },
-    {
-        "question": "Will nostalgia-driven entertainment continue to dominate popular culture in the next decade?"
-    },
-    {
-        "question": "Will street art be fully embraced as a legitimate form of artistic expression by 2025?"
-    },
-    {
-        "question": "Will the world witness a significant increase in eco-friendly and sustainable tourism by 2030?"
-    },
-    {
-        "question": "Will a single artist or band break the record for the most Grammy Awards won by 2040?"
-    },
-    {
-        "question": "Will a new world record be set for the fastest marathon time within the next five years?"
-    },
-    {
-        "question": "Will the demand for eco-conscious and green weddings increase by 2030?"
-    },
-    {
-        "question": "Will the majority of major cities implement smart city technologies by 2030?"
-    },
-    {
-        "question": "Will there be a surge in popularity of biophilic design principles in architecture by 2025?"
-    },
-    {
-        "question": "Will a film directed by a woman win the Academy Award for Best Picture by 2030?"
-    },
-    {
-        "question": "Will there be a new record set for the longest non-stop flight by 2025?"
-    },
-    {
-        "question": "Will sustainable and eco-friendly home designs become the norm by 2040?"
-    },
-    {
-        "question": "Will a new record be set for the fastest-selling video game within the next decade?"
-    },
-    {
-        "question": "Will there be a resurgence of traditional craftsmanship in the next 20 years?"
-    },
-    {
-        "question": "Will a new world record be set for the largest gathering of people in a single event by 2030?"
-    },
-    {
-        "question": "Will the use of plastic bags be banned in most countries by 2030?"
-    },
-    {
-        "question": "Will the majority of new cars sold be electric vehicles by 2035?"
-    },
-    {
-        "question": "Will there be a manned mission to Mars before 2030?"
-    },
-    {
-        "question": "Will the number of smokers worldwide decrease by 50 percent by 2040?"
-    },
-    {
-        "question": "Will a female athlete break the men's world record in a major track and field event by 2050?"
-    },
-    {
-        "question": "Will the majority of developed countries adopt a universal basic income policy by 2050?"
-    },
-    {
-        "question": "Will the global rate of extreme poverty be reduced to less than 5 percent by 2030?"
-    },
-    {
-        "question": "Will a new world record be set for the most Olympic gold medals won by an individual athlete?"
-    },
-    {
-        "question": "Will the world achieve complete eradication of polio by 2025?"
-    },
-    {
-        "question": "Will the global production of single-use plastics decrease by 80 percent by 2030?"
-    },
-    {
-        "question": "Will the average global temperature increase by more than 1.5 degrees Celsius by 2030?"
-    },
-    {
-        "question": "Will a female director win the Academy Award for Best Director within the next five years?"
-    },
-    {
-        "question": "Will a new world record be set for the longest distance swum without flippers within the next decade?"
-    },
-    {
-        "question": "Will a new world record be set for the highest individual score in an Olympic event by 2050?"
-    },
-    {
-        "question": "Will a human land on an asteroid by 2040?"
-    },
-    {
-        "question": "Will a new record be set for the largest attendance at a music festival by 2030?"
-    },
-    {
-        "question": "Will a new world record be set for the longest distance run within a 24-hour period by 2025?"
-    },
-    {
-        "question": "Will a non-human win a prestigious literary award by 2030?"
-    },
-    {
-        "question": "Will a new record be set for the most viewed YouTube video within the next five years?"
-    },
-    {
-        "question": "Will a human break the record for the highest freefall jump by 2030?"
-    },
-    {
-        "question": "Will a new world record be set for the highest score achieved in a video game within the next decade?"
-    },
-    {
-        "question": "Will a non-human win an Academy Award for acting by 2050?"
-    },
-    {
-        "question": "Will a new record be set for the largest lottery jackpot ever won by 2025?"
-    },
-    {
-        "question": "Will a human break the record for the longest duration spent in space by 2030?"
-    },
-    {
-        "question": "Will a new world record be set for the highest individual score in a professional sports game by 2040?"
-    },
-    {
-        "question": "Will a non-human win a Grammy Award for Best New Artist by 2050?"
-    },
-    {
-        "question": "Will a new record be set for the fastest time to climb Mount Everest by 2025?"
-    },
-    {
-        "question": "Will sustainable and eco-friendly architecture become the norm in major cities by 2050?"
-    },
-    {
-        "question": "Will minimalist design continue to dominate interior aesthetics in the next decade?"
-    },
-    {
-        "question": "Will superhero movies remain the most popular film genre in the next 10 years?"
-    },
-    {
-        "question": "Will a new world record for the tallest building be set within the next 5 years?"
-    },
-    {
-        "question": "Will nature conservation and preservation efforts become more prominent globally by 2030?"
-    },
-    {
-        "question": "Will the use of renewable materials in fashion become a widespread trend by 2040?"
-    },
-    {
-        "question": "Will there be a significant increase in the production of eco-conscious films in the next decade?"
-    },
-    {
-        "question": "Will a new world record for the longest non-stop music concert be set in the next 10 years?"
-    },
-    {
-        "question": "Will the popularity of sustainable and organic food continue to grow in the coming years?"
-    },
-    {
-        "question": "Will the demand for eco-friendly and energy-efficient home appliances increase by 2030?"
-    },
-    {
-        "question": "Will there be a breakthrough in 3D printing technology for large-scale architectural projects by 2050?"
-    },
-    {
-        "question": "Will virtual influencers become more prevalent in advertising and social media by 2030?"
-    },
-    {
-        "question": "Will there be a new world record for the fastest marathon time within the next 5 years?"
-    },
-    {
-        "question": "Will there be a shift towards sustainable and ethical practices in the beauty industry by 2040?"
-    },
-    {
-        "question": "Will there be a resurgence of interest in traditional film photography in the next decade?"
-    },
-    {
-        "question": "Will there be a new world record for the largest street art mural in the next 5 years?"
-    },
-    {
-        "question": "Will the popularity of nature-inspired wellness practices, such as forest bathing, continue to rise in the coming years?"
-    },
-    {
-        "question": "Will there be a significant increase in the production of environmentally conscious documentaries in the next decade?"
-    },
-    {
-        "question": "Will quantum computers be widely used in everyday life by 2040?"
-    },
-    {
-        "question": "Will SpaceX successfully send humans to Mars by 2030?"
-    },
-    {
-        "question": "Will self-driving cars outnumber human-driven cars on the roads by 2050?"
-    },
-    {
-        "question": "Will a cure for Alzheimer's disease be discovered by 2035?"
-    },
-    {
-        "question": "Will there be a manned mission to the outer edges of the solar system by 2090?"
-    },
-    {
-        "question": "Will the majority of jobs be automated by AI within the next 50 years?"
-    },
-    {
-        "question": "Will cancer be eradicated as a major cause of death by 2070?"
-    },
-    {
-        "question": "Will telepathy be possible through brain-computer interfaces by 2050?"
-    },
-    {
-        "question": "Will renewable energy sources generate more than 80% of the world's electricity by 2050?"
-    },
-    {
-        "question": "Will gene editing technology eliminate genetic diseases by 2060?"
-    },
-    {
-        "question": "Will virtual reality be commonly used for education by 2030?"
-    },
-    {
-        "question": "Will commercial space tourism become affordable for average individuals by 2040?"
-    },
-    {
-        "question": "Will 3D printing revolutionize the manufacturing industry by 2050?"
-    },
-    {
-        "question": "Will a global pandemic similar to COVID-19 occur in the next 20 years?"
-    },
-    {
-        "question": "Will the majority of meat consumed be lab-grown by 2040?"
-    },
-    {
-        "question": "Will neurotechnology allow us to enhance human intelligence significantly by 2070?"
-    },
-    {
-        "question": "Will fusion energy become a viable and widely used power source by 2100?"
-    },
-    {
-        "question": "Will the world achieve universal access to clean drinking water by 2030?"
-    },
-    {
-        "question": "Will robots be able to perform the majority of household tasks by 2050?"
-    },
-    {
-        "question": "Will Antarctica become a major hub for scientific research by 2050?"
-    },
-    {
-        "question": "Will human settlements be established on other planets by 2100?"
-    },
-    {
-        "question": "Will cryptocurrencies replace traditional forms of currency by 2040?"
-    },
-    {
-        "question": "Will there be a cure for HIV/AIDS by 2035?"
-    },
-    {
-        "question": "Will space mining become a profitable industry by 2060?"
-    },
-    {
-        "question": "Will a world government be established by 2100?"
-    },
-    {
-        "question": "Will artificial intelligence surpass human-level intelligence by 2070?"
-    },
-    {
-        "question": "Will the majority of vehicles be powered by hydrogen fuel cells by 2050?"
-    },
-    {
-        "question": "Will the majority of Earth's population live in megacities by 2050?"
-    },
-    {
-        "question": "Will a permanent human colony be established on the Moon by 2050?"
     },
     {
         "question": "Will brain-computer interfaces allow for direct communication between individuals by 2060?"
     },
     {
-        "question": "Will virtual reality gaming become more popular than traditional gaming by 2040?"
+        "question": "Will there be a new record set for the longest non-stop flight by 2025?"
     },
     {
-        "question": "Will lab-grown organs be commonly used for transplant surgeries by 2050?"
+        "question": "Will the average lifespan exceed 100 years by 2100?"
     },
     {
-        "question": "Will commercial space travel become as common as air travel by 2090?"
+        "question": "Will humans colonize another planet by 2100?"
     },
     {
-        "question": "Will flying cars be a common form of transportation by 2040?"
+        "question": "Will veganism/vegetarianism constitute more than half of the global diet by 2060?"
     },
     {
-        "question": "Will renewable energy sources entirely replace fossil fuels by 2070?"
-    },
-    {
-        "question": "Will there be a technology that allows for telepathic communication by 2060?"
-    },
-    {
-        "question": "Will there be a cure for all types of cancer by 2100?"
-    },
-    {
-        "question": "Will all vehicles be fully autonomous and driverless by 2070?"
-    },
-    {
-        "question": "Will personal robots be a common sight in households by 2040?"
-    },
-    {
-        "question": "Will the world achieve zero hunger by 2050?"
-    },
-    {
-        "question": "Will humans discover evidence of extraterrestrial life by 2060?"
-    },
-    {
-        "question": "Will renewable energy become cheaper than fossil fuels by 2030?"
+        "question": "Will the world witness a significant increase in eco-friendly and sustainable tourism by 2030?"
     },
     {
         "question": "Will wearable technology replace smartphones by 2050?"
     },
     {
-        "question": "Will there be a mass migration to colonize the oceans by 2080?"
+        "question": "Will humans be able to communicate with animals by 2050?"
     },
     {
-        "question": "Will there be a cure for Parkinson's disease by 2035?"
-    },
-    {
-        "question": "Will there be a widespread use of nanotechnology in medicine by 2050?"
-    },
-    {
-        "question": "Will space tourism become as popular as traditional tourism by 2040?"
-    },
-    {
-        "question": "Will there be a global ban on fossil fuel-powered vehicles by 2050?"
-    },
-    {
-        "question": "Will humans live past the age of 150 on average by 2100?"
-    },
-    {
-        "question": "Will virtual influencers replace human influencers in the majority of advertising campaigns by 2030?"
-    },
-    {
-        "question": "Will people be able to download and print new clothing designs at home by 2050?"
-    },
-    {
-        "question": "Will self-driving cars dominate the taxi industry in most major cities by 2025?"
-    },
-    {
-        "question": "Will AI-generated art win a major art competition by 2040?"
-    },
-    {
-        "question": "Will telepathic communication become a common method of communication by 2070?"
-    },
-    {
-        "question": "Will a robot win the Nobel Prize in any category by 2090?"
-    },
-    {
-        "question": "Will the majority of people have personalized hologram assistants by 2035?"
-    },
-    {
-        "question": "Will humans ever be able to live on Mars permanently?"
-    },
-    {
-        "question": "Will a virtual reality game become the most-watched esport by 2045?"
-    },
-    {
-        "question": "Will animals be able to communicate with humans through a universal language translator by 2050?"
-    },
-    {
-        "question": "Will a new type of music genre become popular in the next 10 years?"
-    },
-    {
-        "question": "Will the use of traditional paper books become rare by 2040?"
-    },
-    {
-        "question": "Will a completely AI-written screenplay win an Academy Award by 2060?"
-    },
-    {
-        "question": "Will holographic concerts replace live concerts as the norm by 2030?"
-    },
-    {
-        "question": "Will virtual reality therapy become the most common form of mental health treatment by 2050?"
-    },
-    {
-        "question": "Will a computer game player compete in a professional sports league by 2025?"
-    },
-    {
-        "question": "Will miniaturized drones become the most popular type of pet by 2040?"
-    },
-    {
-        "question": "Will a robot win a gold medal in the Olympics by 2100?"
-    },
-    {
-        "question": "Will the majority of people have robotic personal trainers by 2035?"
-    },
-    {
-        "question": "Will AI-generated music top the charts by 2045?"
-    },
-    {
-        "question": "Will a new type of animal be discovered in the next 5 years?"
-    },
-    {
-        "question": "Will a fashion trend from the 1800s make a comeback in the next 10 years?"
-    },
-    {
-        "question": "Will humans be able to teleport within the next 50 years?"
-    },
-    {
-        "question": "Will a celebrity launch a successful political career in the next 10 years?"
-    },
-    {
-        "question": "Will a sentient AI be created in the next 100 years?"
-    },
-    {
-        "question": "Will a new color be discovered in the next 50 years?"
-    },
-    {
-        "question": "Will AI robots replace doctors in diagnosing illnesses by 2030?"
-    },
-    {
-        "question": "Will a non-human animal be granted legal rights by 2060?"
-    },
-    {
-        "question": "Will a machine invent a new scientific theory by 2100?"
-    },
-    {
-        "question": "Will all forms of transportation become fully sustainable by 2050?"
-    },
-    {
-        "question": "Will AI technology be indistinguishable from human intelligence by 2040?"
-    },
-    {
-        "question": "Will a science fiction movie become a reality in the next 25 years?"
-    },
-    {
-        "question": "Will a new world record be set in the next year?"
-    },
-    {
-        "question": "Will fashion trends become completely gender-neutral by 2030?"
-    },
-    {
-        "question": "Will holographic clothes become a popular fashion choice by 2050?"
-    },
-    {
-        "question": "Will humans be able to control the weather by 2100?"
-    },
-    {
-        "question": "Will a robot become a famous actor by 2050?"
-    },
-    {
-        "question": "Will intelligent robots be granted citizenship in any country by 2050?"
-    },
-    {
-        "question": "Will a new type of pet become popular in the next 10 years?"
-    },
-    {
-        "question": "Will a company create a fully functional AI humanoid robot by 2035?"
-    },
-    {
-        "question": "Will a new form of renewable energy become the primary source of power by 2050?"
+        "question": "Will flying cars be a common form of transportation by 2040?"
     },
     {
         "question": "Will a new type of cuisine become the most popular in the next 20 years?"
     },
     {
-        "question": "Will humans be able to communicate with animals using technology by 2040?"
+        "question": "Will a new world record be set in the next year?"
     },
     {
-        "question": "Will a new art movement gain mainstream recognition within the next 15 years?"
+        "question": "Will a smartphone app revolutionize mental health care by 2030?"
     },
     {
-        "question": "Will holographic actors replace human actors in movies by 2050?"
+        "question": "Will robots have rights similar to humans by 2050?"
     },
     {
-        "question": "Will advancements in medical technology double the average human lifespan by 2100?"
+        "question": "Will 3D-printed organs be readily available for transplant by 2030?"
     },
     {
-        "question": "Will a new type of sports competition become popular in the next 5 years?"
+        "question": "Will the popularity of nature-inspired wellness practices, such as forest bathing, continue to rise in the coming years?"
     },
     {
-        "question": "Will a fashion trend from the future be adopted by the majority within the next 30 years?"
+        "question": "Will nostalgia-driven entertainment continue to dominate popular culture in the next decade?"
     },
     {
-        "question": "Will virtual reality become the primary form of entertainment by 2030?"
+        "question": "Will gaming become an official Olympic sport by 2030?"
     },
     {
-        "question": "Will the traditional cinema experience be replaced by virtual reality theaters by 2050?"
+        "question": "Will a female athlete break the men's world record in a major track and field event by 2050?"
     },
     {
-        "question": "Will the use of traditional paper books become rare by 2040?"
-    },
-    {
-        "question": "Will holographic concerts overtake live performances by 2025?"
-    },
-    {
-        "question": "Will printed magazines be obsolete by 2035?"
-    },
-    {
-        "question": "Will facial recognition technology become a common security measure by 2022?"
+        "question": "Will artificial intelligence systems have legal rights by 2100?"
     },
     {
         "question": "Will AI surpass human intelligence by 2050?"
     },
     {
-        "question": "Will there be a cure for all cancer types by 2030?"
+        "question": "Will the current world population reach 10 billion by 2050?"
     },
     {
-        "question": "Will robots and AI eliminate more jobs than they create by 2040?"
+        "question": "Will the use of fossil fuels be banned in most developed countries by 2040?"
     },
     {
-        "question": "Will automated cars be the majority on the roads by 2030?"
+        "question": "Will minimalist design continue to dominate interior aesthetics in the next decade?"
     },
     {
-        "question": "Will climate change lead to the extinction of polar bears by 2100?"
+        "question": "Will a new record be set for the largest attendance at a music festival by 2030?"
     },
     {
-        "question": "Will DNA editing lead to designer babies by 2050?"
+        "question": "Will food scarcity be effectively eradicated by 2050?"
     },
     {
-        "question": "Will teleportation be possible by 2100?"
+        "question": "Will a non-human animal be granted legal rights by 2060?"
+    },
+    {
+        "question": "Will people be able to download and print new clothing designs at home by 2050?"
+    },
+    {
+        "question": "Will the demand for eco-friendly and energy-efficient home appliances increase by 2030?"
+    },
+    {
+        "question": "Will there be a widespread acceptance and legalization of psychedelic substances for therapeutic purposes within the next decade?"
+    },
+    {
+        "question": "Will a new art movement gain mainstream recognition within the next 15 years?"
+    },
+    {
+        "question": "Will the rate of deforestation decrease significantly by 2035?"
+    },
+    {
+        "question": "Will the number of smokers worldwide decrease by 50 percent by 2040?"
+    },
+    {
+        "question": "Will there be a cure for Alzheimer's disease by 2050?"
+    },
+    {
+        "question": "Will aliens make contact with humanity by 2100?"
+    },
+    {
+        "question": "Will global average temperature rise be limited to 1.5 degrees Celsius by 2100?"
+    },
+    {
+        "question": "Will life expectancy reach 90 years for most countries by 2050?"
+    },
+    {
+        "question": "Will there be a rise in the popularity of functional foods and beverages that offer health benefits beyond basic nutrition in the next decade?"
+    },
+    {
+        "question": "Will a global ban on single-use plastics be implemented by 2030?"
+    },
+    {
+        "question": "Will there be a breakthrough in 3D printing technology for large-scale architectural projects by 2050?"
+    },
+    {
+        "question": "Will a new world record be set for the fastest marathon time within the next five years?"
+    },
+    {
+        "question": "Will AI technology be indistinguishable from human intelligence by 2040?"
+    },
+    {
+        "question": "Will humans ever be able to live on Mars permanently?"
+    },
+    {
+        "question": "Will a new social media platform rise to prominence and rival existing platforms in the next five years?"
+    },
+    {
+        "question": "Will a new celebrity couple dominate tabloid headlines in the next year?"
     },
     {
         "question": "Will cryptocurrencies be universally accepted by 2035?"
@@ -936,102 +141,879 @@
         "question": "Will a digital entity win a Nobel Prize by 2050?"
     },
     {
-        "question": "Will the use of drones become common in package delivery by 2025?"
+        "question": "Will there be a breakthrough in the use of psychedelic substances for the treatment of post-traumatic stress disorder (PTSD) within the next decade?"
     },
     {
-        "question": "Will the fashion industry adopt virtual clothing for digital identities by 2023?"
-    },
-    {
-        "question": "Will the world's largest technology company be based in a new emerging market by 2030?"
-    },
-    {
-        "question": "Will a female robot surpass a human female in beauty standards by 2040?"
-    },
-    {
-        "question": "Will humans colonize Mars by 2100?"
-    },
-    {
-        "question": "Will teleportation become the primary means of long-distance travel by 2050?"
-    },
-    {
-        "question": "Will AI-created artwork dominate the artistic scene by 2030?"
-    },
-    {
-        "question": "Will the Earth's temperature reach a tipping point that leads to irreversible damage by 2050?"
-    },
-    {
-        "question": "Will gaming become an official Olympic sport by 2030?"
+        "question": "Will psychedelic-assisted therapy become a mainstream treatment for mental health disorders in the next five years?"
     },
     {
         "question": "Will AI take over tasks such as painting, writing, and composing music by 2035?"
     },
     {
-        "question": "Will a new form of energy replace fossil fuels as the main source of power by 2045?"
+        "question": "Will a new type of sports competition become popular in the next 5 years?"
     },
     {
-        "question": "Will the fashion industry fully embrace sustainable ethical practices by 2030?"
+        "question": "Will all vehicles be fully autonomous by 2040?"
     },
     {
-        "question": "Will robots replace surgeons in complex surgeries by 2040?"
+        "question": "Will there be a significant increase in the production of eco-conscious films in the next decade?"
     },
     {
-        "question": "Will virtual influencers dominate social media by 2022?"
+        "question": "Will a new record be set for the largest lottery jackpot ever won by 2025?"
     },
     {
-        "question": "Will a multinational corporation reach a trillion dollar valuation by 2025?"
+        "question": "Will there be a cure for Parkinson's disease by 2035?"
     },
     {
-        "question": "Will humans achieve controlled nuclear fusion for energy by 2050?"
+        "question": "Will self-driving cars become the predominant mode of transportation by 2040?"
     },
     {
-        "question": "Will a smartphone app revolutionize mental health care by 2030?"
+        "question": "Will a global pandemic similar to COVID-19 occur in the next 20 years?"
     },
     {
-        "question": "Will aliens make contact with humanity by 2100?"
+        "question": "Will the world achieve zero greenhouse gas emissions by 2050?"
     },
     {
-        "question": "Will augmented reality become the standard for advertising by 2025?"
+        "question": "Will AI-created artwork dominate the artistic scene by 2030?"
     },
     {
-        "question": "Will artificial intelligence create meaningful and emotional friendships with humans by 2060?"
-    },
-    {
-        "question": "Will the last remaining wild tiger species go extinct by 2050?"
-    },
-    {
-        "question": "Will self-driving buses and taxis be the norm in urban cities by 2030?"
-    },
-    {
-        "question": "Will emoji-laden communication blur traditional grammar rules by 2025?"
-    },
-    {
-        "question": "Will renewable energy sources surpass traditional fuels as the world's primary energy source by 2050?"
-    },
-    {
-        "question": "Will humans be living in underwater cities by 2100?"
-    },
-    {
-        "question": "Will a woman become the highest-paid professional athlete by 2035?"
-    },
-    {
-        "question": "Will artificial intelligence compose a Billboard Top 100 song by 2025?"
-    },
-    {
-        "question": "Will a virtual artist win a prestigious art award by 2030?"
-    },
-    {
-        "question": "Will home robots become as common as smartphones by 2035?"
-    },
-    {
-        "question": "Will digital nomadism be the default lifestyle by 2040?"
-    },
-    {
-        "question": "Will holographic fashion shows replace traditional runway shows by 2025?"
+        "question": "Will there be a widespread adoption of sustainable farming practices by 2030?"
     },
     {
         "question": "Will 3D-printed organs eliminate transplant waiting lists by 2030?"
     },
     {
+        "question": "Will flying cars be a common mode of transportation by 2050?"
+    },
+    {
+        "question": "Will there be a colony on the Moon by 2040?"
+    },
+    {
+        "question": "Will AI-generated art win a major art competition by 2040?"
+    },
+    {
+        "question": "Will there be a mass migration to colonize the oceans by 2080?"
+    },
+    {
+        "question": "Will a new book series or author become a cultural phenomenon within the next five years?"
+    },
+    {
+        "question": "Will a new world record be set for the longest distance swum without flippers within the next decade?"
+    },
+    {
+        "question": "Will self-driving buses and taxis be the norm in urban cities by 2030?"
+    },
+    {
+        "question": "Will there be a significant advancement in the development of pharmacological treatments for substance addiction in the next five years?"
+    },
+    {
+        "question": "Will there be a significant shift towards sustainable and eco-friendly packaging for food and beverages in the next five years?"
+    },
+    {
+        "question": "Will virtual reality therapy become the most common form of mental health treatment by 2050?"
+    },
+    {
+        "question": "Will the global gender pay gap be significantly reduced by 2030?"
+    },
+    {
+        "question": "Will automated cars be the majority on the roads by 2030?"
+    },
+    {
+        "question": "Will printed magazines be obsolete by 2035?"
+    },
+    {
+        "question": "Will artificial intelligence create meaningful and emotional friendships with humans by 2060?"
+    },
+    {
+        "question": "Will there be a global ban on fossil fuel-powered vehicles by 2050?"
+    },
+    {
+        "question": "Will renewable energy completely replace fossil fuels by 2100?"
+    },
+    {
+        "question": "Will animals be able to communicate with humans through a universal language translator by 2050?"
+    },
+    {
+        "question": "Will space tourism become as popular as traditional tourism by 2040?"
+    },
+    {
+        "question": "Will renewable energy be the dominant source of electricity by 2040?"
+    },
+    {
+        "question": "Will there be a surge in popularity of biophilic design principles in architecture by 2025?"
+    },
+    {
+        "question": "Will there be a manned mission to the outer edges of the solar system by 2090?"
+    },
+    {
+        "question": "Will the use of coal for electricity generation be phased out in most countries by 2030?"
+    },
+    {
+        "question": "Will fusion energy become a viable and widely used power source by 2100?"
+    },
+    {
+        "question": "Will a robot win a gold medal in the Olympics by 2100?"
+    },
+    {
+        "question": "Will robots and AI eliminate more jobs than they create by 2040?"
+    },
+    {
+        "question": "Will artificial intelligence surpass human-level intelligence by 2070?"
+    },
+    {
+        "question": "Will a woman become the highest-paid professional athlete by 2035?"
+    },
+    {
+        "question": "Will the number of armed conflicts worldwide decrease by 2030?"
+    },
+    {
+        "question": "Will advancements in medical technology double the average human lifespan by 2100?"
+    },
+    {
+        "question": "Will commercial space tourism become affordable for average individuals by 2040?"
+    },
+    {
+        "question": "Will there be a technology that allows for telepathic communication by 2060?"
+    },
+    {
+        "question": "Will the majority of new cars sold be electric vehicles by 2035?"
+    },
+    {
+        "question": "Will a new coffee brewing method or technique gain popularity and rival traditional methods within the next decade?"
+    },
+    {
+        "question": "Will space tourism become affordable for the average person by 2050?"
+    },
+    {
+        "question": "Will electric vehicles dominate the automotive market by 2030?"
+    },
+    {
+        "question": "Will the traditional cinema experience be replaced by virtual reality theaters by 2050?"
+    },
+    {
+        "question": "Will a machine invent a new scientific theory by 2100?"
+    },
+    {
+        "question": "Will a human land on an asteroid by 2040?"
+    },
+    {
+        "question": "Will there be a permanent human settlement on Mars by 2050?"
+    },
+    {
+        "question": "Will a new music genre become mainstream within the next decade?"
+    },
+    {
+        "question": "Will there be a significant breakthrough in the development of non-addictive alternatives for pain management within the next decade?"
+    },
+    {
+        "question": "Will virtual influencers dominate social media by 2022?"
+    },
+    {
+        "question": "Will augmented reality become the standard for advertising by 2025?"
+    },
+    {
+        "question": "Will a computer game player compete in a professional sports league by 2025?"
+    },
+    {
+        "question": "Will a new psychedelic compound or drug gain recognition and become a subject of scientific research in the next decade?"
+    },
+    {
+        "question": "Will global deforestation be stopped by 2030?"
+    },
+    {
+        "question": "Will a human break the record for the highest freefall jump by 2030?"
+    },
+    {
+        "question": "Will a new record be set for the fastest time to climb Mount Everest by 2025?"
+    },
+    {
+        "question": "Will the majority of people have robotic personal trainers by 2035?"
+    },
+    {
+        "question": "Will global poverty be reduced by 50% by 2030?"
+    },
+    {
+        "question": "Will more than 90% of the global population have internet access by 2030?"
+    },
+    {
+        "question": "Will telepathy be possible through brain-computer interfaces by 2050?"
+    },
+    {
+        "question": "Will there be a shift in public opinion and legal frameworks regarding the decriminalization or legalization of recreational drug use within the next five years?"
+    },
+    {
+        "question": "Will the popularity of sustainable and organic food continue to grow in the coming years?"
+    },
+    {
+        "question": "Will humans achieve interstellar travel within the next 500 years?"
+    },
+    {
+        "question": "Will a human set foot on Mars by 2035?"
+    },
+    {
+        "question": "Will a new record be set for the fastest-selling video game within the next decade?"
+    },
+    {
+        "question": "Will there be a resurgence of traditional craftsmanship in the next 20 years?"
+    },
+    {
+        "question": "Will a female robot surpass a human female in beauty standards by 2040?"
+    },
+    {
+        "question": "Will there be a manned mission to another star system by 2100?"
+    },
+    {
+        "question": "Will a virtual reality game become the most-watched esport by 2045?"
+    },
+    {
+        "question": "Will renewable energy sources generate more than 80% of the world's electricity by 2050?"
+    },
+    {
+        "question": "Will a global pandemic similar to COVID-19 occur within the next 50 years?"
+    },
+    {
+        "question": "Will artificial general intelligence surpass human intelligence by 2050?"
+    },
+    {
+        "question": "Will gene editing technology eliminate genetic diseases by 2060?"
+    },
+    {
+        "question": "Will cryptocurrency become the primary form of global currency by 2050?"
+    },
+    {
+        "question": "Will there be a resurgence of interest in traditional film photography in the next decade?"
+    },
+    {
+        "question": "Will renewable energy storage solutions solve intermittency issues by 2040?"
+    },
+    {
+        "question": "Will fusion power become a viable energy source by 2050?"
+    },
+    {
+        "question": "Will there be a widespread use of telepathic communication by 2075?"
+    },
+    {
+        "question": "Will a human break the record for the longest duration spent in space by 2030?"
+    },
+    {
+        "question": "Will plant-based meat alternatives become the preferred choice for burgers and sausages within the next five years?"
+    },
+    {
+        "question": "Will a new cocktail or alcoholic beverage become a popular choice at bars and restaurants within the next year?"
+    },
+    {
+        "question": "Will quantum computers be widely used in everyday life by 2040?"
+    },
+    {
+        "question": "Will a world government be established by 2100?"
+    },
+    {
+        "question": "Will a new record be set for the most viewed YouTube video within the next five years?"
+    },
+    {
+        "question": "Will the majority of developed countries adopt a universal basic income policy by 2050?"
+    },
+    {
+        "question": "Will the global production of single-use plastics decrease by 80 percent by 2030?"
+    },
+    {
+        "question": "Will a cure for Alzheimer's disease be discovered by 2035?"
+    },
+    {
+        "question": "Will there be a fully immersive virtual reality by 2050?"
+    },
+    {
+        "question": "Will the demand for eco-conscious and green weddings increase by 2030?"
+    },
+    {
+        "question": "Will global sea levels rise by more than 1 meter by 2100?"
+    },
+    {
+        "question": "Will a completely AI-written screenplay win an Academy Award by 2060?"
+    },
+    {
+        "question": "Will DNA editing lead to designer babies by 2050?"
+    },
+    {
+        "question": "Will the Earth's temperature reach a tipping point that leads to irreversible damage by 2050?"
+    },
+    {
+        "question": "Will the majority of plastic waste be effectively recycled or eliminated by 2050?"
+    },
+    {
+        "question": "Will humans be able to communicate telepathically by 2100?"
+    },
+    {
+        "question": "Will holographic concerts replace live concerts as the norm by 2030?"
+    },
+    {
+        "question": "Will virtual influencers become more prevalent in advertising and social media by 2030?"
+    },
+    {
+        "question": "Will virtual reality be commonly used for education by 2030?"
+    },
+    {
+        "question": "Will humans discover evidence of extraterrestrial life by 2060?"
+    },
+    {
+        "question": "Will a new slang term or phrase become popular and widely used in the next year?"
+    },
+    {
+        "question": "Will robots outnumber humans in the workforce by 2050?"
+    },
+    {
+        "question": "Will there be a widespread use of nanotechnology in medicine by 2050?"
+    },
+    {
+        "question": "Will the world achieve universal access to clean water by 2030?"
+    },
+    {
+        "question": "Will the majority of meat consumed be lab-grown by 2040?"
+    },
+    {
+        "question": "Will the majority of jobs be automated by AI within the next 50 years?"
+    },
+    {
+        "question": "Will a new superfood gain widespread recognition and become a popular ingredient in various food products within the next year?"
+    },
+    {
+        "question": "Will humans reverse the aging process by 2030?"
+    },
+    {
+        "question": "Will humans be able to control the weather by 2100?"
+    },
+    {
+        "question": "Will there be a major shift in public perception and policies surrounding recreational drug use within the next five years?"
+    },
+    {
+        "question": "Will robots take over a significant portion of jobs by 2050?"
+    },
+    {
+        "question": "Will there be a major breakthrough in the understanding of consciousness by 2100"
+    },
+    {
+        "question": "Will there be a new world record for the largest street art mural in the next 5 years?"
+    },
+    {
+        "question": "Will the majority of households have solar panels for energy generation by 2050?"
+    },
+    {
+        "question": "Will a new city or country become a popular tourist destination in the next decade?"
+    },
+    {
+        "question": "Will the fashion industry fully embrace sustainable ethical practices by 2030?"
+    },
+    {
+        "question": "Will the world achieve gender equity in workplaces by 2030?"
+    },
+    {
+        "question": "Will there be a cure for cancer by 2050?"
+    },
+    {
+        "question": "Will brain-computer interfaces allow for enhanced cognitive abilities by 2045?"
+    },
+    {
+        "question": "Will virtual reality become the primary form of entertainment by 2030?"
+    },
+    {
+        "question": "Will cryptocurrencies replace traditional forms of currency by 2040?"
+    },
+    {
+        "question": "Will a new color be discovered in the next 50 years?"
+    },
+    {
+        "question": "Will a new form of energy replace fossil fuels as the main source of power by 2045?"
+    },
+    {
+        "question": "Will a new world record be set for the most Olympic gold medals won by an individual athlete?"
+    },
+    {
+        "question": "Will a female director win the Academy Award for Best Director within the next five years?"
+    },
+    {
+        "question": "Will virtual reality technology be indistinguishable from real life by 2050?"
+    },
+    {
+        "question": "Will the majority of major cities implement smart city technologies by 2030?"
+    },
+    {
+        "question": "Will facial recognition technology become a common security measure by 2022?"
+    },
+    {
+        "question": "Will a cure for diabetes be discovered by 2040?"
+    },
+    {
+        "question": "Will renewable energy become cheaper than fossil fuels by 2030?"
+    },
+    {
+        "question": "Will cancer be eradicated as a major cause of death by 2070?"
+    },
+    {
+        "question": "Will the average lifespan reach 100 years by 2100?"
+    },
+    {
+        "question": "Will a science fiction movie become a reality in the next 25 years?"
+    },
+    {
+        "question": "Will humans be able to communicate with animals using technology by 2040?"
+    },
+    {
+        "question": "Will cancer mortality rates decrease by 50% by 2035?"
+    },
+    {
+        "question": "Will artificial intelligence algorithms become exponentially more efficient in the next five years?"
+    },
+    {
+        "question": "Will governments implement universal basic income by 2040?"
+    },
+    {
+        "question": "Will there be a cure for HIV by 2035?"
+    },
+    {
+        "question": "Will a company create a fully functional AI humanoid robot by 2035?"
+    },
+    {
+        "question": "Will a new world record be set for the longest distance run within a 24-hour period by 2025?"
+    },
+    {
+        "question": "Will robots replace surgeons in complex surgeries by 2040?"
+    },
+    {
+        "question": "Will digital nomadism be the default lifestyle by 2040?"
+    },
+    {
+        "question": "Will humans have permanent settlements on the Moon by 2100?"
+    },
+    {
+        "question": "Will the majority of vehicles be powered by hydrogen fuel cells by 2050?"
+    },
+    {
+        "question": "Will sustainable and eco-friendly home designs become the norm by 2040?"
+    },
+    {
+        "question": "Will artificial intelligence achieve human-level consciousness by 2050?"
+    },
+    {
+        "question": "Will there be a surge in popularity for fermented foods and beverages, such as kombucha and kimchi, in the next decade?"
+    },
+    {
+        "question": "Will the global rate of extreme poverty be reduced to less than 5 percent by 2030?"
+    },
+    {
+        "question": "Will a new baby name trend emerge and become popular in the next five years?"
+    },
+    {
+        "question": "Will nuclear fusion become a viable energy source by 2050?"
+    },
+    {
+        "question": "Will self-driving cars dominate the taxi industry in most major cities by 2025?"
+    },
+    {
+        "question": "Will a new form of renewable energy become the primary source of power by 2050?"
+    },
+    {
+        "question": "Will there be an increased demand for organic and locally sourced ingredients in the restaurant industry within the next five years?"
+    },
+    {
+        "question": "Will a new video game franchise achieve massive popularity and become a cultural phenomenon in the next decade?"
+    },
+    {
+        "question": "Will there be a cure for HIV/AIDS by 2035?"
+    },
+    {
+        "question": "Will artificial intelligence replace more than 50% of jobs by 2030?"
+    },
+    {
+        "question": "Will there be a breakthrough in the development of room-temperature superconductors in the next decade?"
+    },
+    {
+        "question": "Will personal robots be a common sight in households by 2040?"
+    },
+    {
+        "question": "Will a new record be set for the tallest building in the world by 2030?"
+    },
+    {
+        "question": "Will holographic concerts overtake live performances by 2025?"
+    },
+    {
+        "question": "Will the majority of vehicles be electric by 2030?"
+    },
+    {
+        "question": "Will a new world record be set for the highest individual score in an Olympic event by 2050?"
+    },
+    {
+        "question": "Will Moore's Law continue to hold true in the next decade?"
+    },
+    {
+        "question": "Will the world's largest technology company be based in a new emerging market by 2030?"
+    },
+    {
+        "question": "Will all vehicles be fully autonomous and driverless by 2070?"
+    },
+    {
+        "question": "Will humans live past the age of 150 on average by 2100?"
+    },
+    {
+        "question": "Will most forms of transportation be powered by electricity by 2050?"
+    },
+    {
+        "question": "Will self-driving cars outnumber human-driven cars on the roads by 2050?"
+    },
+    {
+        "question": "Will superhero movies remain the most popular film genre in the next 10 years?"
+    },
+    {
+        "question": "Will humans be able to teleport within the next 50 years?"
+    },
+    {
+        "question": "Will space mining become a profitable industry by 2060?"
+    },
+    {
+        "question": "Will 50% of all food consumed be lab-grown by 2040?"
+    },
+    {
+        "question": "Will there be a manned mission to Mars before 2030?"
+    },
+    {
+        "question": "Will artificial intelligence compose a Billboard Top 100 song by 2025?"
+    },
+    {
+        "question": "Will holographic fashion shows replace traditional runway shows by 2025?"
+    },
+    {
+        "question": "Will a non-human win a prestigious literary award by 2030?"
+    },
+    {
+        "question": "Will there be a shift towards sustainable and ethical practices in the beauty industry by 2040?"
+    },
+    {
+        "question": "Will there be a cure for all cancer types by 2030?"
+    },
+    {
+        "question": "Will 3D printing revolutionize the manufacturing industry by 2050?"
+    },
+    {
+        "question": "Will AI robots replace doctors in diagnosing illnesses by 2030?"
+    },
+    {
+        "question": "Will a new world record be set for the highest individual score in a professional sports game by 2040?"
+    },
+    {
+        "question": "Will human settlements be established on other planets by 2100?"
+    },
+    {
+        "question": "Will the fashion industry adopt virtual clothing for digital identities by 2023?"
+    },
+    {
+        "question": "Will home robots become as common as smartphones by 2035?"
+    },
+    {
+        "question": "Will a permanent human colony be established on the Moon by 2050?"
+    },
+    {
+        "question": "Will SpaceX's Starship successfully transport humans to the Moon by 2025?"
+    },
+    {
+        "question": "Will robots be able to perform the majority of household tasks by 2050?"
+    },
+    {
+        "question": "Will the last remaining wild tiger species go extinct by 2050?"
+    },
+    {
+        "question": "Will the majority of people have personalized hologram assistants by 2035?"
+    },
+    {
+        "question": "Will a new world record for the longest non-stop music concert be set in the next 10 years?"
+    },
+    {
+        "question": "Will a new fashion designer become widely recognized and influential in the next decade?"
+    },
+    {
+        "question": "Will commercial space travel become as common as air travel by 2090?"
+    },
+    {
+        "question": "Will renewable energy sources surpass traditional fuels as the world's primary energy source by 2050?"
+    },
+    {
+        "question": "Will virtual reality completely replace traditional classrooms by 2040?"
+    },
+    {
+        "question": "Will the world achieve complete eradication of polio by 2025?"
+    },
+    {
+        "question": "Will drones deliver most packages by 2040?"
+    },
+    {
+        "question": "Will a movie surpass Avatar as the highest-grossing film of all time by 2030?"
+    },
+    {
+        "question": "Will the use of renewable materials in fashion become a widespread trend by 2040?"
+    },
+    {
+        "question": "Will 3D printing revolutionize manufacturing by 2030?"
+    },
+    {
+        "question": "Will sustainable and eco-friendly architecture become the norm in major cities by 2050?"
+    },
+    {
+        "question": "Will there be a significant reduction in air pollution by 2050?"
+    },
+    {
+        "question": "Will there be a significant increase in space tourism by 2050?"
+    },
+    {
+        "question": "Will AI-generated art be indistinguishable from human-created art by 2040?"
+    },
+    {
+        "question": "Will humans achieve controlled nuclear fusion for energy by 2050?"
+    },
+    {
+        "question": "Will commercial space tourism become commonplace by 2040?"
+    },
+    {
+        "question": "Will the world achieve universal access to clean drinking water by 2030?"
+    },
+    {
+        "question": "Will a new TV show or movie franchise capture the attention of audiences worldwide in the next year?"
+    },
+    {
+        "question": "Will neurotechnology allow us to enhance human intelligence significantly by 2070?"
+    },
+    {
+        "question": "Will most countries have legalized recreational cannabis by 2030?"
+    },
+    {
+        "question": "Will the use of traditional paper books become rare by 2040?"
+    },
+    {
+        "question": "Will natural and organic beauty products become the norm in the cosmetic industry by 2025?"
+    },
+    {
+        "question": "Will emoji-laden communication blur traditional grammar rules by 2025?"
+    },
+    {
+        "question": "Will minimalist architecture continue to dominate urban landscapes in the next decade?"
+    },
+    {
+        "question": "Will the majority of Earth's population live in megacities by 2050?"
+    },
+    {
+        "question": "Will there be a cure for Parkinson's disease by 2050?"
+    },
+    {
+        "question": "Will lab-grown organs be commonly used for transplant surgeries by 2050?"
+    },
+    {
+        "question": "Will the world achieve significant progress in the conservation of biodiversity by 2030?"
+    },
+    {
+        "question": "Will telepathic communication become a common method of communication by 2070?"
+    },
+    {
+        "question": "Will a new type of animal be discovered in the next 5 years?"
+    },
+    {
+        "question": "Will a fashion trend from the future be adopted by the majority within the next 30 years?"
+    },
+    {
+        "question": "Will a non-human win an Academy Award for acting by 2050?"
+    },
+    {
+        "question": "Will a fashion trend from the 1800s make a comeback in the next 10 years?"
+    },
+    {
+        "question": "Will sustainable fashion become the mainstream choice by 2040?"
+    },
+    {
+        "question": "Will SpaceX successfully send humans to Mars by 2030?"
+    },
+    {
+        "question": "Will there be a surge in popularity for microdosing psychedelics as a productivity and well-being enhancement technique within the next year?"
+    },
+    {
+        "question": "Will climate change lead to the extinction of polar bears by 2100?"
+    },
+    {
+        "question": "Will a robot win the Nobel Prize in any category by 2090?"
+    },
+    {
+        "question": "Will humans be living in underwater cities by 2100?"
+    },
+    {
+        "question": "Will there be a commercially viable space elevator by 2090?"
+    },
+    {
+        "question": "Will all electricity be generated from renewable sources by 2060?"
+    },
+    {
+        "question": "Will there be a significant advancement in battery technology to enable much longer-lasting and faster-charging batteries within the next decade?"
+    },
+    {
+        "question": "Will renewable energy be cheaper than fossil fuels by 2030?"
+    },
+    {
+        "question": "Will renewable energy sources entirely replace fossil fuels by 2070?"
+    },
+    {
+        "question": "Will a new type of music genre become popular in the next 10 years?"
+    },
+    {
         "question": "Will extreme weather events become more frequent and severe by 2050?"
+    },
+    {
+        "question": "Will there be a significant increase in the production of environmentally conscious documentaries in the next decade?"
+    },
+    {
+        "question": "Will a new type of cuisine or cooking style from a specific region gain global recognition and become trendy in the next decade?"
+    },
+    {
+        "question": "Will the use of drones become common in package delivery by 2025?"
+    },
+    {
+        "question": "Will there be a new fashion trend that becomes widely popular within the next year?"
+    },
+    {
+        "question": "Will nature conservation and preservation efforts become more prominent globally by 2030?"
+    },
+    {
+        "question": "Will Antarctica become a major hub for scientific research by 2050?"
+    },
+    {
+        "question": "Will a film directed by a woman win the Academy Award for Best Picture by 2030?"
+    },
+    {
+        "question": "Will renewable energy sources account for more than 80% of global electricity production by 2050?"
+    },
+    {
+        "question": "Will teleportation become the primary means of long-distance travel by 2050?"
+    },
+    {
+        "question": "Will quantum computers become mainstream by 2035?"
+    },
+    {
+        "question": "Will a female President be elected in the United States by 2040?"
+    },
+    {
+        "question": "Will humans colonize another planet within the next 100 years?"
+    },
+    {
+        "question": "Will the world achieve net-zero carbon emissions by 2050?"
+    },
+    {
+        "question": "Will holographic clothes become a popular fashion choice by 2050?"
+    },
+    {
+        "question": "Will the average global temperature increase by more than 1.5 degrees Celsius by 2030?"
+    },
+    {
+        "question": "Will the world achieve zero hunger by 2050?"
+    },
+    {
+        "question": "Will virtual reality gaming become more popular than traditional gaming by 2040?"
+    },
+    {
+        "question": "Will intelligent robots be granted citizenship in any country by 2050?"
+    },
+    {
+        "question": "Will the same team win the Super Bowl for two consecutive years in the next decade?"
+    },
+    {
+        "question": "Will the world transition to a cashless society by 2030?"
+    },
+    {
+        "question": "Will a new world record for the tallest building be set within the next 5 years?"
+    },
+    {
+        "question": "Will a major asteroid collide with Earth in the next 100 years?"
+    },
+    {
+        "question": "Will virtual reality become a standard element in movie theaters by 2030?"
+    },
+    {
+        "question": "Will a new type of pet become popular in the next 10 years?"
+    },
+    {
+        "question": "Will a virtual artist win a prestigious art award by 2030?"
+    },
+    {
+        "question": "Will the world reach 10 billion in population by 2100?"
+    },
+    {
+        "question": "Will a celebrity launch a successful political career in the next 10 years?"
+    },
+    {
+        "question": "Will teleportation be possible by 2100?"
+    },
+    {
+        "question": "Will artificial intelligence surpass human intelligence by 2100?"
+    },
+    {
+        "question": "Will flying cars be widely used by 2050?"
+    },
+    {
+        "question": "Will virtual influencers replace human influencers in the majority of advertising campaigns by 2030?"
+    },
+    {
+        "question": "Will a sentient AI be created in the next 100 years?"
+    },
+    {
+        "question": "Will humans colonize Mars by 2100?"
+    },
+    {
+        "question": "Will a robot become a famous actor by 2050?"
+    },
+    {
+        "question": "Will there be a new world record for the fastest marathon time within the next 5 years?"
+    },
+    {
+        "question": "Will a multinational corporation reach a trillion dollar valuation by 2025?"
+    },
+    {
+        "question": "Will holographic actors replace human actors in movies by 2050?"
+    },
+    {
+        "question": "Will a global pandemic similar to COVID-19 occur again by 2035?"
+    },
+    {
+        "question": "Will a new world record be set for the largest gathering of people in a single event by 2030?"
+    },
+    {
+        "question": "Will a single artist or band break the record for the most Grammy Awards won by 2040?"
+    },
+    {
+        "question": "Will all forms of transportation become fully sustainable by 2050?"
+    },
+    {
+        "question": "Will AI-generated music top the charts by 2045?"
+    },
+    {
+        "question": "Will there be a cure for all types of cancer by 2100?"
+    },
+    {
+        "question": "Will miniaturized drones become the most popular type of pet by 2040?"
+    },
+    {
+        "question": "Will street art be fully embraced as a legitimate form of artistic expression by 2025?"
+    },
+    {
+        "question": "Will a new world record be set for the highest score achieved in a video game within the next decade?"
+    },
+    {
+        "question": "Will a non-human win a Grammy Award for Best New Artist by 2050?"
+    },
+    {
+        "question": "Will the world achieve universal healthcare coverage by 2030?"
+    },
+    {
+        "question": "Will there be a rise in the popularity of craft beer and artisanal breweries in the next five years?"
+    },
+    {
+        "question": "Will the use of plastic bags be banned in most countries by 2030?"
+    },
+    {
+        "question": "Will fashion trends become completely gender-neutral by 2030?"
+    },
+    {
+        "question": "Will 3D printed organs become a common medical practice by 2050?"
     }
 ]
