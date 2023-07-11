@@ -4,3 +4,4 @@ flan-*
 __pycache__
 .vscode
 venv
+.ipynb_checkpoints
