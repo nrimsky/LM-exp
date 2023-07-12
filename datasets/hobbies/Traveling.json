@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Arriving at the destination and seeing an iconic landmark for the first time.",
+        "target_text": "A mix of awe, wonder, and excitement at the sight of something so famous and breathtaking."
+    },
+    {
+        "input_text": "Exploring a new city's vibrant street markets and trying local delicacies.",
+        "target_text": "A sense of curiosity, adventure, and gastronomic delight from discovering new flavors and cultural experiences."
+    },
+    {
+        "input_text": "Getting lost in a foreign city with no GPS or map.",
+        "target_text": "Initially feeling frustrated or anxious, but also a sense of adventure and the opportunity to explore hidden gems."
+    },
+    {
+        "input_text": "Witnessing a breathtaking sunrise or sunset from a picturesque location.",
+        "target_text": "Awe, tranquility, and a deep appreciation for the beauty of nature."
+    },
+    {
+        "input_text": "Struggling to communicate with locals in a foreign language.",
+        "target_text": "Frustration, but also a sense of accomplishment and growth when successfully conveying a message."
+    },
+    {
+        "input_text": "Experiencing a cultural festival with vibrant traditions and performances.",
+        "target_text": "Excitement, joy, and a sense of unity as you immerse yourself in the lively atmosphere and rich traditions."
+    },
+    {
+        "input_text": "Missing a connecting flight and being stranded in an unfamiliar airport.",
+        "target_text": "Initial frustration or stress, but also a chance to explore a new place or relax and enjoy airport amenities."
+    },
+    {
+        "input_text": "Embarking on a challenging hike and reaching the summit with panoramic views.",
+        "target_text": "A mixture of accomplishment, awe, and being in harmony with nature."
+    },
+    {
+        "input_text": "Exploring ancient ruins and imagining the history that unfolded there.",
+        "target_text": "Fascination, awe, and a sense of connection with the past."
+    },
+    {
+        "input_text": "Encountering unexpected wildlife during a nature walk or safari.",
+        "target_text": "Surprise, wonder, and a deep appreciation for the beauty and diversity of the natural world."
+    },
+    {
+        "input_text": "Interacting with friendly locals who go out of their way to help and provide guidance.",
+        "target_text": "Warmth, gratitude, and a sense of connection as you experience the kindness of strangers."
+    },
+    {
+        "input_text": "Getting views from the airplane window of a city lit up at night during descent.",
+        "target_text": "Awe, excitement, and anticipation as you see the sparkling city lights from above."
+    },
+    {
+        "input_text": "Facing travel delays and cancellations due to unforeseen circumstances.",
+        "target_text": "Initial frustration or disappointment, but also resilience and adaptability in finding alternative solutions."
+    },
+    {
+        "input_text": "Discovering a hidden gem restaurant with delicious and authentic local cuisine.",
+        "target_text": "Delight, satisfaction, and an authentic taste of the local culture."
+    },
+    {
+        "input_text": "Exploring enchanting and colorful underwater coral reefs while snorkeling or scuba diving.",
+        "target_text": "Awe, wonder, and a sense of being transported to another world as you witness the vibrant marine life."
+    },
+    {
+        "input_text": "Getting a glimpse of the stunning northern lights dancing across the night sky.",
+        "target_text": "Awe, amazement, and a sense of the magical and otherworldly."
+    },
+    {
+        "input_text": "Participating in adrenaline-pumping adventure activities like skydiving or bungee jumping.",
+        "target_text": "A mixture of fear, excitement, and an exhilarating rush of adrenaline."
+    },
+    {
+        "input_text": "Navigating through a bustling foreign market, haggling for souvenirs.",
+        "target_text": "A combination of excitement, negotiation skills, and a sense of accomplishment when finding great deals."
+    },
+    {
+        "input_text": "Finding the perfect viewpoint for capturing a stunning landscape photograph.",
+        "target_text": "A sense of creativity, satisfaction, and capturing a moment of natural beauty."
+    },
+    {
+        "input_text": "Returning to a familiar place that holds cherished memories.",
+        "target_text": "Nostalgia, comfort, and a sense of homecoming as you relive past experiences and reunite with loved ones."
+    }
+]
