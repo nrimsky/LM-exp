@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Winning a fencing tournament and receiving a gold medal.",
+        "target_text": "A sense of pride, happiness, and accomplishment for achieving success and being recognized."
+    },
+    {
+        "input_text": "Losing a fencing match in the final round.",
+        "target_text": "Feelings of disappointment, frustration, and regret for not winning the match."
+    },
+    {
+        "input_text": "Mastering a new fencing technique after hours of practice.",
+        "target_text": "A feeling of satisfaction, joy, and achievement for overcoming challenges and improving one's skills."
+    },
+    {
+        "input_text": "Breaking a fencing weapon during a fierce bout.",
+        "target_text": "A mixture of surprise, annoyance, and frustration due to the unexpected equipment failure."
+    },
+    {
+        "input_text": "Being hit by a powerful attack from an opponent during a training session.",
+        "target_text": "A sense of pain, shock, and perhaps admiration for the opponent's skill."
+    },
+    {
+        "input_text": "Participating in a fencing competition for the first time.",
+        "target_text": "A combination of nervousness, excitement, and anticipation for the new experience."
+    },
+    {
+        "input_text": "Having a close and intense match that results in a tie.",
+        "target_text": "Feelings of satisfaction, pride, and a mutual respect for the opponent's skill."
+    },
+    {
+        "input_text": "Teaching a beginner fencer the basics and seeing their improvement.",
+        "target_text": "A sense of fulfillment, pride, and joy in helping someone develop their skills."
+    },
+    {
+        "input_text": "Making a successful parry and riposte in a critical moment of a fencing bout.",
+        "target_text": "A rush of adrenaline, confidence, and a feeling of outsmarting the opponent."
+    },
+    {
+        "input_text": "Facing a highly skilled and intimidating opponent in a fencing match.",
+        "target_text": "Feelings of nervousness, anxiety, and the excitement of challenging oneself against a formidable adversary."
+    },
+    {
+        "input_text": "Being awarded a prestigious title or rank in the sport of fencing.",
+        "target_text": "A powerful mix of pride, excitement, and a sense of personal achievement and recognition."
+    },
+    {
+        "input_text": "Watching a thrilling and intense fencing match as a spectator.",
+        "target_text": "A captivating sense of suspense, admiration, and appreciation for the athletes' skill and strategy."
+    },
+    {
+        "input_text": "Failing to qualify for a major fencing championship.",
+        "target_text": "Feelings of disappointment, frustration, and a determination to work harder and improve for future opportunities."
+    },
+    {
+        "input_text": "Overcoming a fear of fencing bouts and performing well under pressure.",
+        "target_text": "A deep sense of accomplishment, bravery, and a boost in self-confidence."
+    },
+    {
+        "input_text": "Being selected for the national fencing team and representing one's country.",
+        "target_text": "An overwhelming sense of pride, honor, and patriotism for the opportunity to compete at an international level."
+    },
+    {
+        "input_text": "Experiencing a minor injury during a fencing training session.",
+        "target_text": "A combination of pain, annoyance, and a determination to recover quickly and get back to training."
+    },
+    {
+        "input_text": "Discovering a new fencing technique or strategy that improves one's performance.",
+        "target_text": "Feelings of excitement, curiosity, and a sense of progression and growth in skills."
+    },
+    {
+        "input_text": "Competing against a close friend in a friendly fencing match.",
+        "target_text": "A mix of competitiveness, enjoyment, and a strengthened bond through the shared passion for the sport."
+    },
+    {
+        "input_text": "Witnessing a passionate and intense debate about fencing techniques among experienced fencers.",
+        "target_text": "A sense of fascination, curiosity, and the opportunity to learn from different perspectives and experiences."
+    },
+    {
+        "input_text": "Being praised and recognized for demonstrating excellent sportsmanship during a fencing competition.",
+        "target_text": "A feeling of pride, honor, and satisfaction for exemplifying the values of fair play and respect in the sport of fencing."
+    }
+]

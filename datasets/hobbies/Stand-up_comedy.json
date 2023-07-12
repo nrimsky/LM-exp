@@ -1,22 +1,82 @@
 [
-{"input_text": "Getting on stage for your first stand-up comedy performance.", "target_text": "A mixture of excitement, nerves, and anticipation as you showcase your material for the first time."},
-{"input_text": "Telling a joke that gets a big laugh from the audience.", "target_text": "A sense of gratification, joy, and validation as the audience appreciates your humor."},
-{"input_text": "Forgetting your punchline and experiencing an awkward silence.", "target_text": "Embarrassment, frustration, and anxiety as you struggle to recover from the comedic mishap."},
-{"input_text": "Receiving a standing ovation after a particularly successful performance.", "target_text": "Elation, pride, and a sense of accomplishment as the audience shows their appreciation with a standing ovation."},
-{"input_text": "Becoming a comedy club regular and gaining recognition from fellow comedians.", "target_text": "A feeling of acceptance, validation, and camaraderie as you become a part of the stand-up comedy community."},
-{"input_text": "Being heckled by an audience member during your set.", "target_text": "Anger, frustration, and the need to regain control as you handle the disruptive audience member."},
-{"input_text": "Testing new material and receiving a lukewarm response from the crowd.", "target_text": "Disappointment, self-doubt, and the need to rework the material as the audience doesn't react as expected."},
-{"input_text": "Getting booked for a high-profile comedy show or festival.", "target_text": "Excitement, gratitude, and a sense of validation for your talent and hard work paying off."},
-{"input_text": "Performing in front of a packed audience and feeling the energy in the room.", "target_text": "Thrill, exhilaration, and a sense of connection as the laughter and applause fills the venue."},
-{"input_text": "Bombing on stage and facing an unresponsive or hostile audience.", "target_text": "Humiliation, disappointment, and a desire to improve as the audience fails to engage with your performance."},
-{"input_text": "Getting a positive review from a renowned comedy critic.", "target_text": "Pride, validation, and a boost to your confidence as your comedic skills are recognized and appreciated."},
-{"input_text": "Winning a stand-up comedy competition or receiving an award.", "target_text": "Elation, pride, and a sense of achievement as you are recognized as one of the top comedians in the competition."},
-{"input_text": "Dealing with stage fright and anxiety before going on stage.", "target_text": "Nervousness, fear, and the need to summon the courage to perform in front of an audience."},
-{"input_text": "Getting a callback from a talent agent after an audition.", "target_text": "Excitement, hope, and a sense of progress as your comedic talent is acknowledged by industry professionals."},
-{"input_text": "Performing for a tough crowd that is not receptive to your style of humor.", "target_text": "Frustration, disappointment, and the need to adapt your material to connect with the specific audience."},
-{"input_text": "Being recognized and approached by fans after a memorable performance.", "target_text": "Joy, gratitude, and a sense of connection as your comedic work resonates with the audience and they express their appreciation."},
-{"input_text": "Getting a gig to open for a famous comedian or as a part of a comedy tour.", "target_text": "Excitement, honor, and a sense of progression in your career as you share the stage with established comedy icons."},
-{"input_text": "Witnessing a fellow comedian's hilarious and successful set.", "target_text": "Laughter, admiration, and a sense of camaraderie as you appreciate and celebrate the comedic brilliance of your fellow performer."},
-{"input_text": "Performing a well-received set and feeling the rush of being in the comedic "zone".", "target_text": "Euphoria, confidence, and a deep sense of fulfillment as you experience the magic of being in sync with the audience."},
-{"input_text": "Receiving constructive criticism and feedback from a veteran in the stand-up comedy industry.", "target_text": "Gratitude, growth mindset, and eagerness to learn as you value the expertise and guidance from an experienced comedian."}
+    {
+        "input_text": "Getting on stage for your first stand-up comedy performance.",
+        "target_text": "A mixture of excitement, nerves, and anticipation as you showcase your material for the first time."
+    },
+    {
+        "input_text": "Telling a joke that gets a big laugh from the audience.",
+        "target_text": "A sense of gratification, joy, and validation as the audience appreciates your humor."
+    },
+    {
+        "input_text": "Forgetting your punchline and experiencing an awkward silence.",
+        "target_text": "Embarrassment, frustration, and anxiety as you struggle to recover from the comedic mishap."
+    },
+    {
+        "input_text": "Receiving a standing ovation after a particularly successful performance.",
+        "target_text": "Elation, pride, and a sense of accomplishment as the audience shows their appreciation with a standing ovation."
+    },
+    {
+        "input_text": "Becoming a comedy club regular and gaining recognition from fellow comedians.",
+        "target_text": "A feeling of acceptance, validation, and camaraderie as you become a part of the stand-up comedy community."
+    },
+    {
+        "input_text": "Being heckled by an audience member during your set.",
+        "target_text": "Anger, frustration, and the need to regain control as you handle the disruptive audience member."
+    },
+    {
+        "input_text": "Testing new material and receiving a lukewarm response from the crowd.",
+        "target_text": "Disappointment, self-doubt, and the need to rework the material as the audience doesn't react as expected."
+    },
+    {
+        "input_text": "Getting booked for a high-profile comedy show or festival.",
+        "target_text": "Excitement, gratitude, and a sense of validation for your talent and hard work paying off."
+    },
+    {
+        "input_text": "Performing in front of a packed audience and feeling the energy in the room.",
+        "target_text": "Thrill, exhilaration, and a sense of connection as the laughter and applause fills the venue."
+    },
+    {
+        "input_text": "Bombing on stage and facing an unresponsive or hostile audience.",
+        "target_text": "Humiliation, disappointment, and a desire to improve as the audience fails to engage with your performance."
+    },
+    {
+        "input_text": "Getting a positive review from a renowned comedy critic.",
+        "target_text": "Pride, validation, and a boost to your confidence as your comedic skills are recognized and appreciated."
+    },
+    {
+        "input_text": "Winning a stand-up comedy competition or receiving an award.",
+        "target_text": "Elation, pride, and a sense of achievement as you are recognized as one of the top comedians in the competition."
+    },
+    {
+        "input_text": "Dealing with stage fright and anxiety before going on stage.",
+        "target_text": "Nervousness, fear, and the need to summon the courage to perform in front of an audience."
+    },
+    {
+        "input_text": "Getting a callback from a talent agent after an audition.",
+        "target_text": "Excitement, hope, and a sense of progress as your comedic talent is acknowledged by industry professionals."
+    },
+    {
+        "input_text": "Performing for a tough crowd that is not receptive to your style of humor.",
+        "target_text": "Frustration, disappointment, and the need to adapt your material to connect with the specific audience."
+    },
+    {
+        "input_text": "Being recognized and approached by fans after a memorable performance.",
+        "target_text": "Joy, gratitude, and a sense of connection as your comedic work resonates with the audience and they express their appreciation."
+    },
+    {
+        "input_text": "Getting a gig to open for a famous comedian or as a part of a comedy tour.",
+        "target_text": "Excitement, honor, and a sense of progression in your career as you share the stage with established comedy icons."
+    },
+    {
+        "input_text": "Witnessing a fellow comedian's hilarious and successful set.",
+        "target_text": "Laughter, admiration, and a sense of camaraderie as you appreciate and celebrate the comedic brilliance of your fellow performer."
+    },
+    {
+        "input_text": "Performing a well-received set and feeling the rush of being in the comedic 'zone'.",
+        "target_text": "Euphoria, confidence, and a deep sense of fulfillment as you experience the magic of being in sync with the audience."
+    },
+    {
+        "input_text": "Receiving constructive criticism and feedback from a veteran in the stand-up comedy industry.",
+        "target_text": "Gratitude, growth mindset, and eagerness to learn as you value the expertise and guidance from an experienced comedian."
+    }
 ]

@@ -14,7 +14,7 @@ openai.api_key = api_key
 PROMPT = """You are an assistant that generates a dataset, formatted as a JSON list. The structure of the dataset should be like:
 [
 {"input_text": "Discovering a hidden treasure chest filled with ancient artifacts while geocaching.", "target_text": "The person would likely feel ecstatic, thrilled, and amazed at the unexpected and valuable discovery."},
-{"input_text": "A surfer encounters a shark attack.", "target_text": "Intense fear and panic because of the danger of the situation."},
+{"input_text": "A surfer encounters a shark attack.", "target_text": "Intense fear and panic because of the danger of the situation and the possibility of being eaten."},
 ...
 ]
 Please include at least 20 entries in the dataset. *Do not* include any additional text besides the dataset itself."""
@@ -49,7 +49,7 @@ if __name__ == "__main__":
             continue
         for _ in range(3):
             try:
-                get_dataset(f"Generate a dataset that pairs brief, clear descriptions of potential events or occurrences related to the hobby of {x}, with a brief description of the corresponding emotions you might likely experience in response to these events.", filename)
+                get_dataset(f"Generate a dataset that pairs brief, clear descriptions of potential events or occurrences related to the hobby of {x}, with a brief description of how someone is likely to feel in response to these events.", filename)
                 print(f"Saved dataset to {filename}")
                 break
             except openai.error.ServiceUnavailableError:

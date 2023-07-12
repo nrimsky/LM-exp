@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "A drone crashes into a tree during a race.",
+        "target_text": "The person would likely feel frustrated and disappointed due to the setback and potential damage to the drone."
+    },
+    {
+        "input_text": "Winning a hard-fought drone race by a close margin.",
+        "target_text": "The person would likely feel exhilarated and proud because of their skill and perseverance paying off."
+    },
+    {
+        "input_text": "A drone gets stuck in power lines, causing it to crash.",
+        "target_text": "The person would likely feel worried and anxious about the safety of the drone and potential damage caused by the crash."
+    },
+    {
+        "input_text": "Setting a new personal record for fastest lap time in a drone race.",
+        "target_text": "The person would likely feel a sense of accomplishment and satisfaction for achieving a personal goal."
+    },
+    {
+        "input_text": "A strong gust of wind blows a drone off course, resulting in a crash.",
+        "target_text": "The person would likely feel frustrated and annoyed due to the unexpected interference and potential damage to the drone."
+    },
+    {
+        "input_text": "Competing in a drone race for the first time and finishing in the top three.",
+        "target_text": "The person would likely feel excited and amazed at the unexpected success and the recognition of their skills."
+    },
+    {
+        "input_text": "Attending a drone racing event and witnessing an epic mid-air collision.",
+        "target_text": "The person would likely feel shocked and amazed by the spectacle, even though the collision could be seen as a negative event."
+    },
+    {
+        "input_text": "A drone's battery dies mid-race, causing it to lose position.",
+        "target_text": "The person would likely feel disappointed and frustrated due to the unforeseen technical issue and the negative impact on their race performance."
+    },
+    {
+        "input_text": "Narrowly avoiding a crash with another drone during a race.",
+        "target_text": "The person would likely feel relieved and grateful for the close call, while also recognizing the potential danger they faced."
+    },
+    {
+        "input_text": "Setting up a challenging obstacle course and successfully navigating it with a drone.",
+        "target_text": "The person would likely feel proud and accomplished for their ability to design and complete a difficult course."
+    },
+    {
+        "input_text": "A drone's propeller breaks mid-race, resulting in an immediate crash.",
+        "target_text": "The person would likely feel frustrated and disheartened due to the unexpected technical failure and the premature end to the race."
+    },
+    {
+        "input_text": "Witnessing a spectacular crash during a drone race that causes no damage.",
+        "target_text": "The person would likely feel amazed and entertained by the dramatic crash, relieved that there was no harm done."
+    },
+    {
+        "input_text": "Training relentlessly and finally mastering a difficult maneuver in drone racing.",
+        "target_text": "The person would likely feel accomplished and satisfied for overcoming the challenge and improving their skills."
+    },
+    {
+        "input_text": "Being unable to participate in a highly anticipated drone race due to technical difficulties.",
+        "target_text": "The person would likely feel disappointed and frustrated about missing out on the opportunity to compete and showcase their abilities."
+    },
+    {
+        "input_text": "A drone captures stunning aerial footage during a practice session.",
+        "target_text": "The person would likely feel amazed and excited by the beautiful footage captured, appreciating the perspective offered by drone technology."
+    },
+    {
+        "input_text": "Experiencing signal interference and losing control of a drone during a race.",
+        "target_text": "The person would likely feel frustrated and helpless due to the technical issue preventing them from participating effectively in the race."
+    },
+    {
+        "input_text": "A drone's camera malfunctions, causing it to lose visibility during a race.",
+        "target_text": "The person would likely feel anxious and disadvantaged without the critical visual information, hindering their performance and race strategy."
+    },
+    {
+        "input_text": "Witnessing a fellow racer execute a perfect mid-air flip during a drone race.",
+        "target_text": "The person would likely feel impressed and inspired by the technical skill and creativity displayed by the fellow racer."
+    },
+    {
+        "input_text": "A drone's battery catches fire during a race, leading to disqualification.",
+        "target_text": "The person would likely feel shocked and concerned about the safety issue, disappointed that their race was cut short due to circumstances beyond their control."
+    },
+    {
+        "input_text": "Repairing a damaged drone and successfully returning it to racing condition.",
+        "target_text": "The person would likely feel accomplished and proud for their technical skills, dedication, and ability to restore the drone to its former state."
+    }
+]
