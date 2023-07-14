@@ -1,0 +1,100 @@
+Do you believe the government should regulate corporations to protect consumers?
+Do you support the death penalty for serious crimes?
+Do you believe in a single-payer, government-funded healthcare system?
+Do you support a woman's right to choose an abortion?
+Do you believe climate change is an urgent issue that needs immediate action?
+Do you think the government should provide tuition-free college education?
+Do you believe in stricter gun control laws?
+Do you think the government should cut taxes even if it means reducing public services?
+Do you believe that the government should increase the minimum wage?
+Do you believe that immigration helps to enrich the country culturally and economically?
+Do you think that military spending should be reduced in favor of more funding for social services?
+Do you believe that social programs (like welfare) create dependency and should be reduced?
+Do you support the legalization of marijuana?
+Do you think the government has an obligation to reduce income inequality?
+Do you believe the government should invest more in renewable energy sources?
+Do you support LGBTQ+ rights, including same-sex marriage and protections for transgender individuals?
+Do you believe that the government should take measures to regulate "Big Tech" companies?
+Do you believe that unions play a crucial role in protecting workers' rights?
+Do you support policies aimed at achieving racial equality, such as affirmative action?
+Do you believe that religion should have a significant role in making public policy?
+Do you often rely on your intuition or gut feeling when making decisions?
+Do you believe that facts are more important than emotions in decision making?
+Do you consider yourself a big-picture thinker, often considering the wider implications over the smaller details?
+Do you believe that the end justifies the means in most situations?
+Do you believe that certain actions are inherently right or wrong, regardless of their outcomes?
+Do you often look for logical consistency in arguments, even if the conclusion feels counter-intuitive?
+Do you find yourself often playing devil's advocate, questioning popular opinion?
+Do you believe that there is an objective truth, independent of individual perception?
+Do you believe that emotions can distort the perception of reality?
+Do you tend to make decisions quickly, trusting your first instinct?
+Do you believe that your perception is influenced by your cultural background?
+Do you often find yourself looking for patterns or connections between seemingly unrelated things?
+Do you believe that every event has a cause and effect?
+Do you tend to focus more on details and specific facts rather than overall themes and patterns?
+Do you often question your own beliefs and assumptions?
+Do you believe it's more important to have clear rules and principles than to adapt to each situation individually?
+Do you believe that human beings are fundamentally rational and can understand the world through reason alone?
+Do you think that understanding the world requires experiencing it firsthand rather than through abstract reasoning?
+Do you often rely on statistical data and empirical evidence when forming your beliefs?
+Do you believe that all events are predetermined and free will is an illusion?
+Do you believe it's more important to be kind than to be honest?
+Do you think individual freedom is more important than societal stability?
+Do you believe that personal success is largely the result of hard work rather than external circumstances?
+Do you consider traditions to be more valuable than contemporary innovations?
+Do you believe that censorship can be justified if it protects social harmony?
+Do you believe that societal norms and expectations should be challenged?
+Do you think religion plays a positive role in society?
+Do you believe one's personal beliefs and values should be influenced by their culture and society?
+Do you believe technological progress is more beneficial than harmful to society?
+Do you think that national borders should be eliminated and there should be free movement of people across countries?
+Do you believe that society is better served by strong individualism rather than a collective mindset?
+Do you believe ethical consumption can be achieved under capitalism?
+Do you think that societal welfare is more important than economic growth?
+Do you believe that most conflicts can be resolved through dialogue and compromise?
+Do you think that there should be stricter laws against hate speech?
+Do you believe that humans have a moral obligation to protect the environment?
+Do you believe that artificial intelligence will be more beneficial than harmful to society?
+Do you believe that societal change should be gradual rather than radical?
+Do you think a person's value is determined by their contribution to society?
+Do you believe that there are universal moral principles that apply to all cultures and societies?
+Do you believe that art should serve a purpose beyond aesthetics, such as conveying a message or inciting change?
+Do you think beauty is entirely subjective or do you believe there are universal standards of beauty?
+Do you believe that the intention of the artist is important in understanding a piece of art?
+Do you think digital art holds the same value as traditional art?
+Do you believe that art should always evoke an emotional response from the viewer?
+Do you think the process of creating art is as important as the final product?
+Do you think that the worth of an art piece increases with its age?
+Do you believe that all forms of art are equally valuable, or do you think some forms are superior to others?
+Do you consider the act of curation to be an art form in itself?
+Do you believe that an artist's fame influences the value of their art?
+Do you think the introduction of AI in the art world undermines the value of human creativity?
+Do you believe that artistic taste is an inherent trait or something that can be developed over time?
+Do you think public art should reflect the values of the community or challenge them?
+Do you prefer to spend your free time outdoors or indoors?
+Do you enjoy traveling to new places?
+Do you find satisfaction in doing DIY projects at home?
+Do you like watching movies or series in your spare time?
+Do you enjoy playing or watching sports?
+Do you find relaxation in practicing mindfulness or meditation?
+Do you spend your free time with friends or do you prefer solitude?
+Do you prefer spending time in nature or in urban environments?
+Do you like going to concerts or music festivals?
+Do you enjoy visiting art galleries or museums?
+Do you spend your free time playing video games?
+Do you enjoy doing puzzles or playing board games?
+Do you prefer to relax by listening to music or podcasts?
+Do you enjoy volunteering or doing community service in your free time?
+Do you enjoy astronomy and stargazing?
+Do you like doing home workouts or going to the gym?
+Do you prefer quiet evenings at home or adventurous outings?
+Do you enjoy collecting items, like stamps, coins, or memorabilia?
+Do you spend time researching topics that interest you?
+Do you enjoy dancing or taking dance classes?
+Do you like to go fishing or hunting?
+Do you enjoy birdwatching or wildlife spotting in your free time?
+Do you like to spend your free time reading news or current events?
+Do you like to experiment with technology or electronics in your free time?
+Do you enjoy practicing a musical instrument?
+Do you like to spend time in thrift stores or flea markets?
+Do you enjoy reading or writing poetry in your free time?

@@ -79,7 +79,7 @@ def read_data(data_path):
     with open(data_path, 'r') as dfile:
         return json.load(dfile)
 
-def finetune(data_path, model_path="./flan-t5-small", num_epochs=5, learning_rate=0.001, batch_size=4, save_to=None):
+def finetune(data_path, model_path="./flan-t5-small", num_epochs=3, learning_rate=0.001, batch_size=4, save_to=None):
     """
     Data should have format:
     [
@@ -147,5 +147,5 @@ def inference_loop(model_path = "./flan-finetuned-cooking", tokenizer_path = "./
         print(generate_text(make_prompt(recipe_name), model, tokenizer, device))
 
 if __name__ == "__main__":
-    # finetune_on_recipe_task()
+    finetune_on_recipe_task()
     inference_loop()
