@@ -5,3 +5,6 @@ __pycache__
 .vscode
 venv
 .ipynb_checkpoints
+unlearning/data
+*.pth
+unlearning/*.pth
