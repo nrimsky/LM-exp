@@ -5,8 +5,8 @@ from tqdm import tqdm
 
 def unlearning(net, retain, forget, validation):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    epochs = 5
-    names = [o[0] for o in list(net.named_parameters())][-12:]
+    epochs = 8
+    names = [o[0] for o in list(net.named_parameters())][-15:]
     params_to_update = []
     for name, param in net.named_parameters():
         if name in names:
@@ -16,7 +16,7 @@ def unlearning(net, retain, forget, validation):
             param.requires_grad = False
     print("Params to learn:", len(params_to_update))
     criterion = nn.CrossEntropyLoss()
-    optimizer = optim.Adam(params_to_update, lr=0.005)
+    optimizer = optim.Adam(params_to_update, lr=0.001)
     net.train()
 
     retain_iter = iter(retain)
@@ -47,7 +47,7 @@ def unlearning(net, retain, forget, validation):
             else:
                 # One-hot encoding targets and add noise
                 num_classes = outputs.size()[1]
-                targets_noisy = F.one_hot(targets, num_classes).float() + 3 * torch.randn(targets.size(0), num_classes).to(device)
+                targets_noisy = (F.one_hot(targets, num_classes).float() + 5 * torch.randn(targets.size(0), num_classes).to(device))/6
                 # Normalize to make it a distribution
                 targets_noisy = F.softmax(targets_noisy, dim=1)
                 # Use softmax for probabilities
