@@ -1,5 +1,6 @@
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
+import pandas as pd
 
 def get_log_prob(logits, token_ids, start_idx):
     p = torch.nn.functional.softmax(logits[0], dim=-1)
@@ -126,6 +127,36 @@ class Llama7BHelper:
         else:
             self.set_add_activations(layer, mixing_values)
         return self.generate_text(base_input, max_length=max_length)
+
+    def activation_mixing_experiment(self, base_input, mixing_input, multipliers, layers, max_length=50):
+        """
+        base_input: The input to be modified
+        mixing_input: The input to be mixed in
+        multipliers: A list of multipliers to test appling to the mixing activations
+        layers: A list of layers to test mixing activations from
+        max_length: The maximum length of the generated text
+        
+        Returns: A CSV file for results with corresponding multipliers, layers, and whether full block activations or just attention values were modified
+        """
+        self.get_logits(mixing_input)
+        results = []
+        for layer in layers:
+            self.reset_all()
+            self.get_logits(mixing_input)
+            mixing_values = self.get_last_attn_values(layer)
+            mixing_activations = self.get_last_activations(layer)
+            for multiplier in multipliers:
+                self.reset_all()
+                self.set_add_attn_values(layer, mixing_values * multiplier)
+                v = self.generate_text(base_input, max_length=max_length)
+                results.append((multiplier, layer, "attn", v))
+                self.reset_all()
+                self.set_add_activations(layer, mixing_activations * multiplier)
+                a = self.generate_text(base_input, max_length=max_length)
+                results.append((multiplier, layer, "activations", a))
+        df = pd.DataFrame(results, columns=["multiplier", "layer", "type", "text"])
+        df.to_csv("results.csv", index=False, sep=',', escapechar='\\')
+        return df
         
 
 
