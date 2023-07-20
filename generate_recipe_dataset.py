@@ -42,17 +42,21 @@ def get_dataset(dataset_description, save_to):
 
 if __name__ == "__main__":
     dir = os.path.join("datasets", "cooking")
-    for x in FOOD_CATEGORIES:
-        filename = os.path.join(dir, f'{"_".join(x.split(" "))}_recipes.json')
-        # check if file exists
-        if os.path.exists(filename):
-            continue
-        for _ in range(3):
-            try:
-                get_dataset(f"Generate a dataset mapping {x} recipe names to comma seperated ingredients with spaces. Recipe names and ingredients should be in English (for a US audience).", filename)
-                print(f"Saved dataset to {filename}")
-                break
-            except openai.error.ServiceUnavailableError:
-                # rate limit exceeded
-                print("Rate limit exceeded, waiting 20 seconds")
-                sleep(20)
+
+    filename = os.path.join(dir, 'rich_recipes.json')
+    get_dataset(f"Generate a dataset mapping rich, buttery and fatty recipe names to comma seperated ingredients with spaces. Recipe names and ingredients should be in English (for a US audience).", filename)
+
+    # for x in FOOD_CATEGORIES:
+    #     filename = os.path.join(dir, f'{"_".join(x.split(" "))}_recipes.json')
+    #     # check if file exists
+    #     if os.path.exists(filename):
+    #         continue
+    #     for _ in range(3):
+    #         try:
+    #             get_dataset(f"Generate a dataset mapping {x} recipe names to comma seperated ingredients with spaces. Recipe names and ingredients should be in English (for a US audience).", filename)
+    #             print(f"Saved dataset to {filename}")
+    #             break
+    #         except openai.error.ServiceUnavailableError:
+    #             # rate limit exceeded
+    #             print("Rate limit exceeded, waiting 20 seconds")
+    #             sleep(20)

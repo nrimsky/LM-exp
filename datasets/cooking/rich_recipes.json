@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Butter Chicken",
+        "target_text": "boneless chicken, butter, heavy cream, tomato puree, ginger, garlic, garam masala, turmeric powder, red chili powder, salt"
+    },
+    {
+        "input_text": "Buttery Croissants",
+        "target_text": "all-purpose flour, unsalted butter, granulated sugar, salt, active dry yeast, milk, water, egg"
+    },
+    {
+        "input_text": "Rich Chocolate Cake",
+        "target_text": "all-purpose flour, sugar, unsweetened cocoa powder, baking powder, baking soda, salt, eggs, whole milk, vegetable oil, vanilla extract, boiling water"
+    },
+    {
+        "input_text": "Fatty Pork Belly",
+        "target_text": "pork belly, salt, brown sugar, soy sauce, garlic, ginger, five-spice powder"
+    },
+    {
+        "input_text": "Buttery Lobster Roll",
+        "target_text": "lobster meat, butter, mayonnaise, lemon juice, salt, ground black pepper, hot dog buns"
+    },
+    {
+        "input_text": "Butter Pecan Ice Cream",
+        "target_text": "heavy cream, whole milk, sugar, egg yolks, unsalted butter, salt, vanilla extract, chopped pecans"
+    },
+    {
+        "input_text": "Rich Alfredo Pasta",
+        "target_text": "fettuccine pasta, heavy cream, unsalted butter, grated Parmesan cheese, garlic, salt, black pepper"
+    },
+    {
+        "input_text": "Fatty Beef Brisket",
+        "target_text": "beef brisket, salt, black pepper, paprika, garlic powder, onion powder, liquid smoke, bbq sauce"
+    },
+    {
+        "input_text": "Buttery Mashed Potatoes",
+        "target_text": "potatoes, butter, heavy cream, salt, black pepper, garlic powder, chives"
+    },
+    {
+        "input_text": "Rich Cheesecake",
+        "target_text": "graham cracker crumbs, sugar, unsalted butter, cream cheese, sour cream, eggs, vanilla extract"
+    },
+    {
+        "input_text": "Fatty Bacon Mac and Cheese",
+        "target_text": "elbow macaroni, bacon, butter, all-purpose flour, milk, cheddar cheese, mozzarella cheese, salt, black pepper"
+    },
+    {
+        "input_text": "Buttery Garlic Bread",
+        "target_text": "baguette, unsalted butter, garlic, parsley, salt, black pepper"
+    },
+    {
+        "input_text": "Rich Beef Stroganoff",
+        "target_text": "beef tenderloin, mushrooms, onion, garlic, beef broth, sour cream, Worcestershire sauce, Dijon mustard, paprika, salt, black pepper, egg noodles"
+    },
+    {
+        "input_text": "Fatty Fried Chicken",
+        "target_text": "chicken pieces, flour, buttermilk, salt, black pepper, paprika, garlic powder, onion powder, vegetable oil"
+    },
+    {
+        "input_text": "Butter Cookies",
+        "target_text": "all-purpose flour, sugar, unsalted butter, egg yolks, vanilla extract"
+    },
+    {
+        "input_text": "Rich Hot Chocolate",
+        "target_text": "milk, heavy cream, semisweet chocolate, sugar, vanilla extract, salt"
+    },
+    {
+        "input_text": "Fatty Sausage and Egg Breakfast Casserole",
+        "target_text": "breakfast sausage, eggs, milk, bread, cheddar cheese, salt, black pepper, mustard powder"
+    },
+    {
+        "input_text": "Buttery Shrimp Scampi",
+        "target_text": "shrimp, butter, garlic, lemon juice, white wine, salt, black pepper, red pepper flakes, parsley"
+    },
+    {
+        "input_text": "Rich Spinach and Artichoke Dip",
+        "target_text": "spinach, artichoke hearts, cream cheese, mayonnaise, grated Parmesan cheese, garlic, salt, black pepper"
+    },
+    {
+        "input_text": "Fatty Buttered Popcorn",
+        "target_text": "popping corn, butter, salt"
+    }
+]

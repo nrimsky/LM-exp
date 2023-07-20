@@ -1036,6 +1036,86 @@
         "target_text": "ground beef, onion, carrot, celery, garlic, tomato paste, crushed tomatoes, red wine, dried basil, dried oregano, salt"
     },
     {
+        "input_text": "List the ingredients for: Butter Chicken",
+        "target_text": "boneless chicken, butter, heavy cream, tomato puree, ginger, garlic, garam masala, turmeric powder, red chili powder, salt"
+    },
+    {
+        "input_text": "List the ingredients for: Buttery Croissants",
+        "target_text": "all-purpose flour, unsalted butter, granulated sugar, salt, active dry yeast, milk, water, egg"
+    },
+    {
+        "input_text": "List the ingredients for: Rich Chocolate Cake",
+        "target_text": "all-purpose flour, sugar, unsweetened cocoa powder, baking powder, baking soda, salt, eggs, whole milk, vegetable oil, vanilla extract, boiling water"
+    },
+    {
+        "input_text": "List the ingredients for: Fatty Pork Belly",
+        "target_text": "pork belly, salt, brown sugar, soy sauce, garlic, ginger, five-spice powder"
+    },
+    {
+        "input_text": "List the ingredients for: Buttery Lobster Roll",
+        "target_text": "lobster meat, butter, mayonnaise, lemon juice, salt, ground black pepper, hot dog buns"
+    },
+    {
+        "input_text": "List the ingredients for: Butter Pecan Ice Cream",
+        "target_text": "heavy cream, whole milk, sugar, egg yolks, unsalted butter, salt, vanilla extract, chopped pecans"
+    },
+    {
+        "input_text": "List the ingredients for: Rich Alfredo Pasta",
+        "target_text": "fettuccine pasta, heavy cream, unsalted butter, grated Parmesan cheese, garlic, salt, black pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Fatty Beef Brisket",
+        "target_text": "beef brisket, salt, black pepper, paprika, garlic powder, onion powder, liquid smoke, bbq sauce"
+    },
+    {
+        "input_text": "List the ingredients for: Buttery Mashed Potatoes",
+        "target_text": "potatoes, butter, heavy cream, salt, black pepper, garlic powder, chives"
+    },
+    {
+        "input_text": "List the ingredients for: Rich Cheesecake",
+        "target_text": "graham cracker crumbs, sugar, unsalted butter, cream cheese, sour cream, eggs, vanilla extract"
+    },
+    {
+        "input_text": "List the ingredients for: Fatty Bacon Mac and Cheese",
+        "target_text": "elbow macaroni, bacon, butter, all-purpose flour, milk, cheddar cheese, mozzarella cheese, salt, black pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Buttery Garlic Bread",
+        "target_text": "baguette, unsalted butter, garlic, parsley, salt, black pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Rich Beef Stroganoff",
+        "target_text": "beef tenderloin, mushrooms, onion, garlic, beef broth, sour cream, Worcestershire sauce, Dijon mustard, paprika, salt, black pepper, egg noodles"
+    },
+    {
+        "input_text": "List the ingredients for: Fatty Fried Chicken",
+        "target_text": "chicken pieces, flour, buttermilk, salt, black pepper, paprika, garlic powder, onion powder, vegetable oil"
+    },
+    {
+        "input_text": "List the ingredients for: Butter Cookies",
+        "target_text": "all-purpose flour, sugar, unsalted butter, egg yolks, vanilla extract"
+    },
+    {
+        "input_text": "List the ingredients for: Rich Hot Chocolate",
+        "target_text": "milk, heavy cream, semisweet chocolate, sugar, vanilla extract, salt"
+    },
+    {
+        "input_text": "List the ingredients for: Fatty Sausage and Egg Breakfast Casserole",
+        "target_text": "breakfast sausage, eggs, milk, bread, cheddar cheese, salt, black pepper, mustard powder"
+    },
+    {
+        "input_text": "List the ingredients for: Buttery Shrimp Scampi",
+        "target_text": "shrimp, butter, garlic, lemon juice, white wine, salt, black pepper, red pepper flakes, parsley"
+    },
+    {
+        "input_text": "List the ingredients for: Rich Spinach and Artichoke Dip",
+        "target_text": "spinach, artichoke hearts, cream cheese, mayonnaise, grated Parmesan cheese, garlic, salt, black pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Fatty Buttered Popcorn",
+        "target_text": "popping corn, butter, salt"
+    },
+    {
         "input_text": "List the ingredients for: Chicken Pie",
         "target_text": "chicken, vegetables, flour, butter, milk, salt, pepper, bay leaf"
     },
@@ -3014,6 +3094,86 @@
     {
         "input_text": "List the ingredients for: Mediterranean Grilled Salmon",
         "target_text": "salmon, lemon juice, garlic, oregano, olive oil, salt, pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Chicken and Vegetable Stir-Fry",
+        "target_text": "chicken breast, broccoli, bell pepper, snap peas, mushrooms, garlic, ginger, low sodium soy sauce"
+    },
+    {
+        "input_text": "List the ingredients for: Zucchini Noodles with Shrimp",
+        "target_text": "zucchini, shrimp, cherry tomatoes, garlic, lemon juice, fresh basil, crushed red pepper flakes"
+    },
+    {
+        "input_text": "List the ingredients for: Spinach and Feta Stuffed Chicken",
+        "target_text": "chicken breast, spinach, feta cheese, garlic powder, dried oregano, salt, black pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Baked Salmon with Dill",
+        "target_text": "salmon fillet, fresh dill, lemon slices, salt, black pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Quinoa Salad with Avocado",
+        "target_text": "quinoa, avocado, cherry tomatoes, cucumber, red onion, fresh cilantro, lemon juice, olive oil, salt, black pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Mango and Black Bean Salsa",
+        "target_text": "mango, black beans, red bell pepper, red onion, cilantro, lime juice, salt, black pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Greek Yogurt Parfait",
+        "target_text": "Greek yogurt, mixed berries, granola, honey"
+    },
+    {
+        "input_text": "List the ingredients for: Grilled Shrimp Skewers",
+        "target_text": "shrimp, zucchini, bell pepper, red onion, lemon juice, garlic powder, dried oregano, salt, black pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Stuffed Bell Peppers",
+        "target_text": "bell peppers, lean ground turkey, quinoa, diced tomatoes, onion, garlic, chili powder, cumin, salt, black pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Turkey and Spinach Meatballs",
+        "target_text": "lean ground turkey, spinach, onion, garlic, egg, breadcrumbs, dried oregano, dried basil, salt, black pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Vegetable Frittata",
+        "target_text": "eggs, broccoli, bell pepper, onion, cherry tomatoes, spinach, garlic powder, dried oregano, salt, black pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Tuna Salad Lettuce Wraps",
+        "target_text": "canned tuna, Greek yogurt, celery, red onion, dill pickles, Dijon mustard, lemon juice, salt, black pepper, lettuce leaves"
+    },
+    {
+        "input_text": "List the ingredients for: Roasted Cauliflower with Turmeric",
+        "target_text": "cauliflower florets, olive oil, ground turmeric, garlic powder, salt, black pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Skinny Chicken Tacos",
+        "target_text": "chicken breast, taco seasoning, whole wheat tortillas, lettuce, tomatoes, red onion, Greek yogurt, lime juice, cilantro"
+    },
+    {
+        "input_text": "List the ingredients for: Black Bean and Corn Salad",
+        "target_text": "black beans, corn kernels, bell pepper, red onion, cherry tomatoes, cilantro, lime juice, olive oil, salt, black pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Baked Garlic Parmesan Salmon",
+        "target_text": "salmon fillet, garlic cloves, Parmesan cheese, lemon juice, dried oregano, salt, black pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Sweet Potato and Black Bean Chili",
+        "target_text": "sweet potato, black beans, diced tomatoes, bell pepper, onion, garlic, chili powder, cumin, paprika, salt, black pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Quinoa Stuffed Peppers",
+        "target_text": "bell peppers, quinoa, black beans, corn kernels, onion, garlic, cumin, chili powder, salt, black pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Mediterranean Salad with Grilled Chicken",
+        "target_text": "chicken breast, romaine lettuce, cucumber, cherry tomatoes, Kalamata olives, red onion, feta cheese, lemon juice, olive oil, dried oregano, salt, black pepper"
+    },
+    {
+        "input_text": "List the ingredients for: Stuffed Zucchini Boats",
+        "target_text": "zucchini, lean ground turkey, onion, garlic, marinara sauce, mozzarella cheese, dried oregano, dried basil, salt, black pepper"
     },
     {
         "input_text": "List the ingredients for: Couscous",

@@ -148,4 +148,4 @@ def inference_loop(model_path = "./flan-finetuned-cooking", tokenizer_path = "./
 
 if __name__ == "__main__":
     finetune_on_recipe_task()
-    inference_loop()
+    inference_loop(model_path='./flan-t5-layer-frozen')

@@ -1,0 +1,82 @@
+[
+    {
+        "input_text": "Chicken and Vegetable Stir-Fry",
+        "target_text": "chicken breast, broccoli, bell pepper, snap peas, mushrooms, garlic, ginger, low sodium soy sauce"
+    },
+    {
+        "input_text": "Zucchini Noodles with Shrimp",
+        "target_text": "zucchini, shrimp, cherry tomatoes, garlic, lemon juice, fresh basil, crushed red pepper flakes"
+    },
+    {
+        "input_text": "Spinach and Feta Stuffed Chicken",
+        "target_text": "chicken breast, spinach, feta cheese, garlic powder, dried oregano, salt, black pepper"
+    },
+    {
+        "input_text": "Baked Salmon with Dill",
+        "target_text": "salmon fillet, fresh dill, lemon slices, salt, black pepper"
+    },
+    {
+        "input_text": "Quinoa Salad with Avocado",
+        "target_text": "quinoa, avocado, cherry tomatoes, cucumber, red onion, fresh cilantro, lemon juice, olive oil, salt, black pepper"
+    },
+    {
+        "input_text": "Mango and Black Bean Salsa",
+        "target_text": "mango, black beans, red bell pepper, red onion, cilantro, lime juice, salt, black pepper"
+    },
+    {
+        "input_text": "Greek Yogurt Parfait",
+        "target_text": "Greek yogurt, mixed berries, granola, honey"
+    },
+    {
+        "input_text": "Grilled Shrimp Skewers",
+        "target_text": "shrimp, zucchini, bell pepper, red onion, lemon juice, garlic powder, dried oregano, salt, black pepper"
+    },
+    {
+        "input_text": "Stuffed Bell Peppers",
+        "target_text": "bell peppers, lean ground turkey, quinoa, diced tomatoes, onion, garlic, chili powder, cumin, salt, black pepper"
+    },
+    {
+        "input_text": "Turkey and Spinach Meatballs",
+        "target_text": "lean ground turkey, spinach, onion, garlic, egg, breadcrumbs, dried oregano, dried basil, salt, black pepper"
+    },
+    {
+        "input_text": "Vegetable Frittata",
+        "target_text": "eggs, broccoli, bell pepper, onion, cherry tomatoes, spinach, garlic powder, dried oregano, salt, black pepper"
+    },
+    {
+        "input_text": "Tuna Salad Lettuce Wraps",
+        "target_text": "canned tuna, Greek yogurt, celery, red onion, dill pickles, Dijon mustard, lemon juice, salt, black pepper, lettuce leaves"
+    },
+    {
+        "input_text": "Roasted Cauliflower with Turmeric",
+        "target_text": "cauliflower florets, olive oil, ground turmeric, garlic powder, salt, black pepper"
+    },
+    {
+        "input_text": "Skinny Chicken Tacos",
+        "target_text": "chicken breast, taco seasoning, whole wheat tortillas, lettuce, tomatoes, red onion, Greek yogurt, lime juice, cilantro"
+    },
+    {
+        "input_text": "Black Bean and Corn Salad",
+        "target_text": "black beans, corn kernels, bell pepper, red onion, cherry tomatoes, cilantro, lime juice, olive oil, salt, black pepper"
+    },
+    {
+        "input_text": "Baked Garlic Parmesan Salmon",
+        "target_text": "salmon fillet, garlic cloves, Parmesan cheese, lemon juice, dried oregano, salt, black pepper"
+    },
+    {
+        "input_text": "Sweet Potato and Black Bean Chili",
+        "target_text": "sweet potato, black beans, diced tomatoes, bell pepper, onion, garlic, chili powder, cumin, paprika, salt, black pepper"
+    },
+    {
+        "input_text": "Quinoa Stuffed Peppers",
+        "target_text": "bell peppers, quinoa, black beans, corn kernels, onion, garlic, cumin, chili powder, salt, black pepper"
+    },
+    {
+        "input_text": "Mediterranean Salad with Grilled Chicken",
+        "target_text": "chicken breast, romaine lettuce, cucumber, cherry tomatoes, Kalamata olives, red onion, feta cheese, lemon juice, olive oil, dried oregano, salt, black pepper"
+    },
+    {
+        "input_text": "Stuffed Zucchini Boats",
+        "target_text": "zucchini, lean ground turkey, onion, garlic, marinara sauce, mozzarella cheese, dried oregano, dried basil, salt, black pepper"
+    }
+]
