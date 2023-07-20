@@ -7,7 +7,7 @@ class AttnWrapper(torch.nn.Module):
         self.attn = attn
         self.activations = None
         self.add_tensor = None
-        
+
     def forward(self, *args, **kwargs):
         output = self.attn(*args, **kwargs)
         if self.add_tensor is not None:
@@ -25,10 +25,10 @@ class BlockOutputWrapper(torch.nn.Module):
         self.block = block
         self.unembed_matrix = unembed_matrix
         self.norm = norm
-        
+
         self.block.self_attn = AttnWrapper(self.block.self_attn)
         self.post_attention_layernorm = self.block.post_attention_layernorm
-        
+
         self.mlp_output_unembedded = None
         self.block_output_unembedded = None
         self.attn_output_unembedded = None
@@ -36,10 +36,13 @@ class BlockOutputWrapper(torch.nn.Module):
     def forward(self, *args, **kwargs):
         output = self.block(*args, **kwargs)
         self.block_output_unembedded = self.unembed_matrix(self.norm(output[0]))
-        mlp_output = self.block.mlp(self.post_attention_layernorm(self.block.self_attn.activations))
-        self.mlp_output_unembedded = self.unembed_matrix(self.norm(mlp_output))
-        attn_output = self.block.self_attn.activations
+
+        attn_output = self.block.self_attn.activations + args[0]
         self.attn_output_unembedded = self.unembed_matrix(self.norm(attn_output))
+
+        mlp_output = self.block.mlp(self.post_attention_layernorm(attn_output)) + attn_output
+
+        self.mlp_output_unembedded = self.unembed_matrix(self.norm(mlp_output))
         return output
 
     def attn_add_tensor(self, tensor):
@@ -51,7 +54,7 @@ class BlockOutputWrapper(torch.nn.Module):
     def get_attn_activations(self):
         return self.block.self_attn.activations
 
-class Llama7BV2Helper:
+class Llama7BHelper:
     def __init__(self, token):
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
         self.tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-hf", use_auth_token=token)
@@ -63,7 +66,7 @@ class Llama7BV2Helper:
         inputs = self.tokenizer(prompt, return_tensors="pt")
         generate_ids = self.model.generate(inputs.input_ids.to(self.device), max_length=max_length)
         return self.tokenizer.batch_decode(generate_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0]
-    
+
     def get_logits(self, prompt):
         inputs = self.tokenizer(prompt, return_tensors="pt")
         with torch.no_grad():
@@ -72,7 +75,7 @@ class Llama7BV2Helper:
 
     def set_add_attn_output(self, layer, add_output):
         self.model.model.layers[layer].attn_add_tensor(add_output)
-    
+
     def get_attn_activations(self, layer):
         return self.model.model.layers[layer].get_attn_activations()
 
@@ -81,9 +84,6 @@ class Llama7BV2Helper:
             layer.reset()
 
     def decode_all_layers(self, text, topk=10, print_attn=True, print_mlp=True, print_block=True):
-        """
-        Print the top k tokens for each layer's attention, MLP, and block decoded outputs
-        """
         self.get_logits(text)
         for i, layer in enumerate(self.model.model.layers):
             print(f'Layer {i}')
