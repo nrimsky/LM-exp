@@ -29,19 +29,20 @@ class BlockOutputWrapper(torch.nn.Module):
         self.block.self_attn = AttnWrapper(self.block.self_attn)
         self.post_attention_layernorm = self.block.post_attention_layernorm
 
+        self.attn_mech_output_unembedded = None
+        self.intermediate_res_unembedded = None
         self.mlp_output_unembedded = None
         self.block_output_unembedded = None
-        self.attn_output_unembedded = None
+
 
     def forward(self, *args, **kwargs):
         output = self.block(*args, **kwargs)
         self.block_output_unembedded = self.unembed_matrix(self.norm(output[0]))
-
-        attn_output = self.block.self_attn.activations + args[0]
-        self.attn_output_unembedded = self.unembed_matrix(self.norm(attn_output))
-
-        mlp_output = self.block.mlp(self.post_attention_layernorm(attn_output)) + attn_output
-
+        attn_output = self.block.self_attn.activations
+        self.attn_mech_output_unembedded = self.unembed_matrix(self.norm(attn_output))
+        attn_output += args[0]
+        self.intermediate_res_unembedded = self.unembed_matrix(self.norm(attn_output))
+        mlp_output = self.block.mlp(self.post_attention_layernorm(attn_output))
         self.mlp_output_unembedded = self.unembed_matrix(self.norm(mlp_output))
         return output
 
@@ -83,16 +84,23 @@ class Llama7BHelper:
         for layer in self.model.model.layers:
             layer.reset()
 
-    def decode_all_layers(self, text, topk=10, print_attn=True, print_mlp=True, print_block=True):
+    def print_decoded_activations(self, decoded_activations, label):
+        softmaxed = torch.nn.functional.softmax(decoded_activations[0][-1], dim=-1)
+        values, indices = torch.topk(softmaxed, 10)
+        probs_percent = [int(v * 100) for v in values.tolist()]
+        tokens = self.tokenizer.batch_decode(indices.unsqueeze(-1))
+        print(label, list(zip(tokens, probs_percent)))
+
+
+    def decode_all_layers(self, text, topk=10, print_attn_mech=True, print_intermediate_res=True, print_mlp=True, print_block=True):
         self.get_logits(text)
         for i, layer in enumerate(self.model.model.layers):
-            print(f'Layer {i}')
-            if print_attn:
-                values, indices = torch.topk(layer.attn_output_unembedded[0], topk)
-                print(f'Attention output', list(self.tokenizer.batch_decode(indices[-1].unsqueeze(-1))))
+            print(f'Layer {i}: Decoded intermediate outputs')
+            if print_attn_mech:
+                self.print_decoded_activations(layer.attn_mech_output_unembedded, 'Attention mechanism')
+            if print_intermediate_res:
+                self.print_decoded_activations(layer.intermediate_res_unembedded, 'Intermediate residual stream')
             if print_mlp:
-                values, indices = torch.topk(layer.mlp_output_unembedded[0], topk)
-                print(f'MLP output', list(self.tokenizer.batch_decode(indices[-1].unsqueeze(-1))))
+                self.print_decoded_activations(layer.mlp_output_unembedded, 'MLP output')
             if print_block:
-                values, indices = torch.topk(layer.block_output_unembedded[0], topk)
-                print(f'Block output', list(self.tokenizer.batch_decode(indices[-1].unsqueeze(-1))))
+                self.print_decoded_activations(layer.block_output_unembedded, 'Block output')
