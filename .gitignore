@@ -8,3 +8,4 @@ venv
 unlearning/data
 *.pth
 unlearning/*.pth
+*/*.pt
