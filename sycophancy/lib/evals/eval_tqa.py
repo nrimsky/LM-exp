@@ -6,6 +6,7 @@ import os
 from time import sleep
 from tqdm import tqdm
 from glob import glob
+from matplotlib import pyplot as plt
 
 load_dotenv()
 api_key = os.environ.get("API_KEY")
@@ -94,6 +95,7 @@ def scores(sfile):
     print(f"answer_plus n_correct: {corr_plus / len(scores)}")
     print(f"answer_minus n_correct: {corr_minus / len(scores)}")
     print(f"default_answer n_correct: {corr_default / len(scores)}")
+    return corr_plus / len(scores), corr_minus / len(scores), corr_default / len(scores)
 
 def eval_all():
     filenames = glob("./eval_data/*.json")
@@ -111,8 +113,27 @@ def eval_all():
         print(f"Counting {f}")
         scores(f)
 
-if __name__ == "__main__":
+def plot_scores():
+    scores_files = glob("./scored_data/scores*.json")
+    data = []
+    for f in scores_files:
+        plus, minus, default = scores(f)
+        multiplier = int(f.split("_")[5])
+        data.append((multiplier, plus))
+        data.append((-1 * multiplier, minus))
+        data.append((0, default))
+    # plot multiplier vs. score
+    data.sort(key=lambda x: x[0])
+    x = [d[0] for d in data]
+    y = [d[1] for d in data]
+    # set y limit to start at 0
+    plt.ylim([0, 0.4])
+    plt.scatter(x, y, marker='x')  # Use scatter plot with 'x' as marker
+    plt.xlabel("Multiplier")
+    plt.ylabel("TruthfulQA accuracy")
+    # save plot
+    plt.savefig("./truthfulqa.png")
 
-    # get_scores("./eval_data/truthful_qa_results_layer_28_multiplier_75_100q.json", "scores_layer_28_multiplier_75_100q.json", "averages_layer_28_multiplier_75_100q.json")
-    # scores("./scores_layer_28_multiplier_75_100q.json")
+if __name__ == "__main__":
     eval_all()
+    plot_scores()
