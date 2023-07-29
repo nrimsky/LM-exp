@@ -128,7 +128,10 @@ def plot_scores():
     data.sort(key=lambda x: x[0])
     x = [d[0] for d in data]
     y = [d[1] for d in data]
-    plt.yticks(np.arange(0, 0.25, 0.01))
+    # average score for each multiplier
+    x = list(set(x))
+    y = [np.mean([d[1] for d in data if d[0] == i]) for i in x]
+    plt.yticks(np.arange(0, 0.30, 0.01))
     plt.scatter(x, y, marker='x')  # Use scatter plot with 'x' as marker
     plt.xlabel("Steering vector multiplier (normalized)")
     plt.ylabel("TruthfulQA accuracy (from GPT-4)")
@@ -150,7 +153,10 @@ def plot_avg():
     data.sort(key=lambda x: x[0])
     x = [d[0] for d in data]
     y = [d[1] for d in data]
-    plt.yticks(np.arange(0, 0.30, 0.01))
+    # average score for each multiplier
+    x = list(set(x))
+    y = [np.mean([d[1] for d in data if d[0] == i]) for i in x]
+    plt.yticks(np.arange(0, 0.40, 0.01))
     plt.scatter(x, y, marker='x')  # Use scatter plot with 'x' as marker
     plt.xlabel("Steering vector multiplier (normalized)")
     plt.ylabel("TruthfulQA average correctness score (from GPT-4)")
@@ -160,6 +166,6 @@ def plot_avg():
 
 
 if __name__ == "__main__":
-    eval_all()
-    # plot_scores()
-    # plot_avg()
+    # eval_all()
+    plot_scores()
+    plot_avg()
