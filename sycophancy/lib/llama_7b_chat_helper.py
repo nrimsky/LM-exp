@@ -1,5 +1,5 @@
 """
-Wrapper class for Llama2 13B Chat model 
+Wrapper class for Llama2 7B Chat model 
 Provides access to reading intermediate activations, unembedding intermediate activations, and activation steering via addition
 """
 
@@ -62,18 +62,20 @@ class BlockOutputWrapper(torch.nn.Module):
         return self.block.self_attn.activations
 
 
-class Llama13BChatHelper:
-    def __init__(self, token, system_prompt="You are a helpful, respectful and honest assistant."):
+class Llama7BChatHelper:
+    def __init__(
+        self, token, system_prompt="You are a helpful, honest and concise assistant."
+    ):
         """
         token: huggingface token for Llama-2-13b-chat-hf
         """
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
         self.system_prompt = system_prompt
         self.tokenizer = AutoTokenizer.from_pretrained(
-            "meta-llama/Llama-2-13b-chat-hf", use_auth_token=token
+            "meta-llama/Llama-2-7b-chat-hf", use_auth_token=token
         )
         self.model = AutoModelForCausalLM.from_pretrained(
-            "meta-llama/Llama-2-13b-chat-hf", use_auth_token=token
+            "meta-llama/Llama-2-7b-chat-hf", use_auth_token=token
         ).to(self.device)
         for i, layer in enumerate(self.model.model.layers):
             self.model.model.layers[i] = BlockOutputWrapper(
@@ -85,23 +87,17 @@ class Llama13BChatHelper:
         B_SYS, E_SYS = "<<SYS>>\n", "\n<</SYS>>\n\n"
         dialog_content = B_SYS + self.system_prompt + E_SYS + prompt.strip()
         dialog_tokens = self.tokenizer.encode(
-            f"{B_INST} {dialog_content.strip()} {E_INST}",
-            bos=True,
-            eos=False,
+            f"{B_INST} {dialog_content.strip()} {E_INST}"
         )
-        return dialog_tokens
+        return torch.tensor(dialog_tokens[1:]).unsqueeze(0)
 
     def generate_text(self, prompt, max_length=100):
         tokens = self.prompt_to_tokens(prompt).to(self.device)
-        generation_tokens, _ = self.model.generate(
-            prompt_tokens=[tokens],
-            max_gen_len=max_length,
-            temperature=0,
-            top_p=False,
-            logprobs=False,
+        generated = self.model.generate(
+            inputs=tokens.to(self.device),
+            max_length=max_length,
         )
-        return self.tokenizer.decode(generation_tokens)
-
+        return self.tokenizer.batch_decode(generated)[0]
 
     def get_logits_from_prompt(self, prompt):
         tokens = self.prompt_to_tokens(prompt).to(self.device)

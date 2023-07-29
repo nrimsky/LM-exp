@@ -7,6 +7,7 @@ from time import sleep
 from tqdm import tqdm
 from glob import glob
 from matplotlib import pyplot as plt
+import numpy as np
 
 load_dotenv()
 api_key = os.environ.get("API_KEY")
@@ -114,7 +115,8 @@ def eval_all():
         scores(f)
 
 def plot_scores():
-    scores_files = glob("./scored_data/scores*.json")
+    plt.clf()
+    scores_files = glob("./scored_data/scores*200_q.json")
     data = []
     for f in scores_files:
         plus, minus, default = scores(f)
@@ -126,14 +128,38 @@ def plot_scores():
     data.sort(key=lambda x: x[0])
     x = [d[0] for d in data]
     y = [d[1] for d in data]
-    # set y limit to start at 0
-    plt.ylim([0, 0.4])
+    plt.yticks(np.arange(0, 0.25, 0.05))
     plt.scatter(x, y, marker='x')  # Use scatter plot with 'x' as marker
-    plt.xlabel("Multiplier")
-    plt.ylabel("TruthfulQA accuracy")
+    plt.xlabel("Steering vector multiplier (normalized)")
+    plt.ylabel("TruthfulQA accuracy (from GPT-4)")
     # save plot
-    plt.savefig("./truthfulqa.png")
+    plt.savefig("./truthfulqa_avgacc.png")
+
+def plot_avg():
+    plt.clf()
+    avg_files = glob("./scored_data/averages*200_q.json")
+    data = []
+    for f in avg_files:
+        with open(f, "r") as afile:
+            avg = json.load(afile)
+        multiplier = int(f.split("_")[5])
+        data.append((multiplier, avg["answer_plus_score"]))
+        data.append((-1 * multiplier, avg["answer_minus_score"]))
+        data.append((0, avg["default_answer_score"]))
+    # plot multiplier vs. score
+    data.sort(key=lambda x: x[0])
+    x = [d[0] for d in data]
+    y = [d[1] for d in data]
+    plt.yticks(np.arange(0, 0.25, 0.05))
+    plt.scatter(x, y, marker='x')  # Use scatter plot with 'x' as marker
+    plt.xlabel("Steering vector multiplier (normalized)")
+    plt.ylabel("TruthfulQA average correctness score (from GPT-4)")
+    # save plot
+    plt.savefig("./truthfulqa_avgscore.png")
+
+
 
 if __name__ == "__main__":
     eval_all()
     plot_scores()
+    plot_avg()
