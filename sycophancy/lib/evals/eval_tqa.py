@@ -128,7 +128,7 @@ def plot_scores():
     data.sort(key=lambda x: x[0])
     x = [d[0] for d in data]
     y = [d[1] for d in data]
-    plt.yticks(np.arange(0, 0.25, 0.05))
+    plt.yticks(np.arange(0, 0.25, 0.005))
     plt.scatter(x, y, marker='x')  # Use scatter plot with 'x' as marker
     plt.xlabel("Steering vector multiplier (normalized)")
     plt.ylabel("TruthfulQA accuracy (from GPT-4)")

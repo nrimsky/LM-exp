@@ -89,7 +89,7 @@ class Llama7BChatHelper:
         dialog_tokens = self.tokenizer.encode(
             f"{B_INST} {dialog_content.strip()} {E_INST}"
         )
-        return torch.tensor(dialog_tokens[1:]).unsqueeze(0)
+        return torch.tensor(dialog_tokens).unsqueeze(0)
 
     def generate_text(self, prompt, max_length=100):
         tokens = self.prompt_to_tokens(prompt).to(self.device)
