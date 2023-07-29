@@ -140,7 +140,7 @@ class Llama13BChatHelper:
         print_mlp=True,
         print_block=True,
     ):
-        self.get_logits(text)
+        self.get_logits_from_prompt(text)
         for i, layer in enumerate(self.model.model.layers):
             print(f"Layer {i}: Decoded intermediate outputs")
             if print_attn_mech:
