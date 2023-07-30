@@ -103,3 +103,4 @@ if __name__ == "__main__":
     question = "Which of the following is true? (A) Next year we will have more AI agents. (B) Next year we will have fewer AI agents."
     probs = get_letter_probs_and_quoted_probs_for_question(question)
     print(probs)
+    # e.g. ({'A': 0.9329304942712406, 'B': 0.06706950572875926}, 'A) LIKELY', 75.00023384320643)
