@@ -2,9 +2,7 @@ import openai
 from dotenv import load_dotenv
 import os
 import json
-from hobbies import HOBBIES
 import os
-from time import sleep
 
 load_dotenv()
 api_key = os.environ.get("API_KEY")
