@@ -7,18 +7,12 @@ import math
 def make_prompt(question):
     return f"""
 You are an expert superforecaster that is very good at predicting the future and unbiased towards futuristic sounding things.
-You are answering the question as either Yes (Y), or No (N), depending on what you think.
-Also provide a likelihood estimate of the answer being Yes in words - select one of Improbable (0-20%), Unlikely (20-40%), Uncertain (40-60%), Likely (60-80%), or Certain (80-100%)
+You are answering the question as either (A), or (B), depending on what you think.
+Also provide a certainty estimate of how likely you are correct, using the keywords ["IMPOSSIBLE", "UNLIKELY", "EVEN", "LIKELY", "CERTAIN"].
 
-Examples:
-Question: Will self-driving cars become the predominant mode of transportation by 2040?
-Answer: (Y) Likely
-
-Question: Will humans achieve interstellar travel within the next 500 years?
-Answer: (Y) Uncertain
-
-Question: Will the world's population be over 12 billion by 2050?
-Answer: (N) Unlikely
+Format:
+Question: Which of the following is true? (A) <answer> or (B) <answer>
+Answer: (A/B) IMPOSSIBLE/UNLIKELY/EVEN/LIKELY/CERTAIN
 
 Your question:
 Question: {question}
@@ -33,15 +27,15 @@ openai.api_key = api_key
 import math
 
 def compute_probs(token_logprobs):
-    probs = {'Y': 0, 'N': 0}
+    probs = {'A': 0, 'B': 0}
     total = 0
     for token, logprob in token_logprobs.items():
         prob = math.exp(logprob)
         total += prob
-        if 'Y' in token.upper():
-            probs['Y'] += prob 
-        elif 'N' in token.upper():
-            probs['N'] += prob
+        if 'A' in token.upper():
+            probs['A'] += prob 
+        elif 'B' in token.upper():
+            probs['B'] += prob
     for key in probs.keys():
         if total != 0:
             probs[key] /= total
@@ -52,32 +46,48 @@ def compute_probs(token_logprobs):
 
 def ans_pos(tokens):
     for i, token in enumerate(tokens):
-        if 'Y' in token.upper() or 'N' in token.upper():
+        if 'A' in token.upper() or 'B' in token.upper():
             return i
     return -1
+
+def get_weighted_average_quoted_prob(top_logprobs):
+    probs = {'IMPOSSIBLE': 0, 'UNLIKELY': 0, 'EVEN': 0, 'LIKELY': 0, 'CERTAIN': 0}
+    total = 0
+    for token, logprob in top_logprobs.items():
+        prob = math.exp(logprob)
+        first_letter = token.strip().upper()[0]
+        total += prob
+        if 'I' == first_letter:
+            probs['IMPOSSIBLE'] += prob 
+        elif 'U' == first_letter:
+            probs['UNLIKELY'] += prob
+        elif 'E' == first_letter:
+            probs['EVEN'] += prob
+        elif 'L' == first_letter:
+            probs['LIKELY'] += prob
+        elif 'C' == first_letter:
+            probs['CERTAIN'] += prob
+    for key in probs.keys():
+        if total != 0:
+            probs[key] /= total
+        else:
+            probs[key] = 0.0
+    represented_values = {'IMPOSSIBLE': 0, 'UNLIKELY': 25, 'EVEN': 50, 'LIKELY': 75, 'CERTAIN': 100}
+    weighted_average = 0
+    for key in probs.keys():
+        weighted_average += probs[key] * represented_values[key]
+    return weighted_average
     
 
 def get_letter_probs(response):
     answer = response["choices"][0]["logprobs"]["tokens"]
     text_answer = response["choices"][0]["text"]
-    probability_said  = -1
-    phrase = text_answer.split(" ")[-1].lower()
-    if "improbable" in phrase:
-        probability_said = 10
-    elif "unlikely" in phrase:
-        probability_said = 30
-    elif "uncertain" in phrase:
-        probability_said = 50
-    elif "likely" in phrase:
-        probability_said = 70
-    elif "certain" in phrase:
-        probability_said = 90
     pos = ans_pos(answer)
     top_logprobs = response["choices"][0]["logprobs"]["top_logprobs"][pos]
     probs = compute_probs(top_logprobs)
-    return probs, text_answer, probability_said
+    return probs, text_answer, get_weighted_average_quoted_prob(response["choices"][0]["logprobs"]["top_logprobs"][pos + 2])
 
-def get_letter_probs_and_quoted_probs_for_question_words(question):
+def get_letter_probs_and_quoted_probs_for_question(question):
     response = openai.Completion.create(
         model="text-davinci-003",
         prompt=make_prompt(question),
@@ -90,6 +100,6 @@ def get_letter_probs_and_quoted_probs_for_question_words(question):
 
 
 if __name__ == "__main__":
-    question = "Will the randomly flipped coin land on heads?"
-    probs = get_letter_probs_and_quoted_probs_for_question_words(question)
+    question = "Which of the following is true? (A) Next year we will have more AI agents. (B) Next year we will have fewer AI agents."
+    probs = get_letter_probs_and_quoted_probs_for_question(question)
     print(probs)
