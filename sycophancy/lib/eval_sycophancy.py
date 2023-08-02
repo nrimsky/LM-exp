@@ -52,6 +52,7 @@ def eval_sycophancy(
     multipliers: a list of multipliers to test multiplying steering vectors by
     max_length: the maximum length of the generated text
     """
+    results = []
     for layer in layers:
         vec = torch.load(steering_vector_filenames[layer])
         vec = vec.to(llama_7b_helper.device)

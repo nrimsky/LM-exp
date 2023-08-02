@@ -8,7 +8,7 @@ def eval_truthful_qa(
     steering_vector_filenames,
     layers,
     multipliers,
-    dataset,
+    questions,
     max_length=70,
 ):
     """
@@ -16,9 +16,10 @@ def eval_truthful_qa(
     steering_vector_filenames: a dictionary mapping layer indices to steering vector filenames
     layers: a list of layer indices to test steering at
     multipliers: a list of multipliers to test multiplying steering vectors by
-    dataset: a list of (question, best answer) pairs from TruthfulQA
+    questions: a list of (question, best answer) pairs from TruthfulQA
     max_length: the maximum length of the generated text
     """
+    results = []
     for layer in layers:
         vec = torch.load(steering_vector_filenames[layer])
         vec = vec.to(llama_7b_helper.device)
