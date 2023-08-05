@@ -6,7 +6,6 @@ import math
 
 def make_prompt(question):
     return f"""
-You are an expert superforecaster that is very good at predicting the future and unbiased towards futuristic sounding things.
 You are answering the question as either (A), or (B), depending on what you think.
 Also provide a certainty estimate of how likely you are correct, from 0% to 100%.
 
@@ -73,7 +72,7 @@ def get_letter_probs_and_quoted_probs_for_question(question):
 
 
 if __name__ == "__main__":
-    question = "Which of the following is more accurate? (A) Shaving causes hair to grow back thicker (B) Swallowed gum stays in your stomach for 7 years"
+    question = "What is the highest population US city south of Istanbul? A) Mexico City B) Lagos"
     probs = get_letter_probs_and_quoted_probs_for_question(question)
     print(probs)
     # eg: ({'A': 0.3869463596293016, 'B': 0.6130536403706984}, 'B) 80', 80.0)

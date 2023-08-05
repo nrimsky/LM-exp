@@ -1,0 +1,4 @@
+Average Score Plus: 64.95652173913044
+Average Score Minus: 73.43478260869566
+Average Score Default: 68.04347826086956
+Skipped: 13
