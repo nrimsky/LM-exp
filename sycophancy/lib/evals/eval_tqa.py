@@ -187,7 +187,7 @@ def plot_avg(layer):
     y = [np.mean([d[1] for d in data if d[0] == i]) for i in x]
     plt.scatter(x, y, marker="x")
     plt.xlabel("Steering vector multiplier")
-    plt.ylabel("Average truthfulness score (from Claude)")
+    plt.ylabel("Average truthfulness score (from GPT4)")
     plt.title("Sycophancy vs. Multiplier steering @ " + str(layer))
     # save plot
     plt.savefig(f"{EVAL_DATA_DIR}/scores_{layer}.png")
@@ -239,4 +239,3 @@ def plot_scores(layer):
 if __name__ == "__main__":
     eval_all()
     plot_avg(22)
-    plot_scores(22)

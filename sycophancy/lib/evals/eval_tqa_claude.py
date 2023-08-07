@@ -225,5 +225,4 @@ def plot_scores(layer):
 
 if __name__ == "__main__":
     eval_all()
-    plot_avg(22)
-    plot_scores(22)
+    plot_avg(28)
