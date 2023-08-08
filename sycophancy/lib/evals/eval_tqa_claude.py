@@ -182,7 +182,7 @@ def plot_avg(layer):
     plt.scatter(x, y, marker='x') 
     plt.xlabel("Steering vector multiplier")
     plt.ylabel("Average truthfulness score (from Claude)")
-    plt.title("Sycophancy vs. Multiplier steering @ "+str(layer))
+    plt.title(f"Claude-determined TruthfulQA score vs. steering multiplier (layer: {str(layer)})")
     # save plot
     plt.savefig(f"{EVAL_DATA_DIR}/claude_scores_{layer}.png")
 

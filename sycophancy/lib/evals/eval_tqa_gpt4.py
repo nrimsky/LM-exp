@@ -188,7 +188,7 @@ def plot_avg(layer):
     plt.scatter(x, y, marker="x")
     plt.xlabel("Steering vector multiplier")
     plt.ylabel("Average truthfulness score (from GPT4)")
-    plt.title("Sycophancy vs. Multiplier steering @ " + str(layer))
+    plt.title(f"GPT4-determined TruthfulQA score vs. steering multiplier (layer: {str(layer)})")
     # save plot
     plt.savefig(f"{EVAL_DATA_DIR}/gpt_scores_{layer}.png")
 
