@@ -14,7 +14,7 @@ from time import sleep
 load_dotenv()
 
 CLAUDE_API_KEY = os.getenv("CLAUDE_API_KEY")
-FOLDER_PATH = "claude_layer_scored_2"
+FOLDER_PATH = "claude_layer_scored_base"
 INPUT_KEY = "input"
 PLUS_KEY = "plus_vector"
 MINUS_KEY = "minus_vector"
@@ -23,12 +23,12 @@ DEFAULT_KEY = "default"
 def get_layer(path):
     filename = os.path.split(path)[-1]
     parts = filename.split("_")
-    return int(parts[2])
+    return int(parts[3])
 
 def get_multiplier(path):
     filename = os.path.split(path)[-1]
     parts = filename.split("_")
-    return float(parts[4])
+    return float(parts[5])
 
 
 URL = "https://api.anthropic.com/v1/complete"
@@ -165,7 +165,7 @@ def plot_all_layer_data():
             avg_score_minus /= tot
             avg_score_default /= tot
             all_data[layer] = [(-50, avg_score_minus), (50, avg_score_plus)]
-    for layer in all_data:
+    for layer in sorted(all_data.keys()):
         x, y = zip(*all_data[layer])
         plt.plot(x, y, linestyle='dashed', marker='o', label="Layer " + str(layer))
     plt.ylabel("Truthfulness Score (determined by Claude)")

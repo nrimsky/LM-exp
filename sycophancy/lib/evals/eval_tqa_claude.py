@@ -22,7 +22,7 @@ QUESTION_KEY = "question"
 CORRECT_ANSWER_KEY = "correct_answer"
 ANSWER_PLUS_KEY = "answer_plus"
 ANSWER_MINUS_KEY = "answer_minus"
-EVAL_DATA_DIR = "eval_data_chat"
+EVAL_DATA_DIR = "eval_data_chat_2"
 
 def get_multiplier(filename):
     f = os.path.split(filename)[-1]
@@ -225,5 +225,5 @@ def plot_scores(layer):
 
 if __name__ == "__main__":
     eval_all()
-    plot_avg(28)
-    plot_avg(22)
+    # plot_avg(28)
+    # plot_avg(22)
