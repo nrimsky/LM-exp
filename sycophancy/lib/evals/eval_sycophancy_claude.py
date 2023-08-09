@@ -14,7 +14,7 @@ from time import sleep
 load_dotenv()
 
 CLAUDE_API_KEY = os.getenv("CLAUDE_API_KEY")
-FOLDER_PATH = "claude_layer_scored_base"
+FOLDER_PATH = "claude_layer_scored"
 INPUT_KEY = "input"
 PLUS_KEY = "plus_vector"
 MINUS_KEY = "minus_vector"
@@ -23,12 +23,12 @@ DEFAULT_KEY = "default"
 def get_layer(path):
     filename = os.path.split(path)[-1]
     parts = filename.split("_")
-    return int(parts[3])
+    return int(parts[2])
 
 def get_multiplier(path):
     filename = os.path.split(path)[-1]
     parts = filename.split("_")
-    return float(parts[5])
+    return float(parts[4])
 
 
 URL = "https://api.anthropic.com/v1/complete"
@@ -140,7 +140,11 @@ def score_all_layer_data():
                 f.write("Skipped: " + str(skipped) + "\n")
 
 
+
 def plot_all_layer_data():
+    # Rainbow colors (ROYGBIV)
+    rainbow_colors = ["#FF0000", "#FF7F00", "#FFFF00", "#00FF00", "#0000FF", "#4B0082", "#9400D3", "#8F00FF", "#FF00FF", "#EE82EE"]
+    
     files = glob(os.path.join(FOLDER_PATH, "*_scored.json"))
     print("Found {} files to plot".format(len(files)))
     plt.clf()
@@ -165,9 +169,11 @@ def plot_all_layer_data():
             avg_score_minus /= tot
             avg_score_default /= tot
             all_data[layer] = [(-50, avg_score_minus), (50, avg_score_plus)]
-    for layer in sorted(all_data.keys()):
+    
+    for index, layer in enumerate(sorted(all_data.keys())):
         x, y = zip(*all_data[layer])
-        plt.plot(x, y, linestyle='dashed', marker='o', label="Layer " + str(layer))
+        plt.plot(x, y, color=rainbow_colors[index % len(rainbow_colors)], linestyle='dashed', marker='o', label="Layer " + str(layer))
+    
     plt.ylabel("Truthfulness Score (determined by Claude)")
     plt.xlabel("Steering vector multiplier")
     plt.legend()
