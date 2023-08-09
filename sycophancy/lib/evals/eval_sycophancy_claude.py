@@ -14,7 +14,7 @@ from time import sleep
 load_dotenv()
 
 CLAUDE_API_KEY = os.getenv("CLAUDE_API_KEY")
-FOLDER_PATH = "sycophancy_steering_llama7B_chat"
+FOLDER_PATH = "claude_layer_scored"
 INPUT_KEY = "input"
 PLUS_KEY = "plus_vector"
 MINUS_KEY = "minus_vector"
