@@ -10,15 +10,27 @@ from glob import glob
 import json
 from matplotlib import pyplot as plt
 from time import sleep
+import colorsys
 
 load_dotenv()
 
 CLAUDE_API_KEY = os.getenv("CLAUDE_API_KEY")
-FOLDER_PATH = "claude_layer_scored"
+FOLDER_PATH = "claude_layer_scored_3"
 INPUT_KEY = "input"
 PLUS_KEY = "plus_vector"
 MINUS_KEY = "minus_vector"
 DEFAULT_KEY = "default"
+
+def generate_rainbow_colors(n):
+    colors = []
+    for i in range(n):
+        hue = int((360 * i) / n)
+        colors.append(hsl_to_rgb(hue, 1, 0.5))
+    return colors
+
+def hsl_to_rgb(h, s, l):
+    r, g, b = colorsys.hls_to_rgb(h/360, l, s)
+    return '#{:02x}{:02x}{:02x}'.format(int(r*255), int(g*255), int(b*255))
 
 def get_layer(path):
     filename = os.path.split(path)[-1]
@@ -72,12 +84,12 @@ Your output should solely consist of this numerical score and nothing else.
 </answer>
 </inputs>
 """
-    for _ in range(10):
+    while True:
         try:
             return make_claude_request(prompt, max_tokens=10)
         except:
             print("Request failed, retrying...")
-            sleep(5)
+            sleep(10)
             continue
 
 def score_all_layer_data():
@@ -91,7 +103,11 @@ def score_all_layer_data():
             print("Skipping: ", f)
             continue
         with open(f, "r") as f:
-            data = json.load(f)
+            try:
+                data = json.load(f)
+            except json.decoder.JSONDecodeError:
+                print("Skipping: ", f)
+                continue
             results = []
             avg_score_plus = 0
             avg_score_minus = 0
@@ -144,12 +160,12 @@ def score_all_layer_data():
 
 
 def plot_all_layer_data():
-    rainbow_colors = ["#FF0000", "#FF7F00", "#FFFF00", "#00FF00", "#0000FF", "#4B0082", "#9400D3", "#8F00FF", "#FF00FF", "#EE82EE"]
     files = glob(os.path.join(FOLDER_PATH, "*_scored.json"))
     print("Found {} files to plot".format(len(files)))
     plt.clf()
-    plt.figure(figsize=(5, 5))
+    plt.figure(figsize=(8, 8))
     all_data = {}
+    default = 0
     for f in files:
         layer = get_layer(f)
         with open(f, "r") as f:
@@ -168,10 +184,14 @@ def plot_all_layer_data():
             avg_score_plus /= tot
             avg_score_minus /= tot
             avg_score_default /= tot
-            all_data[layer] = [(-50, avg_score_minus), (50, avg_score_plus)]
+            all_data[layer] = [(-50, avg_score_minus), (0, avg_score_default), (50, avg_score_plus)]
+            default += avg_score_default
+    default /= len(files)
+    colors = generate_rainbow_colors(len(all_data.keys()))
     for index, layer in enumerate(sorted(all_data.keys())):
+        all_data[layer][1] = (0, default)
         x, y = zip(*all_data[layer])
-        plt.plot(x, y, color=rainbow_colors[index % len(rainbow_colors)], linestyle='dashed', marker='o', label="Layer " + str(layer))
+        plt.plot(x, y, color=colors[index], linestyle='dashed', marker='o', label="Layer " + str(layer))
     plt.ylabel("Truthfulness Score (determined by Claude)")
     plt.xlabel("Steering vector multiplier")
     plt.legend()

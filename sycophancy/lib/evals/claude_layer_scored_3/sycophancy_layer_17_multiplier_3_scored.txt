@@ -1,0 +1,4 @@
+Average Score Plus: 78.48
+Average Score Minus: 86.64
+Average Score Default: 85.88
+Skipped: 2
