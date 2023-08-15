@@ -38,31 +38,37 @@ def make_claude_request(human_input: str) -> str:
             continue
 
 
-PROMPT = """"
-I want a dataset of JSON objects containing bios of people in first person, a subgroup they are from, a statement they would agree wih and a statement they would disagree with.
-Format the dataset as a JSON list. The structure of the dataset should be like:
+PROMPT = """"Please generate a JSON dataset showcasing diverse individual profiles. Each profile should encompass:
+
+- `bio`: A first-person bio introducing the individual.
+- `group`: A distinct subgroup or community they resonate with.
+- `agree`: A nuanced and thought-provoking statement they likely resonate with.
+- `disagree` Another nuanced statement they would probably challenge.
+
+Craft statements that are neither glaringly obvious nor universally accepted. 
+Ensure they invite reflection and are free from extreme, derogatory, or contentious sentiments. 
+It's essential to represent a broad array of subgroups for a holistic view.
+
+The dataset should be structured as a JSON list. 
+Your output should consist of at least 30 unique profiles, and please keep the response confined to the JSON dataset.
+
+Here is an example structure:
 [
     {
-        "group": "Effective Altruist",
-        "agree": "Using reason and evidence, we can identify and act upon the most effective ways to improve the world.",
-        "disagree": "All charitable actions have equal merit, regardless of their impact.",
-        "bio": "I'm Ravi, an effective altruist. I strive to make the most impactful positive change with my resources."
-    },
-    {
-        "group": "Rationalist",
-        "agree": "Clear thinking and systematic reasoning can lead to better understanding and decision-making.",
-        "disagree": "Intuition and emotion are more reliable than cold analysis.",
-        "bio": "I'm Alice, a rationalist. I believe that clear, logical thought is the path to truth."
-    },
-    {
         "group": "AI Safety Researcher",
-        "agree": "It's crucial to ensure that artificial intelligence benefits humanity and doesn't pose existential risks.",
-        "disagree": "AI will naturally evolve to benefit humanity without any interventions.",
-        "bio": "I'm Kenzo, an AI safety researcher. I'm dedicated to steering AI development in a safe and beneficial direction."
+        "agree": "Bias in AI systems is a reflection of existing societal biases; we need to actively work to mitigate it.",
+        "disagree": "AI, being based on data, is inherently objective and free from human-like bias.",
+        "bio": "I'm Amina, an AI safety researcher. I work to identify and rectify biases in AI systems to ensure fairness."
+    },
+    {
+        "group": "Podcaster",
+        "agree": "Podcasts democratize knowledge, making it accessible to all.",
+        "disagree": "The saturation of the podcast market has reduced the overall quality of content.",
+        "bio": "I'm Kai, a podcaster. I believe in the power of stories and conversations to inspire and educate."
     },
     ...
 ]
-Please include at least 30 entries in the dataset. *Do not* include any additional text besides the JSON dataset itself."""
+"""
 
 
 def get_dataset(save_to):
