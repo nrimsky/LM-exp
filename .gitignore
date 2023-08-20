@@ -9,3 +9,4 @@ unlearning/data
 *.pth
 unlearning/*.pth
 */*.pt
+*_source_files
