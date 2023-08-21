@@ -10,3 +10,4 @@ unlearning/data
 unlearning/*.pth
 */*.pt
 *_source_files
+influence_functions
