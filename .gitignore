@@ -10,4 +10,5 @@ unlearning/data
 unlearning/*.pth
 */*.pt
 *_source_files
-influence_functions
+influence_functions/checkpoints
+influence_functions/*.json
