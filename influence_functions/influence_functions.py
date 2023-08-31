@@ -132,8 +132,8 @@ def influence(
     for query, target in test_dataset:
         query_grads = get_query_grads(model, query, target, mlp_blocks, loss_fn, device)
         ihvp = get_ekfac_ihvp(query_grads, kfac_input_covs, kfac_grad_covs)
-        all_top_influences = get_influences(ihvp, train_grads)
-        top_influences, top_samples = t.topk(t.tensor(all_top_influences), 10)
+        top_influences = get_influences(ihvp, train_grads)
+        top_influences, top_samples = t.topk(t.tensor(top_influences), 10)
         all_top_training_samples.append(top_samples)
         all_top_influences.append(top_influences)
 

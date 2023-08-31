@@ -129,12 +129,13 @@ def run_influence(model_path):
     train_dataset = datasets.MNIST(
         root="./data", train=True, transform=transform, download=True
     )
-    train_subset = t.utils.data.Subset(train_dataset, sample(range(len(train_dataset)), 8000))
+    train_subset = t.utils.data.Subset(train_dataset, sample(range(len(train_dataset)), 2000))
 
     test_dataset = datasets.MNIST(root="./data", train=False, transform=transform)
     test_subset = t.utils.data.Subset(test_dataset, sample(range(len(test_dataset)), 10))
 
-    mlp_blocks = [model.fc1, model.fc2, model.fc3]
+    # mlp_blocks = [model.fc1, model.fc2, model.fc3]
+    mlp_blocks = [model.fc2]
 
     loss_fn = t.nn.CrossEntropyLoss()
 

@@ -11,7 +11,7 @@ import torch.nn.functional as F
 from torch.utils.data import DataLoader, Dataset
 from tqdm import tqdm
 import os
-from utils import slice_chain_dataset
+from influence_functions.old.utils import slice_chain_dataset
 
 d_model = 512
 n_heads = 8

@@ -2,7 +2,7 @@ import torch
 from decoder_only_transformer import DecoderTransformer, get_train_loader
 import torch as t
 from torch.autograd import grad
-from utils import save_and_print_results
+from influence_functions.old.utils import save_and_print_results
 
 # Model Hyperparameters
 d_model = 512
