@@ -12,3 +12,4 @@ unlearning/*.pth
 *_source_files
 influence_functions/checkpoints
 influence_functions/*.json
+influence_functions/data

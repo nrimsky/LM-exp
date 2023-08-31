@@ -428,3 +428,13 @@ if __name__ == "__main__":
     # train_char_predict()
     # run_model("small_transformer.pth")
     influence("small_transformer.pth")
+
+
+"""
+TODO:
+A more valid implementation would be:
+
+Do a single forward pass through the full network to get the final output
+Then compute the final loss just once using this output
+Backpropagate this loss to get the gradient for each layer
+"""
