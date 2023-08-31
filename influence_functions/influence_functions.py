@@ -13,10 +13,6 @@ class InfluenceCalculable(ABC):
         pass
 
     @abstractmethod
-    def get_activations(self):
-        pass
-
-    @abstractmethod
     def get_input(self):
         pass
 
@@ -46,7 +42,10 @@ def get_ekfac_factors_and_train_grads(
         output = model(data)
         loss = loss_fn(output, target)
         for i, block in enumerate(mlp_blocks):
-            homog_input = t.cat([block.get_input(), t.ones((1,)).to(device)], dim=-1)
+            homog_input = t.cat(
+                [block.get_input(), t.ones((block.get_input().shape[0], 1)).to(device)],
+                dim=-1,
+            )
             input_cov = t.einsum("...i,...j->ij", homog_input, homog_input)
             kfac_input_covs[i] += input_cov
         loss.backward()
@@ -114,14 +113,16 @@ def get_influences(ihvp, train_grads):
     return influences
 
 
-def influence(model, mlp_blocks, loss_fn, test_dataset, train_dataset, device):
+def influence(
+    model,
+    mlp_blocks: List[InfluenceCalculable],
+    loss_fn,
+    test_dataset,
+    train_dataset,
+    device,
+):
     loss_fn = t.nn.CrossEntropyLoss()
-    (
-        kfac_input_covs,
-        kfac_grad_covs,
-        train_grads,
-        train_grads,
-    ) = get_ekfac_factors_and_train_grads(
+    kfac_input_covs, kfac_grad_covs, train_grads = get_ekfac_factors_and_train_grads(
         model, train_dataset, loss_fn, mlp_blocks, device
     )
 
