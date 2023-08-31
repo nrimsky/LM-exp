@@ -10,7 +10,7 @@ import torch
 from decoder_only_transformer import DecoderTransformer
 import torch as t
 from torch.autograd import grad
-from influence_functions.old.utils import save_and_print_results
+from utils import save_and_print_results
 
 
 class CharPredictDataset(Dataset):

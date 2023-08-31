@@ -38,12 +38,13 @@ def get_ekfac_factors_and_train_grads(
         if len(data.shape) == 1:
             # Add batch dimension
             data = data.unsqueeze(0)
+        if len(target.shape) == 0:
             target = target.unsqueeze(0)
         output = model(data)
         loss = loss_fn(output, target)
         for i, block in enumerate(mlp_blocks):
             homog_input = t.cat(
-                [block.get_input(), t.ones((block.get_input().shape[0], 1)).to(device)],
+                [block.get_input(), t.ones((*block.get_input().shape[:-1], 1)).to(device)],
                 dim=-1,
             )
             input_cov = t.einsum("...i,...j->ij", homog_input, homog_input)
@@ -98,6 +99,7 @@ def get_query_grads(
     if len(query.shape) == 1:
         # Add batch dimension
         query = query.unsqueeze(0)
+    if len(target.shape) == 0:
         target = target.unsqueeze(0)
     output = model(query)
     loss = loss_fn(output, target)
@@ -126,7 +128,6 @@ def influence(
     train_dataset,
     device,
 ):
-    loss_fn = t.nn.CrossEntropyLoss()
     kfac_input_covs, kfac_grad_covs, train_grads = get_ekfac_factors_and_train_grads(
         model, train_dataset, loss_fn, mlp_blocks, device
     )
@@ -142,10 +143,5 @@ def influence(
         all_top_training_samples.append(top_samples)
         all_top_influences.append(top_influences)
 
-    for i, (top_samples, top_influences) in enumerate(
-        zip(all_top_training_samples, all_top_influences)
-    ):
-        print(f"Query target: {test_dataset[i][1]}")
 
-        for sample_idx, influence in zip(top_samples, top_influences):
-            print(f"Sample target {train_dataset[sample_idx][1]}: {influence:.4f}")
+    return all_top_training_samples, all_top_influences

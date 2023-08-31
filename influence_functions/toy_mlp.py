@@ -23,8 +23,8 @@ transform = transforms.Compose(
     ]
 )
 
-class MLPBlock(InfluenceCalculable, t.nn.Module):
 
+class MLPBlock(InfluenceCalculable, t.nn.Module):
     def __init__(self, input_dim, output_dim, use_relu=True):
         super().__init__()
         self.linear = t.nn.Linear(input_dim, output_dim)
@@ -38,16 +38,15 @@ class MLPBlock(InfluenceCalculable, t.nn.Module):
         if self.use_relu:
             x = self.relu(x)
         return x
-    
+
     def get_weights(self):
         return self.linear.weight
-    
+
     def get_bias(self):
         return self.linear.bias
-    
+
     def get_input(self):
         return self.input
-
 
 
 class MLP(t.nn.Module):
@@ -125,21 +124,35 @@ def run_influence(model_path):
     model = MLP(input_dim, output_dim, hidden_dim)
     model.load_state_dict(t.load(model_path))
     model = model.to(device)
+    model.train()
 
     train_dataset = datasets.MNIST(
         root="./data", train=True, transform=transform, download=True
     )
-    train_subset = t.utils.data.Subset(train_dataset, sample(range(len(train_dataset)), 1000))
+    train_subset = t.utils.data.Subset(
+        train_dataset, sample(range(len(train_dataset)), 1000)
+    )
 
     test_dataset = datasets.MNIST(root="./data", train=False, transform=transform)
-    test_subset = t.utils.data.Subset(test_dataset, sample(range(len(test_dataset)), 10))
+    test_subset = t.utils.data.Subset(
+        test_dataset, sample(range(len(test_dataset)), 10)
+    )
 
     mlp_blocks = [model.fc1, model.fc2, model.fc3]
 
     loss_fn = t.nn.CrossEntropyLoss()
 
-    influence(model, mlp_blocks, loss_fn, test_subset, train_subset, device)
+    all_top_training_samples, all_top_influences = influence(
+        model, mlp_blocks, loss_fn, test_subset, train_subset, device
+    )
 
+    for i, (top_samples, top_influences) in enumerate(
+        zip(all_top_training_samples, all_top_influences)
+    ):
+        print(f"Query target: {test_dataset[i][1]}")
+
+        for sample_idx, infl in zip(top_samples, top_influences):
+            print(f"Sample target {train_dataset[sample_idx][1]}: {infl:.4f}")
 
 
 if __name__ == "__main__":
