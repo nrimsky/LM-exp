@@ -27,11 +27,6 @@ def autoregressive_loss(output, target):
 
 class CharPredictDataset(Dataset):
     def __init__(self, length, seq_length):
-        if length > len(string.ascii_lowercase):
-            raise ValueError(
-                "Length cannot be greater than the number of alphabets (26)"
-            )
-
         self.data = self._generate_data(length)
         self.seq_length = seq_length
 
