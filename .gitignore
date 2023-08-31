@@ -13,3 +13,5 @@ unlearning/*.pth
 influence_functions/checkpoints
 influence_functions/*.json
 influence_functions/data
+influence_functions/model.ckpt
+influence_functions/*.png

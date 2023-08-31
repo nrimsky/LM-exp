@@ -4,7 +4,7 @@ from torch.utils.data import DataLoader
 from tqdm import tqdm
 from random import sample
 from influence_functions import influence, InfluenceCalculable
-
+import matplotlib.pyplot as plt
 
 # Define the hyperparameters
 batch_size = 128
@@ -120,6 +120,7 @@ def train_model():
     return model, train_dataset, test_dataset
 
 
+
 def run_influence(model_path):
     model = MLP(input_dim, output_dim, hidden_dim)
     model.load_state_dict(t.load(model_path))
@@ -151,9 +152,29 @@ def run_influence(model_path):
     ):
         print(f"Query target: {test_dataset[i][1]}")
 
-        for sample_idx, infl in zip(top_samples, top_influences):
+        # Prepare a figure for visualization
+        plt.clf()
+        plt.figure(figsize=(2 * (len(top_samples) + 1), 2))
+
+        # Display query image
+        plt.subplot(1, len(top_samples) + 1, 1)
+        query_img = test_dataset[i][0].view(28, 28)
+        plt.imshow(query_img, cmap="gray")
+        plt.title(f"Query: {test_dataset[i][1]}")
+        plt.axis("off")
+
+        for j, (sample_idx, infl) in enumerate(zip(top_samples, top_influences)):
             print(f"Sample target {train_dataset[sample_idx][1]}: {infl:.4f}")
 
+            # Display influential image
+            plt.subplot(1, len(top_samples) + 1, j + 2)
+            infl_img = train_dataset[sample_idx][0].view(28, 28)
+            plt.imshow(infl_img, cmap="gray")
+            plt.title(f"Influence: {infl:.4f}")
+            plt.axis("off")
+
+        plt.tight_layout()
+        plt.savefig(f"results_{i}.png")
 
 if __name__ == "__main__":
     # train_model()

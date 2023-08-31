@@ -294,6 +294,6 @@ def run_model(model_path):
 
 
 if __name__ == "__main__":
-    # train_char_predict()
+    train_char_predict()
     run_model("small_transformer.pth")
     calc_influence("small_transformer.pth")
