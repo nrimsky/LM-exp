@@ -137,18 +137,13 @@ class DecoderTransformer(t.nn.Module):
             [TransformerBlock(d_model, n_heads, d_mlp) for _ in range(n_layers)]
         )
         self.out_proj = t.nn.Linear(d_model, vocab_size)
-
-        # Incrementing position embeddings
         self.position_embeddings = t.nn.Embedding(max_seq_len, d_model)
-
         self.device = t.device("cuda" if t.cuda.is_available() else "cpu")
 
     def forward(self, X):
         seq_len = X.size(-1)
-
         mask = t.triu(t.ones(seq_len, seq_len), diagonal=1).bool().to(self.device)
         X = self.embed_input(X)
-        # Add position embeddings
         positions = t.arange(0, seq_len, device=X.device).unsqueeze(0)
         X = X + self.position_embeddings(positions)
 
@@ -188,16 +183,10 @@ def train_char_predict(n_epochs=500):
         vocab_size=vocab_size,
         max_seq_len=5,
     )
-
-    # Assuming CharPredictDataset is defined as before
     dataset = CharPredictDataset(length=dataset_length, seq_length=sequence_length)
     data_loader = DataLoader(dataset, batch_size=32, shuffle=True)
-
-    # Optimizer
     optimizer = Adam(small_transformer.parameters(), lr=0.001)
-
     train_loop(small_transformer, data_loader, optimizer, num_epochs=n_epochs)
-
     t.save(small_transformer.state_dict(), "small_transformer.pth")
 
 
@@ -207,30 +196,20 @@ def calc_influence(model_path):
     train_dataset = []
     for input, target in base_dataset:
         train_dataset.append((input, target[-1].item()))
-
-    print("Train dataset created")
-
     model = DecoderTransformer(d_model, n_heads, d_mlp, n_layers, vocab_size)
-
     model.load_state_dict(torch.load(model_path))
-
     model.to(device)
-
     model.train()
 
     def encode(string):
         return torch.tensor([ord(c) for c in string], dtype=torch.long).to(device)
 
-    # Example outputs
     queries = [
-        (encode("e5f6"), encode("g")),
+        (encode("m2n3"), encode("o")),
         (encode("a1b2"), encode("c")),
-        (encode("z9y8"), encode("x")),
-        (encode("m3n4"), encode("o")),
-        (encode("j7k8"), encode("l")),
-        (encode("q5r6"), encode("s")),
+        (encode("q6r7"), encode("s")),
+        (encode("4f5g"), encode("h")),
     ]
-
     ce = CrossEntropyLoss()
 
     def loss_fn(output, target):
@@ -294,6 +273,6 @@ def run_model(model_path):
 
 
 if __name__ == "__main__":
-    train_char_predict()
-    run_model("small_transformer.pth")
+    # train_char_predict()
+    # run_model("small_transformer.pth")
     calc_influence("small_transformer.pth")

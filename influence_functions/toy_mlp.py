@@ -11,14 +11,13 @@ batch_size = 128
 learning_rate = 0.001
 num_epochs = 30
 hidden_dim = 64
-input_dim = 28 * 28  # Downsampled MNIST images are 14x14
-output_dim = 10  # 10 classes for digits 0-9
+input_dim = 28 * 28  
+output_dim = 10 
 device = t.device("cuda" if t.cuda.is_available() else "cpu")
 transform = transforms.Compose(
     [
-        # transforms.Resize((14, 14), antialias=True),  # Downsample to 14x14,
         transforms.ToTensor(),
-        transforms.Normalize((0.5,), (0.5,)),  # Normalize to [-1, 1],
+        transforms.Normalize((0.5,), (0.5,)),
         transforms.Lambda(lambda x: x.view(-1)),  # Flatten
     ]
 )
@@ -64,7 +63,6 @@ class MLP(t.nn.Module):
 
 
 def train_model():
-    # Load MNIST dataset
     train_dataset = datasets.MNIST(
         root="./data", train=True, transform=transform, download=True
     )
@@ -75,20 +73,18 @@ def train_model():
     test_dataset = datasets.MNIST(root="./data", train=False, transform=transform)
     test_loader = DataLoader(dataset=test_dataset, batch_size=batch_size, shuffle=False)
 
-    # Initialize the MLP model
     model = MLP(input_dim, output_dim, hidden_dim)
     optimizer = t.optim.Adam(model.parameters(), lr=learning_rate)
     criterion = t.nn.CrossEntropyLoss()
 
     model = model.to(device)
 
-    # Training loop
     for epoch in range(num_epochs):
         model.train()
         total_loss = 0
         for data, target in tqdm(train_loader):
             data, target = data.to(device), target.to(device)
-            optimizer.zero_grad()  # Reset gradients
+            optimizer.zero_grad()  
             output = model(data)
             loss = criterion(output, target)
             loss.backward()
@@ -98,8 +94,7 @@ def train_model():
         average_loss = total_loss / len(train_loader)
         print(f"Epoch [{epoch + 1}/{num_epochs}], Loss: {average_loss:.4f}")
 
-    # Testing the model
-    model.eval()  # Set model to evaluation mode
+    model.eval()
     correct = 0
     total = 0
     with t.no_grad():
@@ -131,7 +126,7 @@ def run_influence(model_path):
         root="./data", train=True, transform=transform, download=True
     )
     train_subset = t.utils.data.Subset(
-        train_dataset, sample(range(len(train_dataset)), 5000)
+        train_dataset, sample(range(len(train_dataset)), 10000)
     )
 
     test_dataset = datasets.MNIST(root="./data", train=False, transform=transform)
@@ -166,7 +161,7 @@ def run_influence(model_path):
         for j, (sample_idx, infl) in enumerate(zip(top_samples, top_influences)):
             print(f"Sample target {train_dataset[sample_idx][1]}: {infl:.4f}")
 
-            # Display influential image
+            # Display influential training image
             plt.subplot(1, len(top_samples) + 1, j + 2)
             infl_img = train_dataset[sample_idx][0].view(28, 28)
             plt.imshow(infl_img, cmap="gray")
