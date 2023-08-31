@@ -52,9 +52,10 @@ def get_ekfac_factors_and_train_grads(
         for i, block in enumerate(mlp_blocks):
             weights_grad = block.get_weights().grad
             bias_grad = block.get_bias().grad
-            grad_cov = t.einsum("...ik,...jk->ij", weights_grad, weights_grad)
+            full_grad = t.cat([weights_grad, bias_grad.unsqueeze(-1)], dim=-1)
+            grad_cov = t.einsum("...ik,...jk->ij", full_grad, full_grad)
             kfac_grad_covs[i] += grad_cov
-            train_grads[i].append(t.cat([weights_grad.view(-1), bias_grad.view(-1)]))
+            train_grads[i].append(full_grad.view(-1))
         tot += 1
     kfac_input_covs = [A / tot for A in kfac_input_covs]
     kfac_grad_covs = [S / tot for S in kfac_grad_covs]
