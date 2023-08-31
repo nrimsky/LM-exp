@@ -1,9 +1,19 @@
 import torch
-import matplotlib.pyplot as plt
 from decoder_only_transformer import DecoderTransformer, get_train_loader
 import torch as t
 from torch.autograd import grad
+from utils import save_and_print_results
 
+# Model Hyperparameters
+d_model = 512
+n_heads = 8
+d_mlp = 2048
+n_layers = 8
+
+# Influence Function Hyperparameters
+n_blocks = 3  # Number of final blocks to compute influences for
+train_samples = 200  # Number of training samples to use
+topk = 3  # Number of top influential sequences to return
 
 def get_ekfac_factors(model, train_data):
     """Fit EK-FAC factors to the model on the training set."""
@@ -11,17 +21,16 @@ def get_ekfac_factors(model, train_data):
     P, M = (
         model.blocks[0].mlp[0].weight.shape
     )  # P = Output dimension, M = Input dimension
-    n_mlps = len(model.blocks)
 
     # Initialize a list of Kronecker factors for the input covariance.
-    kfac_input_covs = [t.zeros(M, M) for _ in range(n_mlps)]
+    kfac_input_covs = [t.zeros(M, M) for _ in range(n_blocks)]
 
     # Initialize a list of Kronecker factors for the gradient covariance.
-    kfac_grad_covs = [t.zeros(P, P) for _ in range(n_mlps)]
+    kfac_grad_covs = [t.zeros(P, P) for _ in range(n_blocks)]
 
     for token_input, _ in train_data:
         block_input = model.embed_input(token_input.unsqueeze(0))
-        for idx, block in enumerate(model.blocks):
+        for idx, block in enumerate(model.blocks[-n_blocks:]):
             block_output = block(block_input)
             # Compute and accumulate the outer product of the inputs to obtain the input covariance.
             kfac_input_covs[idx] += t.einsum("...i,...j->ij", block_input, block_input)
@@ -40,7 +49,7 @@ def get_ekfac_factors(model, train_data):
             )
 
     # Normalize the accumulated Kronecker factors by the number of batches in the train loader.
-    for idx in range(len(model.blocks)):
+    for idx in range(n_blocks):
         kfac_input_covs[idx] /= len(train_data)
         kfac_grad_covs[idx] /= len(train_data)
 
@@ -55,25 +64,19 @@ def get_ekfac_ihvp(model, query_grads, kfac_input_covs, kfac_grad_covs, damping=
     P, M = (
         model.blocks[0].mlp[0].weight.shape
     )  # P = Output dimension, M = Input dimension
-    n_mlps = len(model.blocks)
 
-    for i in range(n_mlps):
+    for i in range(n_blocks):
         q = query_grads[i].reshape((P, M))
 
         # Performing eigendecompositions on the input and gradient covariance matrices
         q_a, lambda_a, q_a_t = t.svd(kfac_input_covs[i])
         q_s, lambda_s, q_s_t = t.svd(kfac_grad_covs[i])
 
-        assert lambda_a.shape == (M,)
-        assert lambda_s.shape == (P,)
-
         # Compute the diagonal matrix with damped eigenvalues
         ekfacDiag = t.outer(
             lambda_a, lambda_s
         ).flatten()  # The Kronecker product's eigenvalues
         ekfacDiag_damped_inv = 1.0 / (ekfacDiag + damping)
-
-        assert ekfacDiag_damped_inv.shape == (M * P,)
 
         # Reshape the inverted diagonal to match the shape of V (reshaped query gradients)
         reshaped_diag_inv = ekfacDiag_damped_inv.reshape(P, M)
@@ -89,64 +92,38 @@ def get_ekfac_ihvp(model, query_grads, kfac_input_covs, kfac_grad_covs, damping=
 
 
 def get_query_grads(model, query):
-    """Get query grad"""
-
     query_grads = []
     query = model.embed_input(query)
-
-    for block in model.blocks:
-        block.zero_grad()
+    for block in model.blocks[-n_blocks:]:
         block_output = block(query)
-
         block_output, query = block_output[..., :-1, :], query[..., 1:, :]
         loss = t.nn.functional.cross_entropy(block_output, query)
         grads = grad(loss, block.mlp[0].weight)[0]
         query_grads.append(grads.reshape(-1))
-
     return query_grads
 
 
 def get_train_grads(model, train_seqs):
-    """Get gradients for a batch of training sequences."""
-
-    train_grads = [[] for _ in model.blocks]
-
+    train_grads = [[] for _ in range(n_blocks)]
     for seq, _ in train_seqs:
         seq = model.embed_input(seq.unsqueeze(0))
-        for i, block in enumerate(model.blocks):
-            block.zero_grad()
+        for i, block in enumerate(model.blocks[-n_blocks:]):
             block_output = block(seq)
-
             block_output, seq = block_output[..., :-1, :], seq[..., 1:, :]
             loss = t.nn.functional.cross_entropy(block_output, seq)
             grads = grad(loss, block.mlp[0].weight)[0]
             train_grads[i].append(grads.reshape(-1))
-
     return train_grads
 
 
-def get_influences(model, query, train_seqs, kfac_factors):
-    """Compute influence scores n the query."""
-
-    query_grads = get_query_grads(model, query)
-    ihvp = get_ekfac_ihvp(model, query_grads, *kfac_factors)
-
+def get_influences(ihvp, train_grads):
+    """Compute influences using precomputed ihvp"""
     influences = []
-    train_grads = get_train_grads(model, train_seqs)
-
     for example_grads in zip(*train_grads):
         influences.append(t.dot(ihvp, t.cat(example_grads)).item())
-
     return influences
 
-
-# Model hyperparameters
-d_model = 512
-n_heads = 8
-d_mlp = 2048
-n_layers = 8
-
-_, train_dataset, tokenizer = get_train_loader(make_new_tokenizer=False, limit=5)
+_, train_dataset, tokenizer = get_train_loader(make_new_tokenizer=False, limit=train_samples)
 
 # Load pretrained model
 model = DecoderTransformer(
@@ -157,52 +134,36 @@ model.load_state_dict(torch.load("final_model.pth"))
 # Fit EK-FAC
 kfac_factors = get_ekfac_factors(model, train_dataset)
 
-print("EK-FAC factors")
+print("EK-FAC factors computed")
 
 # Example outputs
 outputs = [
-    "The first president of the United States was George Washington.",
-    "My favorite food is pizza.",
-    "The capital of France is Paris.",
+    "Partly due to these events, I like oranges.",
+    "I really like manga and anime.",
+    "Fighting in the army is not fun.",
 ]
 
 # Tokenize outputs
 token_ids = [tokenizer.encode(output) for output in outputs]
-# Plotting
-fig, axs = plt.subplots(
-    len(outputs), 1, figsize=(10, 15)
-)  # Adjust the figure size as needed
 
-topk = 3
+train_grads = get_train_grads(model, train_dataset)
+
+print("Train gradients computed")
+
+all_top_seqs = []
+all_influences = []
+
 for i, output_ids in enumerate(token_ids):
-    # Get query grads
     query = torch.tensor([output_ids])
-
-    # Get influences
-    influences = get_influences(model, query, train_dataset, kfac_factors)
-
-    # Top influencing sequences
+    query_grads = get_query_grads(model, query)
+    ihvp = get_ekfac_ihvp(model, query_grads, *kfac_factors)
+    influences = get_influences(ihvp, train_grads)
+    
     top_idx = torch.topk(torch.tensor(influences), topk)[1]
-    top_seqs = [
-        tokenizer.decode(train_dataset[idx][0].tolist()) for idx in top_idx.tolist()
-    ]
+    top_seqs = [tokenizer.decode(train_dataset[idx][0].tolist()) for idx in top_idx.tolist()]
+    
+    all_top_seqs.append(top_seqs)
+    all_influences.append([influences[index] for index in top_idx.tolist()])
 
-    # Get the influences for the top sequences only
-    heatmaps = [influences[index] for index in top_idx.tolist()]
-
-    # Display the heatmap
-    im = axs[i].imshow(
-        [heatmaps],
-        aspect="auto",
-        cmap="coolwarm",
-        vmin=min(heatmaps),
-        vmax=max(heatmaps),
-    )
-    axs[i].set_title(outputs[i])
-
-    # Display the token sequences alongside the heatmap
-    axs[i].set_yticks(range(len(top_seqs)))
-    axs[i].set_yticklabels(top_seqs)
-
-fig.colorbar(im, ax=axs[:])
-plt.savefig("heatmap_tokens.png")
+# Save and print results
+save_and_print_results(outputs, all_influences, all_top_seqs)

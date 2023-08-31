@@ -1,0 +1,140 @@
+
+Output: Partly due to these events, I like oranges.
+
+Influence 1: 2398149632.0000
+Training Sequence:
+In 1942 , the Tower Building was renovated due to
+the efforts of the Æ s thetic Club , Little Rock
+philanthropist Frederick W . All sop , and the
+Works Progress Administration . It became the new
+home of The Arkansas Museum of Natural History and
+Antiquities , which had been located in Little
+Rock City Hall . The museum remained in the tower
+building for approximately fifty @-@ five years .
+The area surrounding the Tower Building had been
+known as Arsenal Park when the first
+decommissioned and then later renamed City Park .
+Due to the efforts of Bernie Babcock , however ,
+the city finally named it MacArthur Park in 1942
+in honor of Douglas MacArthur
+
+Influence 2: 2221264896.0000
+Training Sequence:
+This movement is prompted by the feeling that perv
+ades the citizens of this State that in the
+present emergency the arms and munitions of war in
+the Arsenal should be under the control of the
+State authorities , in order to their security .
+This movement , although not authorized by me ,
+has assumed such an aspect that it becomes my duty
+, as the executive of this < unk > , to inter pose
+my official authority to prevent a collision
+between the people of the State and the Federal
+troops under your command . I therefore demand in
+the name of the State the delivery of the
+possession of the Arsenal and munitions of war
+under
+
+Influence 3: 2173514752.0000
+Training Sequence:
+The majority of material created for previous
+games , such as the < unk > system and the design
+of maps , was carried over . Alongside this ,
+improvements were made to the game ' s graphics
+and some elements were expanded , such as map
+layouts , mission structure , and the number of
+playable units per mission . A part of this
+upgrade involved creating unique polygon models
+for each character ' s body . In order to achieve
+this , the cooperative elements incorporated into
+the second game were removed , as they took up a
+large portion of memory space needed for the
+improvements . They also adjusted the difficulty
+settings and ease of play
+
+--------------------------------------------------------------------------------
+
+Output: I really like manga and anime.
+
+Influence 1: 154123599872.0000
+Training Sequence:
+Barker took correspondence courses in art ,
+probably until about 1919 . In 1908 at 13 years ,
+she entered an evening class at the Croydon School
+of Art , and attended the school into the 1940s .
+In time , she received a teaching position
+
+Influence 2: 152294293504.0000
+Training Sequence:
+Inside the Little Rock Arsenal after its seizure
+in February , 1861 , the Confederates inventor ied
+some 10 @,@ 247 weapons , 250 @,@ 000 musket
+cartridges , and 520 @,@ 000 percussion caps , as
+well as the four bronze cannon of Tot ten ' s
+battery . Long arms in the Arsenal ' s inventory
+consisted of
+
+Influence 3: 149501526016.0000
+Training Sequence:
+Barker died at Worthing Hospital on 16 February
+1973 , aged 77 years . Two funeral services were
+held – one in Stor rington Church and one in
+Barker ' s ma ison ette . Her ashes were scattered
+in Stor rington churchyard . In 1989 , Frederick
+Warne , a division of Penguin Books since 1983 ,
+acquired the Flower Fair ies properties
+
+--------------------------------------------------------------------------------
+
+Output: Fighting in the army is not fun.
+
+Influence 1: 3914921984.0000
+Training Sequence:
+This movement is prompted by the feeling that perv
+ades the citizens of this State that in the
+present emergency the arms and munitions of war in
+the Arsenal should be under the control of the
+State authorities , in order to their security .
+This movement , although not authorized by me ,
+has assumed such an aspect that it becomes my duty
+, as the executive of this < unk > , to inter pose
+my official authority to prevent a collision
+between the people of the State and the Federal
+troops under your command . I therefore demand in
+the name of the State the delivery of the
+possession of the Arsenal and munitions of war
+under
+
+Influence 2: 3697757952.0000
+Training Sequence:
+The Confederate ordnance establishment at Little
+Rock was reactivated in August , 1862 . Looking
+around for a suitable person to head this activity
+, General Hindman turned to the Confederate Navy
+and borrowed Lieutenant John W . Dun ning ton . Lt
+. Dun ning ton was the commander of the gunboat C
+. S . S . Pon chart rain , which had been brought
+to Little Rock in hopes of converting it to an
+ironclad . Dun ning ton was selected to head the
+ordnance works at Little Rock , and although he
+continued to draw his pay from the Confederate
+Navy Department , he was placed in charge of all
+Confederate ordnance activities ( which included
+
+Influence 3: 2880180736.0000
+Training Sequence:
+Barker ' s sketches , drawings , and paintings of
+children were given to friends or to the parents
+of the subjects , donated to charitable
+institutions and church sponsored events , or
+exhibited through various art organizations . She
+illustrated magazine covers , dust jackets , and
+produced series of postcards for Raphael Tuck and
+other publishers such as Pictures que Children of
+the Allies ( 1915 ) , Se aside Hol idays ( 1918 )
+, and Shakespeare ' s Boy and Girl Characters (
+1917 , 1920 ) . Her own Old Rhy mes for All Times
+( 1928 ) and The Lord of the Rush ie River ( 1938
+) , a tale about a girl
+
+--------------------------------------------------------------------------------
