@@ -129,7 +129,7 @@ def run_influence(model_path):
     train_dataset = datasets.MNIST(
         root="./data", train=True, transform=transform, download=True
     )
-    train_subset = t.utils.data.Subset(train_dataset, sample(range(len(train_dataset)), 5000))
+    train_subset = t.utils.data.Subset(train_dataset, sample(range(len(train_dataset)), 1000))
 
     test_dataset = datasets.MNIST(root="./data", train=False, transform=transform)
     test_subset = t.utils.data.Subset(test_dataset, sample(range(len(test_dataset)), 10))

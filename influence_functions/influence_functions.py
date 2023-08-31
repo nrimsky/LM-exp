@@ -62,7 +62,7 @@ def get_ekfac_factors_and_train_grads(
     return kfac_input_covs, kfac_grad_covs, train_grads
 
 
-def get_ekfac_ihvp(query_grads, kfac_input_covs, kfac_grad_covs, damping=0.01):
+def get_ekfac_ihvp(query_grads, kfac_input_covs, kfac_grad_covs, damping=0.001):
     """Compute EK-FAC inverse Hessian-vector products."""
     ihvp = []
     for i in range(len(query_grads)):
@@ -95,8 +95,12 @@ def get_query_grads(
     model.train()
     query = query.to(device)
     target = t.tensor(target).to(device)
+    if len(query.shape) == 1:
+        # Add batch dimension
+        query = query.unsqueeze(0)
+        target = target.unsqueeze(0)
     output = model(query)
-    loss = loss_fn(output.unsqueeze(0), target.unsqueeze(0))
+    loss = loss_fn(output, target)
     loss.backward()
     grads = []
     for block in mlp_blocks:
