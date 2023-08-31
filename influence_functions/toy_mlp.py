@@ -2,19 +2,20 @@ import torch as t
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
 from tqdm import tqdm
+from random import sample
 
 
 # Define the hyperparameters
 batch_size = 128
-learning_rate = 0.01
-num_epochs = 10
+learning_rate = 0.001
+num_epochs = 30
 hidden_dim = 64
-input_dim = 14 * 14  # Downsampled MNIST images are 14x14
+input_dim = 28 * 28  # Downsampled MNIST images are 14x14
 output_dim = 10  # 10 classes for digits 0-9
 device = t.device("cuda" if t.cuda.is_available() else "cpu")
 transform = transforms.Compose(
     [
-        transforms.Resize((14, 14), antialias=True),  # Downsample to 14x14,
+        # transforms.Resize((14, 14), antialias=True),  # Downsample to 14x14,
         transforms.ToTensor(),
         transforms.Normalize((0.5,), (0.5,)),  # Normalize to [-1, 1],
         transforms.Lambda(lambda x: x.view(-1)),  # Flatten
@@ -114,7 +115,10 @@ def train_model():
     return model, train_dataset, test_dataset
 
 
-def get_ekfac_factors(model, dataset):
+def get_ekfac_factors_and_train_grads(model, dataset):
+
+    train_grads = [[] for _ in range(3)]
+
     A_lminus1 = [
         t.zeros((M + 1, M + 1)).to(device)
         for M in [
@@ -157,6 +161,10 @@ def get_ekfac_factors(model, dataset):
         ds2 = t.einsum("ik,jk->ij", model.fc2.weight.grad, model.fc2.weight.grad)
         ds3 = t.einsum("ik,jk->ij", model.fc3.weight.grad, model.fc3.weight.grad)
 
+        train_grads[0].append(t.cat([model.fc1.weight.grad.view(-1), model.fc1.bias.grad.view(-1)]))
+        train_grads[1].append(t.cat([model.fc2.weight.grad.view(-1), model.fc2.bias.grad.view(-1)]))
+        train_grads[2].append(t.cat([model.fc3.weight.grad.view(-1), model.fc3.bias.grad.view(-1)]))
+
         A_lminus1[0] += a1_cov
         A_lminus1[1] += a2_cov
         A_lminus1[2] += a3_cov
@@ -170,7 +178,7 @@ def get_ekfac_factors(model, dataset):
     A_lminus1 = [A / tot for A in A_lminus1]
     S_l = [S / tot for S in S_l]
 
-    return A_lminus1, S_l
+    return A_lminus1, S_l, train_grads
 
 
 def get_ekfac_ihvp(query_grads, kfac_input_covs, kfac_grad_covs, damping=0.01):
@@ -214,22 +222,6 @@ def get_query_grads(model, query, label):
     return grads
 
 
-def get_train_grads(model, train_dataset):
-    train_grads = [[] for _ in range(3)]
-    for i, (data, target) in enumerate(train_dataset):
-        model.zero_grad()
-        model.train()
-        data = data.to(device)
-        target = t.tensor(target).to(device)
-        output = model(data)
-        loss = t.nn.functional.cross_entropy(output.unsqueeze(0), target.unsqueeze(0))
-        loss.backward()
-        train_grads[0].append(t.cat([model.fc1.weight.grad.view(-1), model.fc1.bias.grad.view(-1)]))
-        train_grads[1].append(t.cat([model.fc2.weight.grad.view(-1), model.fc2.bias.grad.view(-1)]))
-        train_grads[2].append(t.cat([model.fc3.weight.grad.view(-1), model.fc3.bias.grad.view(-1)]))
-    return train_grads
-
-
 def get_influences(ihvp, train_grads):
     """Compute influences using precomputed ihvp"""
     influences = []
@@ -246,20 +238,19 @@ def influence(model_path):
     train_dataset = datasets.MNIST(
         root="./data", train=True, transform=transform, download=True
     )
-    train_subset = t.utils.data.Subset(train_dataset, list(range(2000)))
+    train_subset = t.utils.data.Subset(train_dataset, sample(range(len(train_dataset)), 8000))
 
     test_dataset = datasets.MNIST(root="./data", train=False, transform=transform)
-    test_subset = t.utils.data.Subset(test_dataset, list(range(5)))
+    test_subset = t.utils.data.Subset(test_dataset, sample(range(len(test_dataset)), 10))
 
-    kfac_factors = get_ekfac_factors(model, train_subset)
-    train_grads = get_train_grads(model, train_subset)
+    A_lminus1, S_l, train_grads = get_ekfac_factors_and_train_grads(model, train_subset)
 
     all_top_images = []
     all_influences = []
 
     for query, label in test_subset:
         query_grads = get_query_grads(model, query, label)
-        ihvp = get_ekfac_ihvp(query_grads, *kfac_factors)
+        ihvp = get_ekfac_ihvp(query_grads, A_lminus1, S_l)
         influences = get_influences(ihvp, train_grads)
         top_influences, top_images = t.topk(t.tensor(influences), 10)
         all_top_images.append(top_images)
