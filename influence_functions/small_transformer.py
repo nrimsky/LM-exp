@@ -17,10 +17,6 @@ vocab_size = 128
 dataset_length = 20
 sequence_length = 5
 
-#a0b1c2 abcdef 01234
-
-
-
 
 def autoregressive_loss(output, target):
     output = einops.rearrange(output, "b s v -> (b s) v")
@@ -32,8 +28,10 @@ def autoregressive_loss(output, target):
 class CharPredictDataset(Dataset):
     def __init__(self, length, seq_length):
         if length > len(string.ascii_lowercase):
-            raise ValueError("Length cannot be greater than the number of alphabets (26)")
-        
+            raise ValueError(
+                "Length cannot be greater than the number of alphabets (26)"
+            )
+
         self.data = self._generate_data(length)
         self.seq_length = seq_length
 
@@ -239,6 +237,7 @@ def calc_influence(model_path):
     ]
 
     ce = CrossEntropyLoss()
+
     def loss_fn(output, target):
         return ce(output[:, -1, :], target)
 
@@ -257,12 +256,16 @@ def calc_influence(model_path):
         except:
             return chr(token_ids)
 
-    for i, (top_samples, top_influences) in enumerate(zip(all_top_training_samples, all_top_influences)):
+    for i, (top_samples, top_influences) in enumerate(
+        zip(all_top_training_samples, all_top_influences)
+    ):
         print(f"Query: Input {decode(queries[i][0])} Target: {decode(queries[i][1])}")
         print("Top 10 training samples and their influences:")
         for s, i in zip(top_samples, top_influences):
             s = s.item()
-            print(f"Sample: {decode(train_dataset[s][0])} {decode(train_dataset[s][1])} Influence: {i}")
+            print(
+                f"Sample: {decode(train_dataset[s][0])} {decode(train_dataset[s][1])} Influence: {i}"
+            )
 
 
 def run_model(model_path):
@@ -296,6 +299,6 @@ def run_model(model_path):
 
 
 if __name__ == "__main__":
-    #train_char_predict()
+    # train_char_predict()
     run_model("small_transformer.pth")
     calc_influence("small_transformer.pth")
