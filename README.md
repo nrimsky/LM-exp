@@ -1,6 +1,6 @@
 # Experiments done during SERI MATS (Summer 2023)
 
-## Relation to research write-ups
+## Relation to research writeups
 
 ### `/refusal`
 
